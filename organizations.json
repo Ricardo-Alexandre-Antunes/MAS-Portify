@@ -1,0 +1,34 @@
+{
+  "reserve_locations": {
+    "Id": 1,
+    "Name": "Centro Playbowling Cascais",
+    "District": "Lisboa",
+    "Events": [
+      {
+        "Id": 1,
+        "Name": "Bowling",
+        "Preço": 2
+      },
+      {
+        "Id": 2,
+        "Name": "Sala de Jogos",
+        "Preço": "???"
+      },
+      {
+        "Id": 3,
+        "Name": "PaintBall",
+        "Preço": "???"
+      },
+      {
+        "Id": 4,
+        "Name": "LaserMaze",
+        "Preço": "???"
+      }
+    ],
+    "Image": ""
+
+
+
+  }
+
+}
