@@ -7,7 +7,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap">
     <link href="./scripts/lib/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
-    <link href="./MAS-Portify/scripts/lib/font-awesome/dist/css/fontawesome.min.css" rel="stylesheet" />
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" rel="stylesheet"/>
     <link href="css/home.css" rel="stylesheet" />
     <meta charset="utf-8" />
     <title></title>
@@ -38,11 +39,9 @@
     </div>
   </div>
 </nav>
-<br />
-<br />
   <div id="container">
   <div id="slider-container">
-    <span onclick="slideRight()" class="btn"><i class="fa-solid fa-chevron-left"></i></span>
+        <i id="butoes" onclick="slideRight()" class="fa-solid fa-chevron-left btn"></i>
       <div id="slider">
         <div class="slide"><span>1</span></div>
         <div class="slide"><span>2</span></div>
@@ -55,7 +54,32 @@
         <div class="slide"><span>9</span></div>
         <div class="slide"><span>10</span></div>
     </div>
-    <span onclick="slideLeft()" class="btn"></span>
+    <i id="butoes" onclick="slideLeft()" class="fa-solid fa-chevron-right btn"></i>
+  </div>
+    <div id="slider-container1">
+        <i id="butoes" onclick ="slideRight()" class="fa-solid fa-chevron-left btn"></i>
+      <div id="slider1">
+        <div class="slide1" style="background-image:url(imagens/atividades/escapehunt.png);background-size:cover"></div>
+        <div class="slide1" style="background-image:url(imagens/atividades/hippotrip.jpg);background-size:cover""></div>
+        <div class="slide1" style="background-image:url(imagens/atividades/museudodinheiro.jpg);background-size:cover""></div>
+        <div class="slide1" style="background-image:url(imagens/atividades/escapehunt.png);background-size:cover""></div>
+        <div class="slide1" style="background-image:url()"></div>
+        <div class="slide1" style="background-image:url()"></div>
+        <div class="slide1" style="background-image:url()"></div>
+        <div class="slide1" style="background-image:url()"></div>
+        <div class="slide1" style="background-image:url()"></div>
+        <div class="slide1" style="background-image:url()"></div>
+        <div class="slide1"><img style="object-fit:cover; overflow:hidden; height:100%;width:100%" src="imagens/atividades/escapehunt.png"/></div>
+        <div class="slide1"><img style="object-fit:cover; overflow:hidden; height:100%;width:100%" src="imagens/atividades/hippotrip.jpg"/></div>
+        <div class="slide1"><img style="object-fit:cover; overflow:hidden; height:100%;width:100%" src="imagens/atividades/museudodinheiro.jpg"/></div>
+        <div class="slide1"><img style="background:center; overflow:hidden; height:100%;width:100%" src="imagens/atividades/escapehunt.png"/></div>
+        <div class="slide1"><span>6</span></div>
+        <div class="slide1"><span>7</span></div>
+        <div class="slide1"><span>8</span></div>
+        <div class="slide1"><span>9</span></div>
+        <div class="slide1"><span>10</span></div>
+    </div>
+    <i id="butoes" onclick="slideLeft()" class="fa-solid fa-chevron-right btn"></i>
   </div>
 </div>
 <script src="lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
