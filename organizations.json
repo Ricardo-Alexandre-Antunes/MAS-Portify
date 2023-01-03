@@ -1,0 +1,119 @@
+{
+  "reserve_locations": [
+    {
+      "Id": 1,
+      "Name": "Centro Playbowling Cascais",
+      "District": "Lisboa",
+      "Priceholder": 20
+      "Events": [
+        {
+          "Id": 1,
+          "Name": "Bowling",
+          "Preço": 2
+        },
+        {
+          "Id": 2,
+          "Name": "Sala de Jogos",
+          "Preço": 2
+        },
+        {
+          "Id": 3,
+          "Name": "PaintBall",
+          "Preço": 25
+        },
+        {
+          "Id": 4,
+          "Name": "LaserMaze",
+          "Preço": 2
+        }
+      ],
+      "Image": "./Imagens/bowling.jog"
+    },
+    {
+      "Id": 2,
+      "Name": "Go Party",
+      "District": "Lisboa",
+      "Priceholder": 390
+      "Events": [
+        {
+          "Id": 1,
+          "Name": "Festa Simples (sem lanche)",
+          "Preço": 26
+        },
+        {
+          "Id": 2,
+          "Name": "Festa – Menu Standard com Bolo de Aniversário Gelado Artisani",
+          "Preço": 28
+        },
+        {
+          "Id": 3,
+          "Name": "Festa – Menu Premium com Almoço ou Jantar e Bolo de Aniversário (inclui 30 minutos adicionais de festa)",
+          "Preço": 32
+        }
+      ],
+      "Image": "./Imagens/goparty.jpg"
+    },
+    {
+      "Id": 3,
+      "Name": "Lisbon Es",
+      "District": "Lisboa",
+      "Priceholder": 390,
+      "Events": [
+        {
+          "Id": 1,
+          "Name": "Festa Simples (sem lanche)",
+          "Preço": 26
+        },
+        {
+          "Id": 2,
+          "Name": "Festa – Menu Standard com Bolo de Aniversário Gelado Artisani",
+          "Preço": 28
+        },
+        {
+          "Id": 3,
+          "Name": "Festa – Menu Premium com Almoço ou Jantar e Bolo de Aniversário (inclui 30 minutos adicionais de festa)",
+          "Preço": 32
+        }
+      ],
+      "Image": "./Imagens/goparty.jpg"
+    },
+    {
+      "Id": 4
+    },
+    {
+      "Id": 5
+    },
+    {
+      "Id": 6
+    },
+    {
+      "Id": 7
+    },
+    {
+      "Id": 8
+    },
+    {
+      "Id": 9
+    },
+    {
+      "Id": 10
+    },
+    {
+      "Id": 11
+    },
+    {
+      "Id": 12
+    },
+    {
+      "Id": 13
+    },
+    {
+      "Id": 14
+    },
+    {
+      "Id": 15
+    }
+  ],
+  "activity_locations":  
+
+}
