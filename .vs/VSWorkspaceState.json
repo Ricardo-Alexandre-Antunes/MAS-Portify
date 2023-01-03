@@ -1,7 +1,11 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\CSS",
+    "\\lib",
+    "\\lib\\bootstrap",
+    "\\lib\\font-awesome\\dist",
+    "\\lib\\font-awesome\\dist\\css"
   ],
-  "SelectedNode": "\\C:\\Users\\Afonso\\OneDrive - Universidade de Aveiro\\Documents\\GitHub\\MAS-Poritfy",
   "PreviewInSolutionExplorer": false
 }

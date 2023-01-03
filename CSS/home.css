@@ -24,8 +24,6 @@
         top: calc(50% - 30px);
         height: 30px;
         width: 30px;
-        border-left: 8px solid pink;
-        border-top: 8px solid pink;
     }
 
         #slider-container .btn:hover {
