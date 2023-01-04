@@ -13,7 +13,158 @@
     <meta charset="utf-8" />
 </head>
 <body>
-    <nav id="nav" class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
+    <style>
+        body {
+            background-color: white;
+        }
+
+        .card {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+            text-align: center;
+            background-color: #f1f1f1;
+            margin-bottom: 20px;
+            height: 310px;
+            width: 310px;
+            transition: 0.5s;
+            align-content: center;
+            border-radius: 5px;
+        }
+
+        .card-body {
+            background-size: cover
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+        }
+
+
+        .btn {
+            background: transparent;
+            border: none;
+            margin: 5px;
+            font-size: 25px;
+            outline: none;
+        }
+
+            .btn i:hover {
+                cursor: pointer;
+            }
+
+
+
+
+        #maisDetalhes {
+            font-family: "Mukta";
+            position: relative;
+            display: inline-block;
+            cursor: pointer;
+            outline: none;
+            border: 0;
+            vertical-align: middle;
+            text-decoration: none;
+            background: transparent;
+            padding: 0;
+            font-size: inherit;
+            font-family: inherit;
+            top: 200px;
+            right: -60px;
+            width: 160px;
+            background: white;
+            border-radius: 25px;
+            border: 3px;
+            border-color: #282936;
+            box-shadow: 2px 2px #282936;
+        }
+
+        button.learn-more {
+            width: 9rem;
+            height: auto;
+        }
+
+            button.learn-more .circle {
+                transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+                position: relative;
+                display: block;
+                margin: 0;
+                width: 2.5rem;
+                height: 2.5rem;
+                background: #282936;
+                border-radius: 1.625rem
+            }
+
+                button.learn-more .circle .icon {
+                    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+                    position: absolute;
+                    top: 0;
+                    bottom: 0;
+                    margin: auto;
+                    background: #fff;
+                }
+
+                    button.learn-more .circle .icon.arrow {
+                        transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1 );
+                        left: 0.7rem;
+                        width: 0.625rem;
+                        height: 0.1rem;
+                        background: none;
+                    }
+
+                        button.learn-more .circle .icon.arrow::before {
+                            position: absolute;
+                            content: "";
+                            top: -0.25rem;
+                            right: -0.03rem;
+                            width: 0.625rem;
+                            height: 0.625rem;
+                            border-top: 0.125rem solid #fff;
+                            border-right: 0.125rem solid #fff;
+                            transform: rotate(45deg);
+                        }
+
+            button.learn-more .button-text {
+                transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                padding: 0.75rem 0;
+                margin: 0 0 0 2.3rem;
+                color: #282936;
+                font-weight: 700;
+                line-height: 1;
+                text-align: center;
+                text-transform: uppercase;
+            }
+
+        button:hover .circle {
+            width: 100%;
+        }
+
+            button:hover .circle .icon.arrow {
+                background: #fff;
+                transform: translate(1rem, 0);
+            }
+
+        button:hover .button-text {
+            color: #fff;
+        }
+
+        #maisDetalhes:hover {
+            transition: 1s;
+            box-shadow: 2px 2px white;
+        }
+
+        h2 {
+            padding-top: 100px;
+            padding-bottom: 10px;
+            text-align: center;
+        }
+    </style>
+
+    <!--NAVBAR-->
+    <nav id="nav" class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark ">
         <div class="container-fluid">
             <a href="index.html"><img src="logo1.png" style="height:50px" class="navbar-brand"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -38,6 +189,16 @@
             </div>
         </div>
     </nav>
+    <!--NAVBAR END-->
+    <h2 data-bind="text:OrgName"></h2>
+    <ul class="nav nav-tabs" id="myTab" role="tablist" data-bind="foreach:Events">
+        <li class="nav-item" role="presentation">
+            <button class="nav-link" data-bs-toggle="tab" type="button" role="tab" aria-selected="false" data-bind="attr:{'id':Id+'name-tab','data-bs-target':'#'+Id+'name', 'aria-controls':Id+'name'},text:Name"></button>
+        </li>
+    </ul>
+    <div class="tab-content" id="myTabContent" data-bind="foreach:Events">
+        <div class="tab-pane fade" role="tabpanel" data-bind="attr:{'id':Id+'name', 'aria-labelledby':Id+'name-tab'}, text:Preco"></div>
+    </div>
     <div style="padding-bottom:50px;padding-top:100px" class="row d-grid d-flex row-cols-sm-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 justify-content-center" data-bind="foreach:Events">
         <div style="justify-content: space-evenly;">
             <div class="card">
