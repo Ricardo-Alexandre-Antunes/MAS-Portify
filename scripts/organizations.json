@@ -89,7 +89,6 @@
           "Name": "Introdução a uma Sociedade Secreta C",
           "Preço": 80
         }
-
       ],
       "Image": "./Imagens/Reservas/escapehunt.jpg"
     },
@@ -211,7 +210,6 @@
           "Name": "Salão + Bar + Jardim",
           "Preço": 95
         }
-
       ],
       "Image": "./Imagens/Reservas/spacegarden.jpg"
     },
@@ -251,7 +249,6 @@
           "Name": "MIX + Escalada",
           "Preço": 14.5
         }
-
       ],
       "Image": "./Imagens/Reservas/fintas.jpg"
     },
@@ -321,8 +318,6 @@
           "Name": "Tartarugas Ninja",
           "Preço": 280
         }
-
-
       ],
       "Image": "./Imagens/Reservas/fintas.jpg"
     },
