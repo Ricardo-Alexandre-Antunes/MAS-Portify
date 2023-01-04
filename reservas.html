@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8">
+    <meta charset="us-ascii">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -146,17 +146,17 @@
 <body>
  <nav id="nav" class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
   <div class="container-fluid">
-    <img src="logo1.png" style="height:50px" class="navbar-brand" href="#">
+      <a href="index.html"><img src="logo1.png" style="height:50px" class="navbar-brand"></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a  style="color:white" class="nav-link active" aria-current="page" href="#">ATIVIDADES</a>
+          <a  style="color:white" class="nav-link active" aria-current="page" href="atividades.html">ATIVIDADES</a>
         </li>
         <li class="nav-item">
-          <a  style="color:white" class="nav-link active" href="">RESERVAS</a>
+          <a  style="color:white" class="nav-link active" href="reservas.html">RESERVAS</a>
         </li>
        </ul>
        <div class="collapse navbar-collapse justify-content-end">
@@ -178,8 +178,8 @@
                             <div>
                                 <div class="col-12">
                                     <button id="maisDetalhes" style=float:left;  class="learn-more">
-                                        <a data-bind="attr: { href:'./modalitiesDetails.html?id=' + Id }"> 
-                                                <span style=float:left data-bind="attr: { href:'./modalitiesDetails.html?id=' + Id }" class="circle" aria-hidden="true">
+                                        <a data-bind="attr: { href:'./reservasDetails.html?id=' + Id }"> 
+                                                <span style=float:left data-bind="attr: { href:'./reservasDetails.html?id=' + Id }" class="circle" aria-hidden="true">
                                                     <span class="icon arrow"></span>
                                                 </span>
                                                 <span class="button-text">Detalhes</span>
@@ -195,6 +195,6 @@
 <script src="lib/knockout/dist/knockout-latest.min.js"></script>
 <script src="lib/jquery/dist/jquery.min.js"></script>
 <script src="lib/jquery-ui/dist/jquery-ui.min.js"></script>
-<script src="scripts/reservas.js"></script>
+<script src="scripts/reservas.js" charset="utf-8"></script>
 </body>
 </html>
