@@ -1,5 +1,5 @@
 {
-  "reserve_locations": [
+  "data": [
     {
       "Id": 1,
       "Name": "Centro Playbowling Cascais",
@@ -33,7 +33,7 @@
       "Id": 2,
       "Name": "Go Party",
       "District": "Lisboa",
-      "Priceholder": 390
+      "Priceholder": 390,
       "Events": [
         {
           "Id": 1,
@@ -244,7 +244,7 @@
         {
           "Id": 5,
           "Name": "Playground+Escalada",
-          "Preço": 13.5,
+          "Preço": 13.5
         },
         {
           "Id": 6,
@@ -256,7 +256,75 @@
       "Image": "./Imagens/Reservas/fintas.jpg"
     },
     {
-      "Id": 9
+      "Id": 9,
+      "Name": "Marina Parque das Nações",
+      "District": "Lisboa",
+      "Priceholder": 185,
+      "Events": [
+        {
+          "Id": 1,
+          "Name": "Frozen",
+          "Preço": 290
+        },
+        {
+          "Id": 2,
+          "Name": "Jogos Tradicionais",
+          "Preço": 260
+        },
+        {
+          "Id": 3,
+          "Name": "Havaianas",
+          "Preço": 280
+        },
+        {
+          "Id": 4,
+          "Name": "Piscina de Bolas c/ Escorrega",
+          "Preço": 300
+        },
+        {
+          "Id": 5,
+          "Name": "Patrulha Pata + Insuflável Pequeno",
+          "Preço": 340
+        },
+        {
+          "Id": 6,
+          "Name": "Insuflável Grande com Animação",
+          "Preço": 300
+        },
+        {
+          "Id": 7,
+          "Name": "Touro Mecânico com animação",
+          "Preço": 430
+        },
+        {
+          "Id": 8,
+          "Name": "Lady Bug",
+          "Preço": 280
+        },
+        {
+          "Id": 9,
+          "Name": "PJ Masks",
+          "Preço": 290
+        },
+        {
+          "Id": 10,
+          "Name": "Unicórnio",
+          "Preço": 290
+        },
+        {
+          "Id": 11,
+          "Name": "Panda",
+          "Preço": 280
+        },
+        {
+          "Id": 12,
+          "Name": "Tartarugas Ninja",
+          "Preço": 280
+        }
+
+
+      ],
+      "Image": "./Imagens/Reservas/fintas.jpg"
     },
     {
       "Id": 10
@@ -276,7 +344,5 @@
     {
       "Id": 15
     }
-  ],
-  "activity_locations":  
-
+  ]
 }
