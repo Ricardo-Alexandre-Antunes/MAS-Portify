@@ -4,9 +4,11 @@
     "\\CSS",
     "\\Imagens",
     "\\Imagens\\Atividades",
+    "\\Imagens\\Reservas",
+    "\\lib",
     "\\scripts",
     "\\scripts\\lib"
   ],
-  "SelectedNode": "\\CSS\\home.css",
+  "SelectedNode": "\\index.html",
   "PreviewInSolutionExplorer": false
 }
