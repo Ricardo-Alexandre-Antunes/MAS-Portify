@@ -477,7 +477,7 @@ var dict = {
                     "Preço": 280
                 }
             ],
-            "Image": "./Imagens/Reservas/tobekid.webp"
+            "Image": "./Imagens/Reservas/tobekid.jpg"
         },
         {
             "Id": 11,

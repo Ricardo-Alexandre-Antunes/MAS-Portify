@@ -351,3 +351,8 @@ var dict = {
     ]
 };
 console.log(dict)
+
+$(document).ready(function () {
+    localStorage.getItem()
+    ko.applyBindings();
+});
