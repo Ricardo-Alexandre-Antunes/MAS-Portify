@@ -9,7 +9,11 @@ var dict = {
                     {
                         "Id": 1,
                         "Name": "Bowling",
-                        "Preco": 2
+                        "Preco": 2,
+                        "Descrição":"",
+                        "Imagem": "",
+                        "Min-Pessoas": 0,
+                        "Max-Pessoas": 0,
                     },
                     {
                         "Id": 2,
