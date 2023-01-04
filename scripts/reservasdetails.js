@@ -8,21 +8,25 @@ var dict = {
                 "Events": [
                     {
                         "Id": "1",
+                        "IdS": "One",
                         "Name": "Bowling",
                         "Preco": 2
                     },
                     {
                         "Id": "2",
+                        "IdS": "Two",
                         "Name": "Sala de Jogos",
                         "Preco": 2
                     },
                     {
                         "Id": "3",
+                        "IdS": "Three",
                         "Name": "PaintBall",
                         "Preco": 25
                     },
                     {
                         "Id": "4",
+                        "IdS": "Four",
                         "Name": "LaserMaze",
                         "Preco": 2
                     }
@@ -38,17 +42,20 @@ var dict = {
                 "Events": [
                     {
                         "Id": 1,
+                        "IdS": "One",
                         "Name": "Festa Simples (sem lanche)",
                         "Preco": 26
                     },
                     {
                         "Id": 2,
+                        "IdS": "Two",
                         "Name": "Festa – Menu Standard com Bolo de Aniversário Gelado Artisani",
                         "Preco": 28
                     },
                     {
                         "Id": 3,
-                        "Name": "Festa – Menu Premium com Almoço ou Jantar e Bolo de Aniversário (inclui 30 minutos adicionais de festa)",
+                        "IdS": "Three",
+                        "Name": "Festa – Menu Premium com Almoço ou Jantar e Bolo de Aniversário",
                         "Preco": 32
                     }
                 ],
@@ -63,31 +70,37 @@ var dict = {
                 "Events": [
                     {
                         "Id": 1,
+                        "IdS": "One",
                         "Name": "Elite do Tempo",
                         "Preco": 35
                     },
                     {
                         "Id": 2,
+                        "IdS": "Two",
                         "Name": "O mistério de Fernando Pessoa",
                         "Preco": 80
                     },
                     {
                         "Id": 3,
+                        "IdS": "Three",
                         "Name": "Feira Popular",
                         "Preco": 80
                     },
                     {
                         "Id": 4,
+                        "IdS": "Four",
                         "Name": "Introdução a uma Sociedade Secreta A",
                         "Preco": 80
                     },
                     {
                         "Id": 5,
+                        "IdS": "Five",
                         "Name": "Introdução a uma Sociedade Secreta B",
                         "Preco": 80
                     },
                     {
                         "Id": 5,
+                        "IdS": "Five",
                         "Name": "Introdução a uma Sociedade Secreta C",
                         "Preco": 80
                     }
@@ -103,11 +116,13 @@ var dict = {
                 "Events": [
                     {
                         "Id": 1,
+                        "IdS": "One",
                         "Name": "JumpTime (Individual)",
                         "Preco": 13
                     },
                     {
                         "Id": 2,
+                        "IdS": "Two",
                         "Name": "JumpFamily (4 Pessoas)",
                         "Preco": 39
                     }
@@ -157,7 +172,7 @@ var dict = {
                         "Preco": 25
                     },
                     {
-                        "Id": 7,
+                        "Id": 8,
                         "Name": "FZMULTI",
                         "Preco": 25
                     }
@@ -587,6 +602,7 @@ self.Id = ko.observable('');
 self.Name = ko.observable('');
 self.Price = ko.observable('');
 self.OrgName = ko.observable('');
+self.Image = ko.observable('')
 
 function getUrlParameter(sParam) {
     var sPageURL = window.location.search.substring(1),
@@ -603,7 +619,22 @@ function getUrlParameter(sParam) {
     }
 };
 
-
+/*trimmed value binder for knockout*/
+ko.bindingHandlers.trimedValue = {
+    init: function (element, valueAccessor, allBindingsAccessor) {
+        $(element).on("change", function () {
+            var observable = valueAccessor();
+            var trimedValue = $.trim($(this).val());
+            observable($(this).val());
+            observable(trimedValue);
+        });
+    },
+    update: function (element, valueAccessor) {
+        var value = ko.utils.unwrapObservable(valueAccessor());
+        var trimedValue = $.trim(value);
+        $(element).val(trimedValue);
+    }
+};
 
     var self = this;
     var boing = dict.orgs
@@ -634,6 +665,8 @@ $(document).ready(function () {
     self.Price(events.Preco);
     console.log(info.Name);
     self.OrgName(info.Name);
+    self.Image(info.Image);
+    console.log(info.Image);
     var map = { "first": "1", "second": "2" };
     console.log(getKeyByValue(dict, "2"));
     console.log(dict);

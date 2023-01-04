@@ -66,7 +66,6 @@ function register() {
 console.log(localStorage)
 
 
-// modal
 
 outroModal = function () {
     $('#modal1').addClass('d-none')
