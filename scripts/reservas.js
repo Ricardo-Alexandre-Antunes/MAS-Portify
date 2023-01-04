@@ -577,6 +577,8 @@ self.activate = function () {
     console.log(data)
     self.orgs(dict.orgs);
 
+   // banana = ??? -> filtro
+
 };
 
 $(document).ready(function () {
