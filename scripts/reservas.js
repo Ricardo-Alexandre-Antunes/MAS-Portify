@@ -342,26 +342,16 @@ var dict = {
     ]
 }
 var self = this;
-self.orgs = ko.observableArray([]);
-self.id = ko.observable('');
-self.name = ko.observable('');
-self.district = ko.observable('');
-self.Priceholder = ko.observable('');
-self.events = ko.observableArray([]);
-self.image = ko.observable('');
+self.orgs = ko.observableArray(dict.orgs);
 self.activate = function () {
+    data = dict.orgs
+    console.log(data)
     self.orgs(dict.orgs);
-    self.id(orgs.id);
-    self.name(orgs.name);
-    self.district(orgs.district);
-    self.Priceholder(orgs.Priceholder);
-    self.events(orgs.image);
-    self.image(orgs.image);
+
 };
 
 $(document).ready(function () {
     console.log(dict)
-    console.log(dict.orgs[0])
     console.log("ready!");
     ko.applyBindings();
 });
