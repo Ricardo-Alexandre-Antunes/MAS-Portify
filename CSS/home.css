@@ -1,96 +1,84 @@
-#container {
-    height: 100vh;
-    width: 100vw;
+body {
     margin: 0;
-    padding: 0;
-    background: teal;
-    display: grid;
-    place-items: center
 }
 
-#slider-container {
-    height: 280px;
-    width: 98vw;
-    max-width: 1400px;
-    background: #54d5e4;
-    box-shadow: 5px 5px 8px gray inset;
-    position: relative;
-    overflow: hidden;
-    padding: 20px;
+.page {
+    min-height: 100vh;
+    overflow-x: hidden;
+    padding-top: 2.5rem;
 }
 
-    #slider-container .btn {
-        position: absolute;
-        top: calc(50% - 30px);
-        height: 30px;
-        width: 30px;
-        border-left: 8px solid pink;
-        border-top: 8px solid pink;
+    .page .container {
+        padding: 0 2rem;
     }
 
-        #slider-container .btn:hover {
-            transform: scale(1.2);
-        }
-
-        #slider-container .btn.inactive {
-            border-color: rgb(153, 121, 126)
-        }
-
-        #slider-container .btn:first-of-type {
-            transform: rotate(-45deg);
-            left: 10px
-        }
-
-        #slider-container .btn:last-of-type {
-            transform: rotate(135deg);
-            right: 10px;
-        }
-
-    #slider-container #slider {
-        display: flex;
-        width: 1000%;
-        height: 100%;
-        transition: all .5s;
-    }
-
-        #slider-container #slider .slide {
-            height: 90%;
-            margin: auto 10px;
-            background-color: #a847a4;
-            box-shadow: 2px 2px 4px 2px white, -2px -2px 4px 2px white;
-            display: grid;
-            place-items: center;
-        }
-
-            #slider-container #slider .slide span {
-                color: white;
-                font-size: 150px;
-            }
-
-@media only screen and (min-width: 1100px) {
-
-    #slider-container #slider .slide {
-        width: calc(2.5% - 20px);
+@media (min-width: 1024px) {
+    .page .container {
+        padding: 0 4rem;
     }
 }
 
-@media only screen and (max-width: 1100px) {
-
-    #slider-container #slider .slide {
-        width: calc(3.3333333% - 20px);
-    }
+.header h1 {
+    margin: 0;
+    font-size: 3rem;
 }
 
-@media only screen and (max-width: 900px) {
-
-    #slider-container #slider .slide {
-        width: calc(5% - 20px);
+.card {
+    width: 250px;
+    border-radius: 3px;
+    margin: 0 auto;
+    transition: box-shadow 0.25s;
+    transition-timing-function: ease-in-out;
+    transform: scale(0.94);
+    height: 185px;
+}
+.img-wrapper {
+    width: 250px;
+    background-color: #eee;
+    height: 185px;
+}
+    .card img {
+        display: block;
+        width: 100%;
+        height:100%;
+        object-fit:cover;
+        position:relative
     }
+
+    .card .card-text-content {
+        padding: 0 0.5rem;
+    }
+
+.swiper-slide {
+    width: 265px;
 }
 
-@media only screen and (max-width: 550px) {
+.swiper-container {
+    padding-bottom: 1rem;
+}
 
-    #slider-container #slider .slide {
-        width: calc(10% - 20px);
+.cards-slider {
+    padding-top: 2.5rem;
+}
+
+.swiper-slide {
+    transform: scale(0.94);
+    transition: transform 0.25s;
+}
+
+.swiper-slide-active {
+    transform: scale(1.18);
+}
+
+    .swiper-slide-active .card {
+        box-shadow: 0 13px 35px -16px #000;
     }
+
+.read-more {
+    text-decoration: none;
+    color: inherit;
+    border: 1px solid #333;
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    border-radius: 3px;
 }
