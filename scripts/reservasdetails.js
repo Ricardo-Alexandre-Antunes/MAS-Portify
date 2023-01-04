@@ -7,22 +7,22 @@ var dict = {
                 "Priceholder": 20,
                 "Events": [
                     {
-                        "Id": 1,
+                        "Id": "1",
                         "Name": "Bowling",
                         "Preco": 2
                     },
                     {
-                        "Id": 2,
+                        "Id": "2",
                         "Name": "Sala de Jogos",
                         "Preco": 2
                     },
                     {
-                        "Id": 3,
+                        "Id": "3",
                         "Name": "PaintBall",
                         "Preco": 25
                     },
                     {
-                        "Id": 4,
+                        "Id": "4",
                         "Name": "LaserMaze",
                         "Preco": 2
                     }
@@ -585,7 +585,8 @@ var dict = {
 self.Events = ko.observableArray([]);
 self.Id = ko.observable('');
 self.Name = ko.observable('');
-self.Price = ko.observable('')
+self.Price = ko.observable('');
+self.OrgName = ko.observable('');
 
 function getUrlParameter(sParam) {
     var sPageURL = window.location.search.substring(1),
@@ -631,6 +632,8 @@ $(document).ready(function () {
     self.Id(events.Id);
     self.Name(events.Name);
     self.Price(events.Preco);
+    console.log(info.Name);
+    self.OrgName(info.Name);
     var map = { "first": "1", "second": "2" };
     console.log(getKeyByValue(dict, "2"));
     console.log(dict);
