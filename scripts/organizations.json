@@ -1,5 +1,5 @@
 {
-  "reserve_locations": [
+  "data": [
     {
       "Id": 1,
       "Name": "Centro Playbowling Cascais",
@@ -33,7 +33,7 @@
       "Id": 2,
       "Name": "Go Party",
       "District": "Lisboa",
-      "Priceholder": 390
+      "Priceholder": 390,
       "Events": [
         {
           "Id": 1,
@@ -244,7 +244,7 @@
         {
           "Id": 5,
           "Name": "Playground+Escalada",
-          "Preço": 13.5,
+          "Preço": 13.5
         },
         {
           "Id": 6,
@@ -344,7 +344,5 @@
     {
       "Id": 15
     }
-  ],
-  "activity_locations":  
-
+  ]
 }
