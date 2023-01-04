@@ -17,17 +17,19 @@
             background-color: #1F2022;
         }
 
-                .card {
+        .card {
             box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
             text-align: center;
             background-color: #f1f1f1;
             margin-bottom: 20px;
-            height:310px; 
-            max-width: 310px;
-            transition:0.5s;
-            align-content:center;
-            border-radius:5px
+            height: 310px;
+            width: 310px;
+            transition: 0.5s;
+            align-content: center;
+            border-radius: 5px;
         }
+            .card-body{            background-size:cover}
+        
         .card:hover{
             transform:scale(1.05);
         }
@@ -62,8 +64,13 @@
             font-size: inherit;
             font-family: inherit;
             top:200px;
-            right:-35px
-            
+            right:-60px;
+            width:160px;
+            background:white;
+            border-radius:25px;
+            border:3px;
+            border-color:#282936;
+            box-shadow: 2px 2px #282936;
         }
 
             button.learn-more {
@@ -140,6 +147,10 @@
             button:hover .button-text {
                 color: #fff;
             }
+            #maisDetalhes:hover{
+                transition:1s;
+               box-shadow: 2px 2px white;
+            }
             
     </style>
 </head>
@@ -172,8 +183,7 @@
         <div style="padding-bottom:50px;padding-top:100px" class="row d-grid d-flex row-cols-sm-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 justify-content-center" data-bind="foreach:orgs">
             <div style="justify-content: space-evenly;">
                 <div class="card">
-                    <img data-bind="attr:{src: Image}" style="width: 100%; height: 100%; overflow:hidden; object-fit: contain;}" class="card-img-top img-fluid">
-                    <div class="card-body" align="center" style="align-content:center; margin:0px;">
+                   <div class="card-body" data-bind="style: {'backgroundImage': 'url('+ Image +')'}" align="center" style="align-content:center; margin:0px;object-fit:cover">
                         <p style="color:black !important" data-bind="text:Name"></p>
                             <div>
                                 <div class="col-12">
