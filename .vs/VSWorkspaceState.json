@@ -1,7 +1,12 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\CSS",
+    "\\Imagens",
+    "\\Imagens\\Atividades",
+    "\\scripts",
+    "\\scripts\\lib"
   ],
-  "SelectedNode": "\\C:\\Users\\Afonso\\OneDrive - Universidade de Aveiro\\Documents\\GitHub\\MAS-Portify",
+  "SelectedNode": "\\CSS\\home.css",
   "PreviewInSolutionExplorer": false
 }
