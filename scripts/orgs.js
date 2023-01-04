@@ -2,33 +2,121 @@ var dict = {
     "orgs": [
         {
             "Id": 1, "Info": {
-                "Name": "Centro Playbowling Cascais",
+                "Name": "Playbowling",
                 "District": "Lisboa",
-                "Priceholder": 20,
+                "Priceholder": 4.5,
                 "Events": [
                     {
                         "Id": 1,
-                        "Name": "Bowling",
-                        "Preco": 2,
-                        "Descrição":"",
-                        "Imagem": "",
-                        "Min-Pessoas": 0,
-                        "Max-Pessoas": 0,
+                        "Name": "Bowling Adultos Seg-Qui",
+                        "Preco": 4.5,
+                        "Descricao":"<p>Temos 12 pistas de bowling e permite 6 pessoas por pista por isso podem jogar atÃ© 72 pessoas em simultaneo.</p> <p>O ambiente Ã© de luz normal (branca) ou ambiente disco-bowling (fluorescente).</p> <p>Cada jogo sao aproximadamente 20 bolas lanÃ§adas por pessoa.</p> <p>Quando jogarem crianÃ§as com adultos, sempre que for a vez da crianÃ§a jogar a pista levanta automaticamente umas barreiras laterais que faz com que a bola nÃ£o se despiste para a valeta, e assim a crianÃ§a acerta sempre nalguns pinos.</p> <p>A duraÃ§Ã£o de um jogo depende do numero de jogadores na pista e da forma como jogam. Calcule em media 8 minutos por pessoa por jogo, assim se forem 4 pessoas a jogarem numa pista a duraÃ§Ã£o rondarÃ¡ os 32 minutos</p> <p><strong>CrianÃ§as dos 4-6 anos;</strong><br>Temos umas rampas na qual o adulto pode colocar uma bola de bowling e a crianÃ§a pode apontar a rampa aos pinos e empurrar a bola pela rampa abaixo sem esforÃ§o fÃ­sico.</p> <p><strong>CrianÃ§as dos 6-8 anos;</strong><br>O nosso bowling dispÃµe de barreiras laterais automÃ¡ticas nas pistas, de forma a que a bola nunca caia nas valetas laterais. Assim a crianÃ§a acaba por acertar sempre nalguns pinos.</p>",
+                        "Min-Pessoas": 1,
+                        "Max-Pessoas": 36,
                     },
                     {
                         "Id": 2,
-                        "Name": "Sala de Jogos",
-                        "Preco": 2
+                        "Name": "Bowling Adultos Sex-Dom",
+                        "Preco": 6.5,
+                        "Descricao":"<p>Temos 12 pistas de bowling e permite 6 pessoas por pista por isso podem jogar atÃ© 72 pessoas em simultaneo.</p> <p>O ambiente Ã© de luz normal (branca) ou ambiente disco-bowling (fluorescente).</p> <p>Cada jogo sao aproximadamente 20 bolas lanÃ§adas por pessoa.</p> <p>Quando jogarem crianÃ§as com adultos, sempre que for a vez da crianÃ§a jogar a pista levanta automaticamente umas barreiras laterais que faz com que a bola nÃ£o se despiste para a valeta, e assim a crianÃ§a acerta sempre nalguns pinos.</p> <p>A duraÃ§Ã£o de um jogo depende do numero de jogadores na pista e da forma como jogam. Calcule em media 8 minutos por pessoa por jogo, assim se forem 4 pessoas a jogarem numa pista a duraÃ§Ã£o rondarÃ¡ os 32 minutos</p> <p><strong>CrianÃ§as dos 4-6 anos;</strong><br>Temos umas rampas na qual o adulto pode colocar uma bola de bowling e a crianÃ§a pode apontar a rampa aos pinos e empurrar a bola pela rampa abaixo sem esforÃ§o fÃ­sico.</p> <p><strong>CrianÃ§as dos 6-8 anos;</strong><br>O nosso bowling dispÃµe de barreiras laterais automÃ¡ticas nas pistas, de forma a que a bola nunca caia nas valetas laterais. Assim a crianÃ§a acaba por acertar sempre nalguns pinos.</p>",
+                        "Min-Pessoas": 1,
+                        "Max-Pessoas": 36,
                     },
                     {
                         "Id": 3,
-                        "Name": "PaintBall",
-                        "Preco": 25
+                        "Name": "200 bolas - 8 jogadores",
+                        "Preco": 27,
+                        "Descricao":"<p>Temos 4 cenÃ¡rios de jogo; Campo do Tanque, FBI Training Camp, Campo Nuclear, World War II.</p> <p>Podemos fazer jogos Ã  noite pois os nossos campos sÃ£o iluminados</p>",
+                        "Min-Pessoas": 8,
+                        "Max-Pessoas": 8,
                     },
                     {
                         "Id": 4,
-                        "Name": "LaserMaze",
-                        "Preco": 2
+                        "Name": "400 bolas - 8 jogadores",
+                        "Preco": 30,
+                        "Descricao":"<p>Temos 4 cenÃ¡rios de jogo; Campo do Tanque, FBI Training Camp, Campo Nuclear, World War II.</p> <p>Podemos fazer jogos Ã  noite pois os nossos campos sÃ£o iluminados</p>",
+                        "Min-Pessoas": 8,
+                        "Max-Pessoas": 8,
+                    },
+                    {
+                        "Id": 4,
+                        "Name": "300 bolas - 8 jogadores",
+                        "Preco": 30,
+                        "Descricao":"<p>Temos 4 cenÃ¡rios de jogo; Campo do Tanque, FBI Training Camp, Campo Nuclear, World War II.</p> <p>Podemos fazer jogos Ã  noite pois os nossos campos sÃ£o iluminados</p>",
+                        "Min-Pessoas": 8,
+                        "Max-Pessoas": 8,
+                    },
+                    {
+                        "Id": 4,
+                        "Name": "300 bolas - 8 jogadores",
+                        "Preco": 30,
+                        "Descricao":"<p>Temos 4 cenÃ¡rios de jogo; Campo do Tanque, FBI Training Camp, Campo Nuclear, World War II.</p> <p>Podemos fazer jogos Ã  noite pois os nossos campos sÃ£o iluminados</p>",
+                        "Min-Pessoas": 8,
+                        "Max-Pessoas": 60,
+                    },
+                    {
+                        "Id": 4,
+                        "Name": "300 bolas - 8 jogadores",
+                        "Preco": 30,
+                        "Descricao":"<p>Temos 4 cenÃ¡rios de jogo; Campo do Tanque, FBI Training Camp, Campo Nuclear, World War II.</p> <p>Podemos fazer jogos Ã  noite pois os nossos campos sÃ£o iluminados</p>",
+                        "Min-Pessoas": 8,
+                        "Max-Pessoas": 60,
+                    },
+                    {
+                        "Id": 4,
+                        "Name": "300 bolas - 8 jogadores",
+                        "Preco": 30,
+                        "Descricao":"<p>Temos 4 cenÃ¡rios de jogo; Campo do Tanque, FBI Training Camp, Campo Nuclear, World War II.</p> <p>Podemos fazer jogos Ã  noite pois os nossos campos sÃ£o iluminados</p>",
+                        "Min-Pessoas": 8,
+                        "Max-Pessoas": 60,
+                    },
+                    {
+                        "Id": 4,
+                        "Name": "300 bolas - 8 jogadores",
+                        "Preco": 30,
+                        "Descricao":"<p>Temos 4 cenÃ¡rios de jogo; Campo do Tanque, FBI Training Camp, Campo Nuclear, World War II.</p> <p>Podemos fazer jogos Ã  noite pois os nossos campos sÃ£o iluminados</p>",
+                        "Min-Pessoas": 8,
+                        "Max-Pessoas": 60,
+                    },
+                    {
+                        "Id": 4,
+                        "Name": "300 bolas - 8 jogadores",
+                        "Preco": 30,
+                        "Descricao":"<p>Temos 4 cenÃ¡rios de jogo; Campo do Tanque, FBI Training Camp, Campo Nuclear, World War II.</p> <p>Podemos fazer jogos Ã  noite pois os nossos campos sÃ£o iluminados</p>",
+                        "Min-Pessoas": 8,
+                        "Max-Pessoas": 60,
+                    },
+                    {
+                        "Id": 4,
+                        "Name": "300 bolas - 8 jogadores",
+                        "Preco": 30,
+                        "Descricao":"<p>Temos 4 cenÃ¡rios de jogo; Campo do Tanque, FBI Training Camp, Campo Nuclear, World War II.</p> <p>Podemos fazer jogos Ã  noite pois os nossos campos sÃ£o iluminados</p>",
+                        "Min-Pessoas": 8,
+                        "Max-Pessoas": 60,
+                    },
+                    {
+                        "Id": 4,
+                        "Name": "300 bolas - 8 jogadores",
+                        "Preco": 30,
+                        "Descricao":"<p>Temos 4 cenÃ¡rios de jogo; Campo do Tanque, FBI Training Camp, Campo Nuclear, World War II.</p> <p>Podemos fazer jogos Ã  noite pois os nossos campos sÃ£o iluminados</p>",
+                        "Min-Pessoas": 8,
+                        "Max-Pessoas": 60,
+                    },
+                    {
+                        "Id": 4,
+                        "Name": "300 bolas - 8 jogadores",
+                        "Preco": 30,
+                        "Descricao":"<p>Temos 4 cenÃ¡rios de jogo; Campo do Tanque, FBI Training Camp, Campo Nuclear, World War II.</p> <p>Podemos fazer jogos Ã  noite pois os nossos campos sÃ£o iluminados</p>",
+                        "Min-Pessoas": 8,
+                        "Max-Pessoas": 60,
+                    },
+                    {
+                        "Id": 4,
+                        "Name": "300 bolas - 8 jogadores",
+                        "Preco": 30,
+                        "Descricao":"<p>Temos 4 cenÃ¡rios de jogo; Campo do Tanque, FBI Training Camp, Campo Nuclear, World War II.</p> <p>Podemos fazer jogos Ã  noite pois os nossos campos sÃ£o iluminados</p>",
+                        "Min-Pessoas": 8,
+                        "Max-Pessoas": 60,
                     }
                 ],
                 "Image": "./Imagens/Reservas/bowling.jpg"
@@ -47,12 +135,12 @@ var dict = {
                     },
                     {
                         "Id": 2,
-                        "Name": "Festa – Menu Standard com Bolo de Aniversário Gelado Artisani",
+                        "Name": "Festa ï¿½ Menu Standard com Bolo de Aniversï¿½rio Gelado Artisani",
                         "Preco": 28
                     },
                     {
                         "Id": 3,
-                        "Name": "Festa – Menu Premium com Almoço ou Jantar e Bolo de Aniversário (inclui 30 minutos adicionais de festa)",
+                        "Name": "Festa ï¿½ Menu Premium com Almoï¿½o ou Jantar e Bolo de Aniversï¿½rio (inclui 30 minutos adicionais de festa)",
                         "Preco": 32
                     }
                 ],
@@ -72,7 +160,7 @@ var dict = {
                     },
                     {
                         "Id": 2,
-                        "Name": "O mistério de Fernando Pessoa",
+                        "Name": "O mistï¿½rio de Fernando Pessoa",
                         "Preco": 80
                     },
                     {
@@ -82,17 +170,17 @@ var dict = {
                     },
                     {
                         "Id": 4,
-                        "Name": "Introdução a uma Sociedade Secreta A",
+                        "Name": "Introduï¿½ï¿½o a uma Sociedade Secreta A",
                         "Preco": 80
                     },
                     {
                         "Id": 5,
-                        "Name": "Introdução a uma Sociedade Secreta B",
+                        "Name": "Introduï¿½ï¿½o a uma Sociedade Secreta B",
                         "Preco": 80
                     },
                     {
                         "Id": 5,
-                        "Name": "Introdução a uma Sociedade Secreta C",
+                        "Name": "Introduï¿½ï¿½o a uma Sociedade Secreta C",
                         "Preco": 80
                     }
                 ],
@@ -177,17 +265,17 @@ var dict = {
                 "Events": [
                     {
                         "Id": 1,
-                        "Name": "Festa da Raposa – para pequenos e graúdos",
+                        "Name": "Festa da Raposa ï¿½ para pequenos e graï¿½dos",
                         "Preco": 550
                     },
                     {
                         "Id": 2,
-                        "Name": "Festa do Coelho – Aluguer do espaço",
+                        "Name": "Festa do Coelho ï¿½ Aluguer do espaï¿½o",
                         "Preco": 270
                     },
                     {
                         "Id": 3,
-                        "Name": "Festa do Mocho – Festas só para os mais pequenos",
+                        "Name": "Festa do Mocho ï¿½ Festas sï¿½ para os mais pequenos",
                         "Preco": 320
                     }
                 ],
@@ -202,22 +290,22 @@ var dict = {
                 "Events": [
                     {
                         "Id": 1,
-                        "Name": "Sala + Terraço - Segunda a Sexta",
+                        "Name": "Sala + Terraï¿½o - Segunda a Sexta",
                         "Preco": 70
                     },
                     {
                         "Id": 2,
-                        "Name": "Sala + Terraço - Sábado",
+                        "Name": "Sala + Terraï¿½o - Sï¿½bado",
                         "Preco": 90
                     },
                     {
                         "Id": 3,
-                        "Name": "Sala + Terraço - Domingo",
+                        "Name": "Sala + Terraï¿½o - Domingo",
                         "Preco": 80
                     },
                     {
                         "Id": 4,
-                        "Name": "Salão + Bar + Jardim",
+                        "Name": "Salï¿½o + Bar + Jardim",
                         "Preco": 95
                     }
                 ],
@@ -266,7 +354,7 @@ var dict = {
         },
         {
             "Id": 9, "Info": {
-                "Name": "Marina Parque das Nações",
+                "Name": "Marina Parque das Naï¿½ï¿½es",
                 "District": "Lisboa",
                 "Priceholder": 185,
                 "Events": [
@@ -292,17 +380,17 @@ var dict = {
                     },
                     {
                         "Id": 5,
-                        "Name": "Patrulha Pata + Insuflável Pequeno",
+                        "Name": "Patrulha Pata + Insuflï¿½vel Pequeno",
                         "Preco": 340
                     },
                     {
                         "Id": 6,
-                        "Name": "Insuflável Grande com Animação",
+                        "Name": "Insuflï¿½vel Grande com Animaï¿½ï¿½o",
                         "Preco": 300
                     },
                     {
                         "Id": 7,
-                        "Name": "Touro Mecânico com animação",
+                        "Name": "Touro Mecï¿½nico com animaï¿½ï¿½o",
                         "Preco": 430
                     },
                     {
@@ -317,7 +405,7 @@ var dict = {
                     },
                     {
                         "Id": 10,
-                        "Name": "Unicórnio",
+                        "Name": "Unicï¿½rnio",
                         "Preco": 290
                     },
                     {
@@ -342,12 +430,12 @@ var dict = {
                 "Events": [
                     {
                         "Id": 1,
-                        "Name": "Vamos Dançar!",
+                        "Name": "Vamos Danï¿½ar!",
                         "Preco": 215
                     },
                     {
                         "Id": 2,
-                        "Name": "Vamos à Discoteca!",
+                        "Name": "Vamos ï¿½ Discoteca!",
                         "Preco": 250
                     },
                     {
@@ -357,7 +445,7 @@ var dict = {
                     },
                     {
                         "Id": 4,
-                        "Name": "Dança Com Tatuagem Glitter!",
+                        "Name": "Danï¿½a Com Tatuagem Glitter!",
                         "Preco": 305
                     },
                     {
@@ -377,7 +465,7 @@ var dict = {
                     },
                     {
                         "Id": 8,
-                        "Name": "Vamos Dançar e Fazer Uma Pintura Facial!",
+                        "Name": "Vamos Danï¿½ar e Fazer Uma Pintura Facial!",
                         "Preco": 305
                     },
                     {
@@ -392,7 +480,7 @@ var dict = {
                     },
                     {
                         "Id": 11,
-                        "Name": "A Dança do Panda!",
+                        "Name": "A Danï¿½a do Panda!",
                         "Preco": 305
                     },
                     {
@@ -402,7 +490,7 @@ var dict = {
                     },
                     {
                         "Id": 13,
-                        "Name": "Segurança é com o Marshall! (Patrulha Pata)",
+                        "Name": "Seguranï¿½a ï¿½ com o Marshall! (Patrulha Pata)",
                         "Preco": 305
                     },
                     {
@@ -432,12 +520,12 @@ var dict = {
                     },
                     {
                         "Id": 19,
-                        "Name": "Espetáculo de magia!",
+                        "Name": "Espetï¿½culo de magia!",
                         "Preco": 390
                     },
                     {
                         "Id": 20,
-                        "Name": "A Dança da Fantasia",
+                        "Name": "A Danï¿½a da Fantasia",
                         "Preco": 250
                     },
                     {
@@ -507,7 +595,7 @@ var dict = {
                     },
                     {
                         "Id": 2,
-                        "Name": "Cocktails - Páteo",
+                        "Name": "Cocktails - Pï¿½teo",
                         "Preco": 600
                     },
                     {
@@ -517,7 +605,7 @@ var dict = {
                     },
                     {
                         "Id": 4,
-                        "Name": "Cocktails - Terraço (Rooftop)",
+                        "Name": "Cocktails - Terraï¿½o (Rooftop)",
                         "Preco": 400
                     },
                     {
@@ -537,17 +625,17 @@ var dict = {
                     },
                     {
                         "Id": 8,
-                        "Name": "Eventos Académicos - Sala da Bica",
+                        "Name": "Eventos Acadï¿½micos - Sala da Bica",
                         "Preco": 400
                     },
                     {
                         "Id": 9,
-                        "Name": "Eventos Académicos - Sala Reuniões",
+                        "Name": "Eventos Acadï¿½micos - Sala Reuniï¿½es",
                         "Preco": 120
                     },
                     {
                         "Id": 10,
-                        "Name": "Eventos Académicos - Sala Infinita",
+                        "Name": "Eventos Acadï¿½micos - Sala Infinita",
                         "Preco": 500
                     },
                     {
@@ -557,7 +645,7 @@ var dict = {
                     },
                     {
                         "Id": 12,
-                        "Name": "Eventos Sociais - Terraço (Rooftop)",
+                        "Name": "Eventos Sociais - Terraï¿½o (Rooftop)",
                         "Preco": 400
                     },
                     {
@@ -567,17 +655,17 @@ var dict = {
                     },
                     {
                         "Id": 14,
-                        "Name": "Utilização de espaço para filmagens - Páteo",
+                        "Name": "Utilizaï¿½ï¿½o de espaï¿½o para filmagens - Pï¿½teo",
                         "Preco": 800
                     },
                     {
                         "Id": 15,
-                        "Name": "Utilização de espaço para filmagens - Sala da Bica",
+                        "Name": "Utilizaï¿½ï¿½o de espaï¿½o para filmagens - Sala da Bica",
                         "Preco": 600
                     },
                     {
                         "Id": 16,
-                        "Name": "Utilização de espaço para filmagens - Sala Infinita",
+                        "Name": "Utilizaï¿½ï¿½o de espaï¿½o para filmagens - Sala Infinita",
                         "Preco": 700
                     },
                 ],
