@@ -3,7 +3,8 @@ self.Id = ko.observable('');
 self.Name = ko.observable('');
 self.Price = ko.observable('');
 self.OrgName = ko.observable('');
-self.Image = ko.observable('')
+self.Image = ko.observable('');
+self.Description = ko.observable('');
 
 function getUrlParameter(sParam) {
     var sPageURL = window.location.search.substring(1),
@@ -64,6 +65,8 @@ $(document).ready(function () {
     self.Id(events.Id);
     self.Name(events.Name);
     self.Price(events.Preco);
+    self.Description(events.Descricao);
+    console.log(events[0].Descricao);
     console.log(info.Name);
     self.OrgName(info.Name);
     self.Image(info.Image);
