@@ -8,40 +8,37 @@ var numbers = /[0-9]/g;
 
 
 var validRegex = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
-$('#formsfaqs').submit(function (event) {
+$('#conta').submit(function (event) {
     var retval = true
 
     if (nome.val().trim().length < 3 || nome.val().trim().length > 50) {
+        if $("#nomeError").hasClass('d-none');
         $("#nomeError").removeClass('d-none');
         retval = false;
     }
     else {
         $("#nomeError").addClass('d-none');
     }
-    if (pw.val().trim().length < 8) or (!pw.value.match(numbers)) or (!pw) {
-        $("#pessoa2Error").removeClass('d-none');
-        retval = false;
+    if (pw.val().trim().length < 8 && !pw.value.match(numbers)) {
+        if ($("#pwError").hasClass('d-none')); {
+            $("#pwError").removeClass('d-none');
+            retval = false;
+        }
     }
     else {
-        $("#pessoa2Error").addClass('d-none');
+        $("#pwError").addClass('d-none');
     }
-    if ($("#email").val().trim().length < 10 || $("#email").val().trim().length > 100) {
-        if ($("#emailError").hasClass('d-none')) {
-            $("#emailError").removeClass('d-none');
-        }
-        retval = false;
-    }
-    else if (!($("#email").val().trim().match(validRegex))) {
-        if ($("#emailError").hasClass('d-none')) {
+    if (morada.val().trim().length < 5 || morada.val().trim().length > 50) {
+        if ($("#moradaError").hasClass('d-none')) {
             $("#emailError").removeClass('d-none');
         }
         retval = false;
     }
     else {
-        $("#emailError").addClass('d-none');
+        $("#moradaError").addClass('d-none');
     }
-    if ($('input[name="duvtipo"]:checked').length < 1) {
-        $("#duvtipoError").removeClass('d-none');
+    if ($('input[name="interesses"]:checked').length < 1) {
+        $("#interesses").removeClass('d-none');
         retval = false;
     }
 
