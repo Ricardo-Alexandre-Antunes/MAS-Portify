@@ -2,10 +2,10 @@
   "ExpandedNodes": [
     "",
     "\\CSS",
-    "\\scripts",
-    "\\scripts\\lib",
-    "\\scripts\\lib\\lib"
+    "\\lib",
+    "\\New folder",
+    "\\scripts"
   ],
-  "SelectedNode": "\\scripts\\organizations.json",
+  "SelectedNode": "\\index.html",
   "PreviewInSolutionExplorer": false
 }
