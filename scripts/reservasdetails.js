@@ -57,6 +57,7 @@ $(document).ready(function () {
     boingerino = boing[id - 1];
     info = boingerino.Info;
     events = info.Events;
+    console.log(events.Preco)
     console.log(id);
     console.log(info);
     console.log(boingerino);
@@ -80,4 +81,18 @@ $(document).ready(function () {
         
     });
 
+var slider = document.getElementById("myRange");
+console.log(slider.value)
+var output = document.getElementById("output");
+console.log(output)
+document.getElementById("output").innerHTML = slider.value; // Display the default slider value
 
+// Update the current slider value (each time you drag the slider handle)
+function sliderino () {
+    document.getElementById("output").innerHTML = document.getElementById("myRange").value;
+    console.log(document.getElementById("myRange").value)
+}
+
+function preco_total() {
+    document.getElementById("price").innerHTML = document.getElementById("preco").innerHTML * document.getElementById("myRange").value + '€'
+}

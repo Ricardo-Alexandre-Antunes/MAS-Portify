@@ -205,7 +205,12 @@
                         <div data-bind="html: Descricao"></div>
                         <b>Número Mínimo de pessoas: </b><span data-bind="text:Min_Pessoas"></span><br />
                         <b>Número Máximo de pessoas: </b><span data-bind="text:Max_Pessoas"></span><br />
-                        <b>Preço por pessoa:</b> </b><span data-bind="text:Preco+'€'"></span>
+                        <b>Preço por pessoa:</b> </b><span id="preco" data-bind="text:Preco"></span>€
+                        <div class="slidecontainer">
+                            <input type="range" class="slider" value="0" id="myRange" oninput="sliderino(), preco_total()" data-bind="attr:{'min':Min_Pessoas, 'max':Max_Pessoas}">
+                        </div>
+                        Número de pessoas selecionado: <span id="output"></span><br />
+                        Preço total: <span id="price"></span>
                     </div>
                 </div>
                 </div>
@@ -234,12 +239,11 @@
         </div>
     </div>
     -->
-    </div>
     <script src="lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="lib/knockout/dist/knockout-latest.min.js"></script>
     <script src="lib/jquery/dist/jquery.min.js"></script>
     <script src="lib/jquery-ui/dist/jquery-ui.min.js"></script>
     <script src="scripts/orgs.js"></script>
-    <script src="scripts/reservasdetails.js" charset="utf-8"></script>
+    <script src="scripts/reservasdetails.js" type="text/javascript" charset="utf-8"></script>
 </body>
 </html>
