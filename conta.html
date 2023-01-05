@@ -71,7 +71,7 @@
                     placeholder="Insira o seu nome"
                     value=""/>
                 </div>
-                  <div class="d-none text-danger col-form-label" id="nomeError"><i class="fa fa-exclamation-triangle"></i>  (Choose a type of question).</div>
+                  <div class="d-none text-danger col-form-label" id="nomeError"><i class="fa fa-exclamation-triangle"></i>Insira um nome com no mínimo 3 letras e no máximo 50</div>
               </div>
               <div class="row mt-3">
                 <div class="col-md-12">
@@ -80,9 +80,11 @@
                     id="numero"
                     class="form-control"
                     placeholder="Insira o seu número de telemóvel"
-                    value=""
-                  />
+                    value=""/>
                 </div>
+              </div>
+                  <div class="d-none text-danger col-form-label" id="numeroError"><i class="fa fa-exclamation-triangle"></i>Insira um número de telemóvel válido</div>
+              </div>
                 <div class="col-md-12">
                   <label class="labels">Morada</label
                   ><input
@@ -125,14 +127,16 @@
               </div>
             </div>
               <div class="mt-5 text-center">
-                <button class="btn btn-primary profile-button"><input type="Submit" name="submitBtn" value="Submit" class="btn btn-danger" id="conta" />
+                <input type="Submit" name="submitBtn" onclick="return validate()" class="btn btn-danger" />
                   Save Profile
-                </button>
               </div>
             </form>
             </div>
             </div>
           </div>
+ <script src="lib/knockout/dist/knockout-latest.min.js"></script>
+ <script src="lib/jquery/dist/jquery.min.js"></script>
+ <script src="lib/jquery-ui/dist/jquery-ui.min.js"></script>
 <script src="scripts/conta.js"></script>
 </body>
 </html>

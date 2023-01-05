@@ -16,7 +16,8 @@ var dict = {
                         "Min-Pessoas": 1,
                         "Max-Pessoas": 36,
                         "Min-age": 4,
-                        "Max-age": 100
+                        "Max-age": 100,
+                        "Image": "./Imagens/Reservas/bowling.jpg",
                     },
                     {
                         "Id": 2,
@@ -802,7 +803,7 @@ var dict = {
                         "Preco": 70,
                         "Duracao": 150,
                         "Available Hours": [["10:00","12:30"],["12:30","15:00"],["15:00","17:30"],],
-                        "Descricao" : "Esta modalidade de festa permite ter mais do que um aniversariante, contudo, a nossa oferta penas contempla 1 bolo de aniversário e a entrada grátis de um aniversariante. Nestes casos, aconselhamos a adquirir mais um bolo extra ou a fazer a partilha o bolo de oferta.",
+                        "Descricao" : "",
                         "Min-Pessoas": 10,
                         "Max-Pessoas": 60,
                         "Min-age": 0,
@@ -810,18 +811,43 @@ var dict = {
                     },
                     {
                         "Id": 2,
+                        "IdS": "tytryrtypoipoipiopm",
                         "Name": "Sala + Terraco - Sabado",
                         "Preco": 90,
+                        "Duracao": 120,
+                        "Available Hours": [["10:00","12:30"],["12:30","15:00"],["15:00","17:30"],],
+                        "Descricao" : "",
+                        "Min-Pessoas": 10,
+                        "Max-Pessoas": 60,
+                        "Min-age": 0,
+                        "Max-age": 100,
                     },
+                    
                     {
                         "Id": 3,
+                        "IdS": "try",
                         "Name": "Sala + Terraco - Domingo",
                         "Preco": 80,
+                        "Duracao": 150,
+                        "Available Hours": [["10:00","12:30"],["12:30","15:00"],["15:00","17:30"],],
+                        "Descricao" : "",
+                        "Min-Pessoas": 10,
+                        "Max-Pessoas": 60,
+                        "Min-age": 0,
+                        "Max-age": 100,
                     },
                     {
                         "Id": 4,
+                        "IdS": "trytry",
                         "Name": "Salao + Bar + Jardim",
                         "Preco": 95,
+                        "Duracao": 150,
+                        "Available Hours": [["10:00","12:30"],["12:30","15:00"],["15:00","17:30"],],
+                        "Descricao" : "",
+                        "Min-Pessoas": 10,
+                        "Max-Pessoas": 60,
+                        "Min-age": 0,
+                        "Max-age": 100,
                     }
                 ],
                 "Image": "./Imagens/Reservas/spacegarden.jpg"
@@ -835,33 +861,81 @@ var dict = {
                 "Events": [
                     {
                         "Id": 1,
+                        "IdS": "trytrytry",
                         "Name": "Futebol",
-                        "Preco": 9.5
+                        "Preco": 9.5,
+                        "Duracao": 150,
+                        "Available Hours": [["10:30","13:00"],["14:30","17:00"],["17:30","20:00"],],
+                        "Descricao" : "As festas realizam-se no piso superior em dois locais distintos separados pelo Playground. No piso inferior existe uma sala onde também pode realizar festas com a familia e amigos ou festas para adolescentes e adultos. Os packs não incluem bolo de aniversário. Água e copos disponiveis para todas as crianças.",
+                        "Min-Pessoas": 10,
+                        "Max-Pessoas": 60,
+                        "Min-age": 6,
+                        "Max-age": 14,
                     },
                     {
                         "Id": 2,
+                        "IdS": "trytrytrytry",
                         "Name": "Playground",
-                        "Preco": 10.5
+                        "Preco": 10.5,
+                        "Duracao": 150,
+                        "Available Hours": [["10:30","13:00"],["14:30","17:00"],["17:30","20:00"],],
+                        "Descricao" : "As festas realizam-se no piso superior em dois locais distintos separados pelo Playground. No piso inferior existe uma sala onde também pode realizar festas com a familia e amigos ou festas para adolescentes e adultos. Os packs não incluem bolo de aniversário. Água e copos disponiveis para todas as crianças.",
+                        "Min-Pessoas": 10,
+                        "Max-Pessoas": 60,
+                        "Min-age": 2,
+                        "Max-age": 12,
                     },
                     {
                         "Id": 3,
+                        "IdS": "ttreterty",
                         "Name": "MIX",
-                        "Preco": 11.5
+                        "Preco": 11.5,
+                        "Duracao": 150,
+                        "Available Hours": [["10:30","13:00"],["14:30","17:00"],["17:30","20:00"],],
+                        "Descricao" : "As festas realizam-se no piso superior em dois locais distintos separados pelo Playground. No piso inferior existe uma sala onde também pode realizar festas com a familia e amigos ou festas para adolescentes e adultos. Os packs não incluem bolo de aniversário. Água e copos disponiveis para todas as crianças.",
+                        "Min-Pessoas": 10,
+                        "Max-Pessoas": 60,
+                        "Min-age": 2,
+                        "Max-age": 14,
                     },
                     {
                         "Id": 4,
+                        "IdS": "aaaaaaaaay",
                         "Name": "Futebol+Escalada",
-                        "Preco": 12.5
+                        "Preco": 12.5,
+                        "Duracao": 150,
+                        "Available Hours": [["10:30","13:00"],["14:30","17:00"],["17:30","20:00"],],
+                        "Descricao" : "As festas realizam-se no piso superior em dois locais distintos separados pelo Playground. No piso inferior existe uma sala onde também pode realizar festas com a familia e amigos ou festas para adolescentes e adultos. Os packs não incluem bolo de aniversário. Água e copos disponiveis para todas as crianças.",
+                        "Min-Pessoas": 10,
+                        "Max-Pessoas": 60,
+                        "Min-age": 7,
+                        "Max-age": 14,
                     },
                     {
                         "Id": 5,
+                        "IdS": "bvdbfaaaaaaaaay",
                         "Name": "Playground+Escalada",
-                        "Preco": 13.5
+                        "Preco": 13.5,
+                        "Duracao": 150,
+                        "Available Hours": [["10:30","13:00"],["14:30","17:00"],["17:30","20:00"],],
+                        "Descricao" : "As festas realizam-se no piso superior em dois locais distintos separados pelo Playground. No piso inferior existe uma sala onde também pode realizar festas com a familia e amigos ou festas para adolescentes e adultos. Os packs não incluem bolo de aniversário. Água e copos disponiveis para todas as crianças.",
+                        "Min-Pessoas": 10,
+                        "Max-Pessoas": 60,
+                        "Min-age": 6,
+                        "Max-age": 14,
                     },
                     {
                         "Id": 6,
+                        "IdS": "bvdooooooooay",
                         "Name": "MIX + Escalada",
-                        "Preco": 14.5
+                        "Preco": 14.5,
+                        "Duracao": 150,
+                        "Available Hours": [["10:30","13:00"],["14:30","17:00"],["17:30","20:00"],],
+                        "Descricao" : "As festas realizam-se no piso superior em dois locais distintos separados pelo Playground. No piso inferior existe uma sala onde também pode realizar festas com a familia e amigos ou festas para adolescentes e adultos. Os packs não incluem bolo de aniversário. Água e copos disponiveis para todas as crianças.",
+                        "Min-Pessoas": 10,
+                        "Max-Pessoas": 60,
+                        "Min-age": 6,
+                        "Max-age": 14,
                     }
                 ],
                 "Image": "./Imagens/Reservas/fintas.jpg"
@@ -869,43 +943,47 @@ var dict = {
         },
         {
             "Id": 9, "Info": {
-                "Name": "Marina Parque das Na��es",
+                "Name": "Marina Parque das Nacoes",
                 "District": "Lisboa",
                 "Priceholder": 185,
                 "Events": [
                     {
                         "Id": 1,
+                        "IdS": "bvcnvbncvbncvbncvny",
                         "Name": "Frozen",
                         "Preco": 290
                     },
                     {
                         "Id": 2,
+                        "IdS": "bvcnpppppioy",
                         "Name": "Jogos Tradicionais",
                         "Preco": 260
                     },
                     {
                         "Id": 3,
+                        "IdS": "aaaaaaaaancvbncvny",
                         "Name": "Havaianas",
                         "Preco": 280
                     },
                     {
                         "Id": 4,
+                        "IdS": "bvcdasdasdasdasdasdy",
                         "Name": "Piscina de Bolas c/ Escorrega",
                         "Preco": 300
                     },
                     {
                         "Id": 5,
-                        "Name": "Patrulha Pata + Insufl�vel Pequeno",
+                        "Name": "Patrulha Pata + Insufluvel Pequeno",
                         "Preco": 340
                     },
                     {
                         "Id": 6,
-                        "Name": "Insufl�vel Grande com Anima��o",
+                        "Name": "Insufl�vel Grande com Animacao",
                         "Preco": 300
                     },
                     {
                         "Id": 7,
-                        "Name": "Touro Mec�nico com anima��o",
+                        "Name": "Touro Mec�nico com animacao",
                         "Preco": 430
                     },
                     {
@@ -945,128 +1023,278 @@ var dict = {
                 "Events": [
                     {
                         "Id": 1,
-                        "Name": "Vamos Dan�ar!",
-                        "Preco": 215
+                        "IdS": "ratogamer",
+                        "Name": "Vamos Dancar!",
+                        "Preco": 215,
+                        "Descricao" : "<p>Nesta Festa  Vamos Dançar podes Escolher o tema de dança que queres aprender, o teu personagem ou cantor preferido e nós criamos um momento especial para ti!</p> <p>No final da festa podes convidar todos os pais a assistir ao espetáculo de dança que tu e os teus amigos acabam de aprender.</p> <p>Festa indicada para crianças até aos 12 anos. </p>",
+                        "Min-Pessoas": 10,
+                        "Max-Pessoas": 24,
+                        "Min-age": 3,
+                        "Max-age": 12,
                     },
                     {
                         "Id": 2,
-                        "Name": "Vamos � Discoteca!",
-                        "Preco": 250
+                        "IdS": "ratogamaweffer",
+                        "Name": "Vamos a Discoteca!",
+                        "Preco": 250,
+                        "Descricao" : "<p>Nesta festa, Vamos à Discoteca as luzes e a música vão fazer todos dançar e pular!</p> <p>No final da festa convidamos todos os pais a assistir ao espetáculo que preparámos para eles. </p> <p>Festa indicada para crianças dos 6 aos 12 anos.</p>",
+                        "Min-Pessoas": 10,
+                        "Max-Pessoas": 24,
+                        "Min-age": 6,
+                        "Max-age": 12,
                     },
                     {
                         "Id": 3,
+                        "IdS": "radassdr",
                         "Name": "Party Glow!",
-                        "Preco": 280
+                        "Preco": 280,
+                        "Descricao" : "<p>Todos vão brilhar no escuro! Com a combinação de acessórios, tintas fluorescentes para pinturas radicais, as luzes de discoteca e música, esta é a festa mais divertida e brilhante de sempre. </p> <p>No final da festa convidamos todos os pais a assistir ao espetáculo que preparámos para eles.</p> <p>(Hip Hop, Jogos com música, Luzes de Discoteca, Luz negra, Acessórios Glow e Maquilhagem com tintas fluorescentes).  </p> <p>Indicada para crianças dos 6 aos 12 anos.</p>",
+                        "Min-Pessoas": 10,
+                        "Max-Pessoas": 24,
+                        "Min-age": 6,
+                        "Max-age": 12,
                     },
                     {
                         "Id": 4,
-                        "Name": "Dan�a Com Tatuagem Glitter!",
-                        "Preco": 305
+                        "IdS": "ratogameraaaaaa",
+                        "Name": "Danca Com Tatuagem Glitter!",
+                        "Preco": 305,
+                        "Descricao" : "<p>Nesta festa todos vão dançar e ter uma tatuagem cheia de brilhos! Não irá faltar a discoteca para poderes dançar com os teus amigos. No final da festa convidamos todos os pais a assistir ao espetáculo que preparámos para eles.</p> <p>Festa indicada para crianças dos 6 aos 12 anos.</p>",
+                        "Min-Pessoas": 10,
+                        "Max-Pessoas": 24,
+                        "Min-age": 6,
+                        "Max-age": 12,
                     },
                     {
                         "Id": 5,
+                        "IdS": "ratogamedsaaa",
                         "Name": "Disco Kids Silver!",
-                        "Preco": 250
+                        "Preco": 250,
+                        "Descricao" : "<p>Nesta festa as luzes e a música vão fazer todos dançar e pular!</p> <p>Festa indicada para crianças dos 6 aos 12 anos.</p>",
+                        "Min-Pessoas": 10,
+                        "Max-Pessoas": 24,
+                        "Min-age": 6,
+                        "Max-age": 12,
                     },
                     {
                         "Id": 6,
+                        "IdS": "rppppppppppppppr",
                         "Name": "Disco Kids Gold!",
-                        "Preco": 285
+                        "Preco": 285,
+                        "Descricao" : "<p>Nesta festa a discoteca é a rainha da festas e como tal os acessórios <em>glow</em> não podem faltar! No escuro todos vão brilhar! Com tintas fluorescentes e acessórios <em>glow,</em> a luz negra vai deixar todos de cabeça no ar! Esta é a festa <em>cool</em> que tanto procuras!</p> <p>Festa indicada para crianças dos 6 aos 12 anos.</p>",
+                        "Min-Pessoas": 10,
+                        "Max-Pessoas": 24,
+                        "Min-age": 6,
+                        "Max-age": 12,
                     },
                     {
                         "Id": 7,
+                        "IdS": "rppppaaaaar",
                         "Name": "Live Concert!",
-                        "Preco": 395
+                        "Preco": 395,
+                        "Descricao" :"<p>Se gostas de música e de dançar encontraste a tua tua festa de eleição!</p> <p>Uma banda estará presente na tua festa para tocar e cantar ao vivo. </p> <p>Um concerto inesquecível onde a diversão, a animação e a dança não serão esquecidas! </p> <p>Um professor de dança também estará presente para te ensinar a dançar!</p> <p>No final da festa poderás convidar todos os pais para assistir ao espetáculo que preparaste para eles!</p> <p>Festa indicada para todas as idades!</p>",
+                        "Min-Pessoas": 10,
+                        "Max-Pessoas": 24,
+                        "Min-age": 6,
+                        "Max-age": 12,
                     },
                     {
                         "Id": 8,
-                        "Name": "Vamos Dan�ar e Fazer Uma Pintura Facial!",
-                        "Preco": 305
+                        "IdS": "rpaaaaaaaaaaaaaaaaaaaaaapppr",
+                        "Name": "Vamos Dancar e Fazer Uma Pintura Facial!",
+                        "Preco": 305,
+                        "Descricao" :"<p>Nesta festa podes fazer uma pintura facial criativa. No final da festa convidamos todos os pais a assistir ao espetáculo que preparámos para eles. </p> <p>Festa indicada para crianças até aos 12 anos.</p>",
+                        "Min-Pessoas": 10,
+                        "Max-Pessoas": 24,
+                        "Min-age": 6,
+                        "Max-age": 12,
                     },
                     {
                         "Id": 9,
+                        "IdS": "rxxxxxxxpppr",
                         "Name": "Let's be a POPSTAR",
-                        "Preco": 305
+                        "Preco": 305,
+                        "Descricao" : "<p>Nesta festa podes fazer uma pintura facial criativa e um penteado divertido.</p> <p>No final da festa, convidamos todos os pais a assistir ao espetáculo que preparámos para eles.</p> <p>Festa indicada para crianças até aos 12 anos.</p>",
+                        "Min-Pessoas": 10,
+                        "Max-Pessoas": 24,
+                        "Min-age": 6,
+                        "Max-age": 12,
                     },
                     {
                         "Id": 10,
+                        "IdS": "rppplllllpppr",
                         "Name": "Festa da Jasmin",
-                        "Preco": 305
+                        "Preco": 305,
+                        "Descricao" : "",
+                        "Min-Pessoas": 10,
+                        "Max-Pessoas": 24,
+                        "Min-age": 3,
+                        "Max-age": 7,
                     },
                     {
                         "Id": 11,
-                        "Name": "A Dan�a do Panda!",
-                        "Preco": 305
+                        "IdS": "rpppooooooopppr",
+                        "Name": "A Danca do Panda!",
+                        "Preco": 305,
+                        "Descricao" : "<p>O Panda é convidado para a tua festa de aniversário! Um professor ensina as coreografias e de seguida recebem a visita do Panda para com ele dançarem as suas músicas mais divertidas como “Sou uma taça” e “Pinguim”. Todos se mascaram para realizarem o Espetáculo da Dança do Panda.</p> <p>Festa indicada para crianças dos 3 aos 7 anos. </p>",
+                        "Min-Pessoas": 10,
+                        "Max-Pessoas": 24,
+                        "Min-age": 3,
+                        "Max-age": 7,
                     },
                     {
                         "Id": 12,
+                        "IdS": "rppppmmmmmmmmmmmpr",
                         "Name": "Festa da Minnie!",
-                        "Preco": 305
+                        "Preco": 305,
+                        "Descricao" : "<p>A Minnie estará presente na tua festa de anos para dançar contigo e com os teus amigos! Um professor ensina várias danças divertidas para dançares com os teus amigos e a Minnie. No final da festa apresentam o que aprenderam aos pais usando roupas divertidas. <p>Festa indicada para crianças dos 3 aos 7 anos.</p>",
+                        "Min-Pessoas": 10,
+                        "Max-Pessoas": 24,
+                        "Min-age": 3,
+                        "Max-age": 7,
                     },
                     {
                         "Id": 13,
-                        "Name": "Seguran�a � com o Marshall! (Patrulha Pata)",
-                        "Preco": 305
+                        "IdS": "rppxxxxxxxxppppr",
+                        "Name": "Seguranca e com o Marshall! (Patrulha Pata)",
+                        "Preco": 305,
+                        "Descricao" : "<p>O Marshall irá ensinar-te vários truques para viveres na cidade em Segurança!</p> <p>Um professor ensina várias regras de segurança na cidade com a ajuda do Marshall e de forma bem divertida. Tu e os teus amigos poderão mascarar-se de várias personagens da tua cidade favorita!</p> <p>Festa indicada para crianças dos 3 aos 7 anos.</p>",
+                        "Min-Pessoas": 10,
+                        "Max-Pessoas": 24,
+                        "Min-age": 3,
+                        "Max-age": 7,
                     },
                     {
                         "Id": 14,
+                        "IdS": "rpzxcxzczxcxzppr",
                         "Name": "Os Descendentes",
-                        "Preco": 305
+                        "Preco": 305,
+                        "Descricao" : "<p>Se és fã dos Descendentes esta é a tua festa!</p> <p>A Mal e o Ben estarão presentes em toda a festa e irão dançar contigo e os teus amigos. Criámos um Medley com as melhores músicas dos Descendentes para que possas surpreender todos os teus convidados.</p> <p>Festa indicada para crianças até aos 12 anos.</p>",
+                        "Min-Pessoas": 10,
+                        "Max-Pessoas": 24,
+                        "Min-age": 3,
+                        "Max-age": 7,
                     },
                     {
                         "Id": 15,
+                        "IdS": "rppuytfhgnvbppppppr",
                         "Name": "A Festa do Frozen!",
-                        "Preco": 305
+                        "Preco": 305,
+                        "Descricao" : "<p>A Elsa prepara uma festa surpresa para a Anna com a ajuda dos seus amigos. O plano é despistar a irmã com uma “caça ao tesouro”. Elsa, Anna e os seus amigos procuram o bolo para a festa, mas acabam por encontrar um presente especial para uma amiguinha que faz anos. Felizes comemoram o seu aniversário dançando e cantando.</p> <p>Nesta festa a Elsa e a Anna estarão presentes para animar a tua festa! Irão fazer uma caça ao tesouro, dançar as músicas do Frozen e uma pintura facial.</p> <p>No final da festa convidamos todos os pais a assistir à Dança do Frozen</p> <p>Festa indicada para crianças até aos 12 anos.</p>",
+                        "Min-Pessoas": 10,
+                        "Max-Pessoas": 24,
+                        "Min-age": 0,
+                        "Max-age": 12,
                     },
                     {
                         "Id": 16,
+                        "IdS": "rppffsdrhdnbpppppppr",
                         "Name": "A Festa da Bela!",
-                        "Preco": 305
+                        "Preco": 305,
+                        "Descricao" : "<p>Se gostas do filme “A Bela e o Monstro!” esta é a festa ideal para ti!<br></p> <p>A Bela convida-te a fazeres parte da sua festa da Rosa onde tu e os teus amigos irão aprender a dançar de forma divertida as várias músicas do filme e alguns Hits do momento!</p> <p>Junta-te à Bela e ao Príncipe nesta festa da Rosa!</p> <p>Festa indicada para crianças até aos 12 anos.</p>",
+                        "Min-Pessoas": 10,
+                        "Max-Pessoas": 24,
+                        "Min-age": 0,
+                        "Max-age": 12,
                     },
                     {
                         "Id": 17,
+                        "IdS": "rpxcgftnutppppr",
                         "Name": "O Baile da Cinderela!",
-                        "Preco": 305
+                        "Preco": 305,
+                        "Descricao" : "<p>A Cinderela faz anos e decide organizar um Baile para os seus amigos. A sua melhor amiga és tu e também irão celebrar o teu aniversário! Tu e as tuas melhores amigas serão as fadas madrinhas da Cinderela e irão ajudá-la a preparar uma dança bem bonita e divertida. O príncipe também estará presente e em conjunto irão realizar um Baile inesquecível onde até irão dançar a valsa com os pais!</p> <p>Festa indicada para crianças até aos 12 anos.</p>",
+                        "Min-Pessoas": 10,
+                        "Max-Pessoas": 24,
+                        "Min-age": 0,
+                        "Max-age": 12,
                     },
                     {
                         "Id": 18,
+                        "IdS": "rouiouiopppr",
                         "Name": "Vamos ajudar a Rapunzel?",
-                        "Preco": 305
+                        "Preco": 305,
+                        "Descricao" : "<p>Ao passear pela cidade Rapunzel fica cheia de vontade de comer algodão doce, mas não o sabe fazer. Tu e os teus amigos vão ajudá-la a encontrar um carrinho especial que faz um algodão doce bem saboroso.</p> <p>Para comemorar este lanche delicioso todos irão dançar!</p> <p>Festa indicada para crianças até aos 12 anos.</p>",
+                        "Min-Pessoas": 10,
+                        "Max-Pessoas": 24,
+                        "Min-age": 0,
+                        "Max-age": 12,
                     },
                     {
                         "Id": 19,
-                        "Name": "Espet�culo de magia!",
-                        "Preco": 390
+                        "IdS": "aaaaaaasdddpr",
+                        "Name": "Espetaculo de magia!",
+                        "Preco": 390,
+                        "Descricao" : "<p>Com ilusões divertidas e acompanhamento musical, vais adorar participar nalguns truques!</p> <p>Também vais poder brincar, jogar, fazer uma pintura facial criativa e levar um balão divertido para casa.</p> <p>Festa indicada para crianças dos 3 aos 9 anos.</p>",
+                        "Min-Pessoas": 10,
+                        "Max-Pessoas": 24,
+                        "Min-age": 3,
+                        "Max-age": 9,
                     },
                     {
                         "Id": 20,
-                        "Name": "A Dan�a da Fantasia",
-                        "Preco": 250
+                        "IdS": "rytytytypppr",
+                        "Name": "A Danca da Fantasia",
+                        "Preco": 250,
+                        "Descricao" : "<p>Todos os teus amigos poderão escolher uma roupa para se mascararem e dançarem com alegria!</p> <p>Festa indicada para crianças até aos 12 anos.</p>",
+                        "Min-Pessoas": 10,
+                        "Max-Pessoas": 24,
+                        "Min-age": 0,
+                        "Max-age": 12,
                     },
                     {
                         "Id": 21,
+                        "IdS": "rpxytytytyytytypppr",
                         "Name": "Disco Party",
-                        "Preco": 250
+                        "Preco": 250,
+                        "Descricao" : "<p>Nesta festa, tu e os teus amigos poderão aprender uma coreografia de Hip Hop, num ambiente com música e luzes de discoteca preparado especialmente para ti! Esta festa tem a duração de 2h30.</p> <p>Festa indicada para jovens até aos 16 anos.</p>",
+                        "Min-Pessoas": 10,
+                        "Max-Pessoas": 24,
+                        "Min-age": 12,
+                        "Max-age": 16,
                     },
                     {
                         "Id": 22,
+                        "IdS": "yyyrpxcgftnutppppr",
                         "Name": "Disco Glow Party",
-                        "Preco": 285
+                        "Preco": 285,
+                        "Descricao" : "<p>Nesta festa os acessórios <em>glow</em> não podem faltar! No escuro todos vão brilhar! Com tintas fluorescentes e acessórios <em>glow,</em> a luz negra vai deixar todos de cabeça no ar! Esta é a festa <em>cool</em> que tanto procuras!</p> <p>Festa indicada até aos 16 anos.</p>",
+                        "Min-Pessoas": 10,
+                        "Max-Pessoas": 24,
+                        "Min-age": 12,
+                        "Max-age": 16,
                     },
                     {
                         "Id": 23,
+                        "IdS": "rpoipoipiopppppr",
                         "Name": "DJ Spot",
-                        "Preco": 340
+                        "Preco": 340,
+                        "Descricao" : "<p>Nesta festa, iremos criar um ambiente especial com luzes de discoteca em que&nbsp; tu e os teus amigos irão dançar ao som da música de um DJ profissional, o DJ SPOT!</p> <p>Festa indicada para jovens até aos 16 anos.</p>",
+                        "Min-Pessoas": 10,
+                        "Max-Pessoas": 24,
+                        "Min-age": 12,
+                        "Max-age": 16,
                     },
                     {
                         "Id": 24,
+                        "IdS": "rpxcgftnlddvcnutppppr",
                         "Name": "Glow Party + DJ Spot",
-                        "Preco": 340
+                        "Preco": 340,
+                        "Descricao" : "<p>O DJ SPOT estará presente para animar a tua festa onde a luz negra não irá faltar!</p> <p>Festa indicada para jovens até aos 16 anos.</p>",
+                        "Min-Pessoas": 10,
+                        "Max-Pessoas": 24,
+                        "Min-age": 12,
+                        "Max-age": 16,
                     },
                     {
-                        "Id": 24,
+                        "Id": 25,
+                        "IdS": "rprwerwepopoppr",
                         "Name": "Live Concert!",
-                        "Preco": 340
+                        "Preco": 340,
+                        "Descricao" : "<p>Se gostas de música e de dançar encontraste a tua festa de eleição!</p> <p>Uma banda estará presente na tua festa para tocar e cantar ao vivo. Um concerto inesquecível onde a diversão, a animação e a dança não serão esquecidas!</p> <p>Claro que luzes de discoteca, luz negra e pinturas e acessórios Glow não poderão faltar!</p> <p>Festa indicada para jovens até aos 16 anos.</p>",
+                        "Min-Pessoas": 10,
+                        "Max-Pessoas": 24,
+                        "Min-age": 12,
+                        "Max-age": 16,
                     },
                 ],
                 "Image": "./Imagens/Reservas/Party-Spot.webp"
@@ -1080,18 +1308,43 @@ var dict = {
                 "Events": [
                     {
                         "Id": 1,
+                        "IdS": "paocomnutella",
                         "Name": "KID1",
-                        "Preco": 200
+                        "Preco": 200,
+                        "Duracao" : 210,
+                        "Available Hours": [["09:30","13:00"]],
+                        "Descricao" : "O aluguer de espaço tem duração de 3.30h (incluí 30 minutos antes e depois da festa, para montar e arrumar toda a decoração e lanche).Disponibilizamos o espaço em exclusivo para a sua festa. O espaço fica à sua inteira responsabilidade, assim como todos os brinquedos que se encontram no seu interior.",
+                        "Min-Pessoas": 10,
+                        "Max-Pessoas": 40,
+                        "Min-age": 2,
+                        "Max-age": 7,
+
                     },
                     {
                         "Id": 2,
+                        "IdS": "paocomnudasdasdlla",
                         "Name": "KID2",
-                        "Preco": 225
+                        "Preco": 225,
+                        "Duracao" : 210,
+                        "Available Hours": [["15:30","19:00"]],
+                        "Descricao" : "O aluguer de espaço tem duração de 3.30h (incluí 30 minutos antes e depois da festa, para montar e arrumar toda a decoração e lanche).Disponibilizamos o espaço em exclusivo para a sua festa. O espaço fica à sua inteira responsabilidade, assim como todos os brinquedos que se encontram no seu interior.",
+                        "Min-Pessoas": 10,
+                        "Max-Pessoas": 40,
+                        "Min-age": 2,
+                        "Max-age": 7,
                     },
                     {
                         "Id": 3,
+                        "IdS": "paouyruvcbclla",
                         "Name": "KID3",
-                        "Preco": 280
+                        "Preco": 280,
+                        "Duracao" : 210,
+                        "Available Hours": [["20:00","23:30"]],
+                        "Descricao" : "O aluguer de espaço tem duração de 3.30h (incluí 30 minutos antes e depois da festa, para montar e arrumar toda a decoração e lanche).Disponibilizamos o espaço em exclusivo para a sua festa. O espaço fica à sua inteira responsabilidade, assim como todos os brinquedos que se encontram no seu interior.",
+                        "Min-Pessoas": 10,
+                        "Max-Pessoas": 40,
+                        "Min-age": 2,
+                        "Max-age": 7,
                     }
                 ],
                 "Image": "./Imagens/Reservas/tobekid.webp"
@@ -1105,83 +1358,131 @@ var dict = {
                 "Events": [
                     {
                         "Id": 1,
+                        "IdS": "spoonkid",
                         "Name": "Jantares - Sala Infinita",
-                        "Preco": 800
+                        "Preco": 800,
+                        "Min-Pessoas": 1,
+                        "Max-Pessoas": 40,
                     },
                     {
                         "Id": 2,
+                        "IdS": "spoonkiddawdaw",
                         "Name": "Cocktails - P�teo",
-                        "Preco": 600
+                        "Preco": 600,
+                        "Min-Pessoas": 1,
+                        "Max-Pessoas": 40,
                     },
                     {
                         "Id": 3,
+                        "IdS": "spaaaaaaaaa",
                         "Name": "Cocktails - Sala da Bica",
-                        "Preco": 500
+                        "Preco": 500,
+                        "Min-Pessoas": 1,
+                        "Max-Pessoas": 40,
                     },
                     {
                         "Id": 4,
-                        "Name": "Cocktails - Terra�o (Rooftop)",
-                        "Preco": 400
+                        "IdS": "spoonkidewadxcx",
+                        "Name": "Cocktails - Terraco (Rooftop)",
+                        "Preco": 400,
+                        "Min-Pessoas": 1,
+                        "Max-Pessoas": 40,
                     },
                     {
                         "Id": 5,
+                        "IdS": "spopiopioponkid",
                         "Name": "Cocktails - Sala Infinita",
-                        "Preco": 600
+                        "Preco": 600,
+                        "Min-Pessoas": 1,
+                        "Max-Pessoas": 40,
                     },
                     {
                         "Id": 6,
+                        "IdS": "spzzzzzzzzd",
                         "Name": "Eventos Culturais - Sala da Bica",
-                        "Preco": 500
+                        "Preco": 500,
+                        "Min-Pessoas": 1,
+                        "Max-Pessoas": 40,
                     },
                     {
                         "Id": 7,
+                        "IdS": "spzxcid",
                         "Name": "Eventos Culturais - Sala Infinita",
-                        "Preco": 600
+                        "Preco": 600,
+                        "Min-Pessoas": 1,
+                        "Max-Pessoas": 40,
                     },
                     {
                         "Id": 8,
-                        "Name": "Eventos Acad�micos - Sala da Bica",
-                        "Preco": 400
+                        "IdS": "spbvcxbvid",
+                        "Name": "Eventos Academicos - Sala da Bica",
+                        "Preco": 400,
+                        "Min-Pessoas": 1,
+                        "Max-Pessoas": 40,
                     },
                     {
                         "Id": 9,
-                        "Name": "Eventos Acad�micos - Sala Reuni�es",
-                        "Preco": 120
+                        "IdS": "saaaaaapbvcxbvid",
+                        "Name": "Eventos Acadcmicos - Sala Reunioes",
+                        "Preco": 120,
+                        "Min-Pessoas": 1,
+                        "Max-Pessoas": 40,
                     },
                     {
                         "Id": 10,
-                        "Name": "Eventos Acad�micos - Sala Infinita",
-                        "Preco": 500
+                        "IdS": "spdsadasdasdid",
+                        "Name": "Eventos Acadcmicos - Sala Infinita",
+                        "Preco": 500,
+                        "Min-Pessoas": 1,
+                        "Max-Pessoas": 40,
                     },
                     {
                         "Id": 11,
+                        "IdS": "spooooooooooo",
                         "Name": "Eventos Sociais - Sala da Bica",
-                        "Preco": 500
+                        "Preco": 500,
+                        "Min-Pessoas": 1,
+                        "Max-Pessoas": 40,
                     },
                     {
                         "Id": 12,
-                        "Name": "Eventos Sociais - Terra�o (Rooftop)",
-                        "Preco": 400
+                        "IdS": "macarrao",
+                        "Name": "Eventos Sociais - Terraco (Rooftop)",
+                        "Preco": 400,
+                        "Min-Pessoas": 1,
+                        "Max-Pessoas": 40,
                     },
                     {
                         "Id": 13,
+                        "IdS": "macadawdawdrrao",
                         "Name": "Eventos Sociais - Sala Infinita",
-                        "Preco": 600
+                        "Preco": 600,
+                        "Min-Pessoas": 1,
+                        "Max-Pessoas": 40,
                     },
                     {
                         "Id": 14,
-                        "Name": "Utiliza��o de espa�o para filmagens - P�teo",
-                        "Preco": 800
+                        "IdS": "mactygfbarrao",
+                        "Name": "Utilizacao de espaco para filmagens - Pateo",
+                        "Preco": 800,
+                        "Min-Pessoas": 1,
+                        "Max-Pessoas": 40,
                     },
                     {
                         "Id": 15,
-                        "Name": "Utiliza��o de espa�o para filmagens - Sala da Bica",
-                        "Preco": 600
+                        "IdS": "macarhdrthdrthrao",
+                        "Name": "Utilizacao de espaco para filmagens - Sala da Bica",
+                        "Preco": 600,
+                        "Min-Pessoas": 1,
+                        "Max-Pessoas": 40,
                     },
                     {
                         "Id": 16,
-                        "Name": "Utiliza��o de espa�o para filmagens - Sala Infinita",
-                        "Preco": 700
+                        "IdS": "macarvbnvnrao",
+                        "Name": "Utilizacao de espaco para filmagens - Sala Infinita",
+                        "Preco": 700,
+                        "Min-Pessoas": 1,
+                        "Max-Pessoas": 40,
                     },
                 ],
                 "Image": "./Imagens/Reservas/impacto.jpg"
