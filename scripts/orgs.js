@@ -16,7 +16,8 @@ var dict = {
                         "Min-Pessoas": 1,
                         "Max-Pessoas": 36,
                         "Min-age": 4,
-                        "Max-age": 100
+                        "Max-age": 100,
+                        "Image": "./Imagens/Reservas/bowling.jpg",
                     },
                     {
                         "Id": 2,
