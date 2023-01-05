@@ -1,11 +1,11 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Imagens\\Atividades",
-    "\\Imagens\\Reservas",
+    "\\CSS",
+    "\\scripts",
     "\\scripts\\lib",
     "\\scripts\\lib\\lib"
   ],
-  "SelectedNode": "\\reservasdetails.html",
+  "SelectedNode": "\\scripts\\organizations.json",
   "PreviewInSolutionExplorer": false
 }

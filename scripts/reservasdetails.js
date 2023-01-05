@@ -66,7 +66,7 @@ $(document).ready(function () {
     self.Name(events.Name);
     self.Price(events.Preco);
     self.Description(events.Descricao);
-    console.log(events[0].Descricao);
+    console.log(events.Descricao);
     console.log(info.Name);
     self.OrgName(info.Name);
     self.Image(info.Image);
