@@ -1,4 +1,4 @@
-﻿new Swiper('.swiper-container', {
+new Swiper('.swiper-container', {
     // Optional parameters
     loop: true,
     centeredSlides: true,
