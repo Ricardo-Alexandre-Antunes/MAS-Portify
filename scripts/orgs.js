@@ -1357,83 +1357,131 @@ var dict = {
                 "Events": [
                     {
                         "Id": 1,
+                        "IdS": "spoonkid",
                         "Name": "Jantares - Sala Infinita",
-                        "Preco": 800
+                        "Preco": 800,
+                        "Min-Pessoas": 1,
+                        "Max-Pessoas": 40,
                     },
                     {
                         "Id": 2,
+                        "IdS": "spoonkiddawdaw",
                         "Name": "Cocktails - P�teo",
-                        "Preco": 600
+                        "Preco": 600,
+                        "Min-Pessoas": 1,
+                        "Max-Pessoas": 40,
                     },
                     {
                         "Id": 3,
+                        "IdS": "spaaaaaaaaa",
                         "Name": "Cocktails - Sala da Bica",
-                        "Preco": 500
+                        "Preco": 500,
+                        "Min-Pessoas": 1,
+                        "Max-Pessoas": 40,
                     },
                     {
                         "Id": 4,
-                        "Name": "Cocktails - Terra�o (Rooftop)",
-                        "Preco": 400
+                        "IdS": "spoonkidewadxcx",
+                        "Name": "Cocktails - Terraco (Rooftop)",
+                        "Preco": 400,
+                        "Min-Pessoas": 1,
+                        "Max-Pessoas": 40,
                     },
                     {
                         "Id": 5,
+                        "IdS": "spopiopioponkid",
                         "Name": "Cocktails - Sala Infinita",
-                        "Preco": 600
+                        "Preco": 600,
+                        "Min-Pessoas": 1,
+                        "Max-Pessoas": 40,
                     },
                     {
                         "Id": 6,
+                        "IdS": "spzzzzzzzzd",
                         "Name": "Eventos Culturais - Sala da Bica",
-                        "Preco": 500
+                        "Preco": 500,
+                        "Min-Pessoas": 1,
+                        "Max-Pessoas": 40,
                     },
                     {
                         "Id": 7,
+                        "IdS": "spzxcid",
                         "Name": "Eventos Culturais - Sala Infinita",
-                        "Preco": 600
+                        "Preco": 600,
+                        "Min-Pessoas": 1,
+                        "Max-Pessoas": 40,
                     },
                     {
                         "Id": 8,
-                        "Name": "Eventos Acad�micos - Sala da Bica",
-                        "Preco": 400
+                        "IdS": "spbvcxbvid",
+                        "Name": "Eventos Academicos - Sala da Bica",
+                        "Preco": 400,
+                        "Min-Pessoas": 1,
+                        "Max-Pessoas": 40,
                     },
                     {
                         "Id": 9,
-                        "Name": "Eventos Acad�micos - Sala Reuni�es",
-                        "Preco": 120
+                        "IdS": "saaaaaapbvcxbvid",
+                        "Name": "Eventos Acadcmicos - Sala Reunioes",
+                        "Preco": 120,
+                        "Min-Pessoas": 1,
+                        "Max-Pessoas": 40,
                     },
                     {
                         "Id": 10,
-                        "Name": "Eventos Acad�micos - Sala Infinita",
-                        "Preco": 500
+                        "IdS": "spdsadasdasdid",
+                        "Name": "Eventos Acadcmicos - Sala Infinita",
+                        "Preco": 500,
+                        "Min-Pessoas": 1,
+                        "Max-Pessoas": 40,
                     },
                     {
                         "Id": 11,
+                        "IdS": "spooooooooooo",
                         "Name": "Eventos Sociais - Sala da Bica",
-                        "Preco": 500
+                        "Preco": 500,
+                        "Min-Pessoas": 1,
+                        "Max-Pessoas": 40,
                     },
                     {
                         "Id": 12,
-                        "Name": "Eventos Sociais - Terra�o (Rooftop)",
-                        "Preco": 400
+                        "IdS": "macarrao",
+                        "Name": "Eventos Sociais - Terraco (Rooftop)",
+                        "Preco": 400,
+                        "Min-Pessoas": 1,
+                        "Max-Pessoas": 40,
                     },
                     {
                         "Id": 13,
+                        "IdS": "macadawdawdrrao",
                         "Name": "Eventos Sociais - Sala Infinita",
-                        "Preco": 600
+                        "Preco": 600,
+                        "Min-Pessoas": 1,
+                        "Max-Pessoas": 40,
                     },
                     {
                         "Id": 14,
-                        "Name": "Utiliza��o de espa�o para filmagens - P�teo",
-                        "Preco": 800
+                        "IdS": "mactygfbarrao",
+                        "Name": "Utilizacao de espaco para filmagens - Pateo",
+                        "Preco": 800,
+                        "Min-Pessoas": 1,
+                        "Max-Pessoas": 40,
                     },
                     {
                         "Id": 15,
-                        "Name": "Utiliza��o de espa�o para filmagens - Sala da Bica",
-                        "Preco": 600
+                        "IdS": "macarhdrthdrthrao",
+                        "Name": "Utilizacao de espaco para filmagens - Sala da Bica",
+                        "Preco": 600,
+                        "Min-Pessoas": 1,
+                        "Max-Pessoas": 40,
                     },
                     {
                         "Id": 16,
-                        "Name": "Utiliza��o de espa�o para filmagens - Sala Infinita",
-                        "Preco": 700
+                        "IdS": "macarvbnvnrao",
+                        "Name": "Utilizacao de espaco para filmagens - Sala Infinita",
+                        "Preco": 700,
+                        "Min-Pessoas": 1,
+                        "Max-Pessoas": 40,
                     },
                 ],
                 "Image": "./Imagens/Reservas/impacto.jpg"
