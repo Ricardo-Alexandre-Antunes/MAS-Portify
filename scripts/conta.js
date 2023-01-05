@@ -18,7 +18,7 @@ $('#formsfaqs').submit(function (event) {
     else {
         $("#nomeError").addClass('d-none');
     }
-    if (pw.val().trim().length < 8) or (!pw.value.match(numbers)) or {
+    if (pw.val().trim().length < 8) or (!pw.value.match(numbers)) or (!pw) {
         $("#pessoa2Error").removeClass('d-none');
         retval = false;
     }
