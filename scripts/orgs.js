@@ -8,6 +8,7 @@ var dict = {
                 "Events": [
                     {
                         "Id": 1,
+                        "IdS": "adwa",
                         "Name": "Bowling Adultos - Seg-Qui",
                         "Preco": 4.5,
                         "Duracao": 0,
@@ -19,6 +20,7 @@ var dict = {
                     },
                     {
                         "Id": 2,
+                        "IdS": "adwafgswe",
                         "Name": "Bowling Adultos - Sex - Antes das 21h00",
                         "Preco": 4.5,
                         "Duracao": 0,
@@ -30,6 +32,7 @@ var dict = {
                     },
                     {
                         "Id": 3,
+                        "IdS": "adwakjl",
                         "Name": "Bowling Adultos - Sex - Depois das 21h00",
                         "Preco": 6.5,
                         "Duracao": 0,
@@ -41,6 +44,7 @@ var dict = {
                     },
                     {
                         "Id": 4,
+                        "IdS": "adwapjkl",
                         "Name": "Bowling Adultos - Sab",
                         "Preco": 6.5,
                         "Duracao": 0,
@@ -52,6 +56,7 @@ var dict = {
                     },
                     {
                         "Id": 5,
+                        "IdS": "adwalll",
                         "Name": "Bowling Adultos - Dom - Antes das 21h00",
                         "Preco": 6.5,
                         "Duracao": 0,
@@ -63,6 +68,7 @@ var dict = {
                     },
                     {
                         "Id": 6,
+                        "IdS": "adwamnb",
                         "Name": "Bowling Adultos - Dom - Depois das 21h00",
                         "Preco": 5.5,
                         "Duracao": 0,
@@ -74,6 +80,7 @@ var dict = {
                     },
                     {
                         "Id": 7,
+                        "IdS": "adwaccc",
                         "Name": "Paintball - 200 bolas - 8 jogadores - 2h",
                         "Preco": 27,
                         "Duracao": 120,
@@ -85,6 +92,7 @@ var dict = {
                     },
                     {
                         "Id": 8,
+                        "IdS": "adwasdf",
                         "Name": "Paintball - 300 bolas - 8 jogadores - 2h30",
                         "Preco": 30,
                         "Duracao": 150,
@@ -96,6 +104,7 @@ var dict = {
                     },
                     {
                         "Id": 9,
+                        "IdS": "adwapoi",
                         "Name": "Paintball - 300 bolas - 8 jogadores - 3h",
                         "Preco": 34,
                         "Duracao": 180,
@@ -107,6 +116,7 @@ var dict = {
                     },
                     {
                         "Id": 10,
+                        "IdS": "aduuu",
                         "Name": "Paintball - 200 bolas - 9 jogadores - 2h",
                         "Preco": 26,
                         "Duracao": 120,
@@ -118,6 +128,7 @@ var dict = {
                     },
                     {
                         "Id": 11,
+                        "IdS": "ahugo",
                         "Name": "Paintball - 300 bolas - 9 jogadores - 2h30",
                         "Preco": 29,
                         "Duracao": 150,
@@ -129,6 +140,7 @@ var dict = {
                     },
                     {
                         "Id": 12,
+                        "IdS": "adwaasdasddd",
                         "Name": "Paintball - 400 bolas - 9 jogadores - 3h",
                         "Preco": 33,
                         "Duracao": 180,
@@ -140,6 +152,7 @@ var dict = {
                     },
                     {
                         "Id": 13,
+                        "IdS": "hugo",
                         "Name": "Paintball - 200 bolas - 10+ jogadores - 2h",
                         "Preco": 25,
                         "Duracao": 120,
@@ -151,6 +164,7 @@ var dict = {
                     },
                     {
                         "Id": 14,
+                        "IdS": "aqwqaq",
                         "Name": "Paintball - 300 bolas - 10+ jogadores - 2h30",
                         "Preco": 28,
                         "Duracao": 150,
@@ -162,6 +176,7 @@ var dict = {
                     },
                     {
                         "Id": 15,
+                        "IdS": "aaaaaaaa",
                         "Name": "Paintball - 400 bolas - 10+ jogadores - 3h",
                         "Preco": 32,
                         "Duracao": 180,
@@ -173,6 +188,7 @@ var dict = {
                     },
                     {
                         "Id": 16,
+                        "IdS": "bbbbbbbbbb",
                         "Name": "Arco e Flecha",
                         "Preco": 22,
                         "Duracao": 60,
@@ -184,6 +200,7 @@ var dict = {
                     },
                     {
                         "Id": 17,
+                        "IdS": "cccccccccc",
                         "Name": "Laser tag - 8 jogadores - 1h30",
                         "Preco": 24,
                         "Duracao": 90,
@@ -195,6 +212,7 @@ var dict = {
                     },
                     {
                         "Id": 18,
+                        "IdS": "dddddd",
                         "Name": "Laser tag - 9 jogadores - 1h30",
                         "Preco": 23,
                         "Duracao": 90,
@@ -206,6 +224,7 @@ var dict = {
                     },
                     {
                         "Id": 19,
+                        "IdS": "eeeee",
                         "Name": "Laser tag - 10+ jogadores - 2h",
                         "Preco": 22,
                         "Duracao": 120,
@@ -217,6 +236,7 @@ var dict = {
                     },
                     {
                         "Id": 20,
+                        "IdS": "fffffff",
                         "Name": "Crazy Cart - individual",
                         "Preco": 16,
                         "Duracao": 10,
@@ -228,6 +248,7 @@ var dict = {
                     },
                     {
                         "Id": 21,
+                        "IdS": "eeeee",
                         "Name": "Crazy Cart - Grupo",
                         "Preco": 200,
                         "Duracao": 60,
@@ -239,6 +260,7 @@ var dict = {
                     },
                     {
                         "Id": 22,
+                        "IdS": "ricardo",
                         "Name": "BUBBLE FOOTBALL - 10-14",
                         "Preco": 17,
                         "Duracao": 60,
@@ -250,6 +272,7 @@ var dict = {
                     },
                     {
                         "Id": 23,
+                        "IdS": "ricardodasdas",
                         "Name": "BUBBLE FOOTBALL - 15-20",
                         "Preco": 17,
                         "Duracao": 90,
@@ -261,6 +284,7 @@ var dict = {
                     },
                     {
                         "Id": 24,
+                        "IdS": "ricardombhj",
                         "Name": "BUBBLE FOOTBALL - 21+",
                         "Preco": 17,
                         "Duracao": 120,
@@ -272,6 +296,7 @@ var dict = {
                     },
                     {
                         "Id": 25,
+                        "IdS": "ricafsdfsdrdo",
                         "Name": "BAZOOKA BALL",
                         "Preco": 21,
                         "Duracao": 60,
@@ -283,6 +308,7 @@ var dict = {
                     },
                     {
                         "Id": 26,
+                        "IdS": "rfdasdicardo",
                         "Name": "Lasermaze por jogo",
                         "Preco": 2,
                         "Duracao": 2,
@@ -294,6 +320,7 @@ var dict = {
                     },
                     {
                         "Id": 27,
+                        "IdS": "rfdsfsdficafrdo",
                         "Name": "Lasermaze por hora",
                         "Preco": 130,
                         "Duracao": 60,
@@ -305,6 +332,7 @@ var dict = {
                     },
                     {
                         "Id": 28,
+                        "IdS": "bananasdawd",
                         "Name": "FUTEBOL DE 5 - Campo inteiro",
                         "Preco": 27,
                         "Duracao": 60,
@@ -316,6 +344,7 @@ var dict = {
                     },
                     {
                         "Id": 29,
+                        "IdS": "bananasdasdadawd",
                         "Name": "3D GAMES",
                         "Preco": 130,
                         "Duracao": 3,
@@ -327,6 +356,7 @@ var dict = {
                     },
                     {
                         "Id": 31,
+                        "IdS": "bdsadawd",
                         "Name": "TENNIS - singles - 1h",
                         "Preco": 10,
                         "Duracao": 60,
@@ -338,6 +368,7 @@ var dict = {
                     },
                     {
                         "Id": 32,
+                        "IdS": "bdsaanasdawd",
                         "Name": "TENNIS - singles - 1h30",
                         "Preco": 13.5,
                         "Duracao": 90,
@@ -349,6 +380,7 @@ var dict = {
                     },
                     {
                         "Id": 33,
+                        "IdS": "aaaaaawd",
                         "Name": "TENNIS - singles - 2h",
                         "Preco": 1,
                         "Duracao": 60,
@@ -360,6 +392,7 @@ var dict = {
                     },
                     {
                         "Id": 34,
+                        "IdS": "bmbndawd",
                         "Name": "TENNIS - doubles - 1h",
                         "Preco": 12,
                         "Duracao": 60,
@@ -371,6 +404,7 @@ var dict = {
                     },
                     {
                         "Id": 35,
+                        "IdS": "booooo",
                         "Name": "TENNIS - doubles - 1h30",
                         "Preco": 16.5,
                         "Duracao": 60,
@@ -382,6 +416,7 @@ var dict = {
                     },
                     {
                         "Id": 36,
+                        "IdS": "bodas",
                         "Name": "TENNIS - doubles - 2h",
                         "Preco": 20,
                         "Duracao": 60,
@@ -393,6 +428,7 @@ var dict = {
                     },
                     {
                         "Id": 37,
+                        "IdS": "booooadsado",
                         "Name": "SALA DE JOGOS - bilhar",
                         "Preco": 9,
                         "Duracao": 60,
@@ -404,6 +440,7 @@ var dict = {
                     },
                     {
                         "Id": 38,
+                        "IdS": "boodasdasdooo",
                         "Name": "SALA DE JOGOS - ping-pong",
                         "Preco": 9,
                         "Duracao": 60,
@@ -415,6 +452,7 @@ var dict = {
                     },
                     {
                         "Id": 39,
+                        "IdS": "bodasdasdasdadadsoooo",
                         "Name": "SALA DE JOGOS - jogos arcade",
                         "Preco": 1,
                         "Duracao": 5,
@@ -436,6 +474,7 @@ var dict = {
                 "Events": [
                     {
                         "Id": 1,
+                        "IdS": "bdasdasdasdaso",
                         "Name": "Festa Simples (sem lanche)",
                         "Preco": 26,
                         "Duracao": 150,
@@ -448,6 +487,7 @@ var dict = {
                     },
                     {
                         "Id": 2,
+                        "IdS": "voumorrer",
                         "Name": "Festa - Menu Standard com Bolo de Aniversario Gelado Artisani",
                         "Preco": 28,
                         "Duracao": 150,
@@ -460,6 +500,7 @@ var dict = {
                     },
                     {
                         "Id": 3,
+                        "IdS": "voumorreraaaaaaaa",
                         "Name": "Festa - Menu Premium com Almoco ou Jantar e Bolo de Aniversario (inclui 30 minutos adicionais de festa)",
                         "Preco": 32,
                         "Duracao": 180,
@@ -482,6 +523,7 @@ var dict = {
                 "Events": [
                     {
                         "Id": 1,
+                        "IdS": "voumorreraaaaawawdawddaaaa",
                         "Name": "Elite do Tempo",
                         "Preco": 35,
                         "Duracao": 90,
@@ -494,6 +536,7 @@ var dict = {
                     },
                     {
                         "Id": 2,
+                        "IdS": "voudadsaa",
                         "Name": "O misterio de Fernando Pessoa",
                         "Preco": 55,
                         "Duracao": 60,
@@ -506,6 +549,7 @@ var dict = {
                     },
                     {
                         "Id": 3,
+                        "IdS": "dasdamorreraaaaaaaa",
                         "Name": "Feira Popular",
                         "Preco": 55,
                         "Duracao": 60,
@@ -518,6 +562,7 @@ var dict = {
                     },
                     {
                         "Id": 4,
+                        "IdS": "vdasdsadaaaaa",
                         "Name": "Introducao a uma Sociedade Secreta A",
                         "Preco": 80,
                         "Duracao": 60,
@@ -530,6 +575,7 @@ var dict = {
                     },
                     {
                         "Id": 5,
+                        "IdS": "voumdasdaaa",
                         "Name": "Introducao a uma Sociedade Secreta B",
                         "Preco": 80,
                         "Duracao": 60,
@@ -552,6 +598,7 @@ var dict = {
                 "Events": [
                     {
                         "Id": 1,
+                        "IdS": "vouyoioaaaaa",
                         "Name": "JumpTime (Individual)",
                         "Preco": 13,
                         "Duracao": 120,
@@ -564,6 +611,7 @@ var dict = {
                     },
                     {
                         "Id": 2,
+                        "IdS": "voooooooooooaaaa",
                         "Name": "JumpFamily (4 Pessoas)",
                         "Preco": 39,
                         "Duracao": 120,
@@ -586,6 +634,7 @@ var dict = {
                 "Events": [
                     {
                         "Id": 1,
+                        "IdS": "tafodadechegaraofim",
                         "Name": "FZKIDS",
                         "Preco": 15,
                         "Duracao": 210,
@@ -598,6 +647,7 @@ var dict = {
                     },
                     {
                         "Id": 2,
+                        "IdS": "tafodadechegaraofimgkhu",
                         "Name": "FZ100",
                         "Preco": 15,
                         "Duracao": 210,
@@ -610,6 +660,7 @@ var dict = {
                     },
                     {
                         "Id": 3,
+                        "IdS": "tafodadechegaraofimgdfgdf",
                         "Name": "FZ200",
                         "Preco": 20,
                         "Duracao": 210,
@@ -622,6 +673,7 @@ var dict = {
                     },
                     {
                         "Id": 4,
+                        "IdS": "tafodadechegfdsfsdfaraofim",
                         "Name": "FZ300",
                         "Preco": 25,
                         "Duracao": 210,
@@ -634,6 +686,7 @@ var dict = {
                     },
                     {
                         "Id": 5,
+                        "IdS": "tadasdasdfodadechegaraofim",
                         "Name": "FZ400",
                         "Preco": 30,
                         "Duracao": 210,
@@ -646,6 +699,7 @@ var dict = {
                     },
                     {
                         "Id": 6,
+                        "IdS": "tafsdfsdfdadechegaraofim",
                         "Name": "FZ500",
                         "Preco": 35,
                         "Duracao": 210,
@@ -658,6 +712,7 @@ var dict = {
                     },
                     {
                         "Id": 7,
+                        "IdS": "tdasdsadasdasdm",
                         "Name": "FZNIGHT",
                         "Preco": 25,
                         "Duracao": 210,
@@ -670,6 +725,7 @@ var dict = {
                     },
                     {
                         "Id": 7,
+                        "IdS": "tafoooooooooaofim",
                         "Name": "FZMULTI",
                         "Preco": 25,
                         "Duracao": 210,
@@ -692,18 +748,42 @@ var dict = {
                 "Events": [
                     {
                         "Id": 1,
-                        "Name": "Festa da Raposa � para pequenos e gra�dos",
-                        "Preco": 550
+                        "IdS": "tapppppppofim",
+                        "Name": "Festa da Raposa - para pequenos e graudos",
+                        "Preco": 550,
+                        "Duracao": 240,
+                        "Available Hours": [["10:00","14:00"],["15:00","19:00"]],
+                        "Descricao" : "Festas de aniversário para crianças e adultos, com buffet incluído e bolo de aniversário, para que possam desfrutar de bons momentos na companhia de família e amigos.",
+                        "Min-Pessoas": 30,
+                        "Max-Pessoas": 60,
+                        "Min-age": 0,
+                        "Max-age": 100,
                     },
                     {
                         "Id": 2,
-                        "Name": "Festa do Coelho � Aluguer do espa�o",
-                        "Preco": 270
+                        "IdS": "tazzzzzzzzzzzofim",
+                        "Name": "Festa do Coelho - Aluguer do espaco",
+                        "Preco": 270,
+                        "Duracao": 210,
+                        "Available Hours": [["10:00","14:00"],["15:00","19:00"]],
+                        "Descricao" : "Modalidade de festa direccionada para crianças e adultos, sem alimentação e decoração temática. A alimentação ficará ao encargo do cliente, contudo o cliente pode adquirir o nosso serviço de decoração temática, ou inclusive trazer a sua própria decoração.",
+                        "Min-Pessoas": 10,
+                        "Max-Pessoas": 60,
+                        "Min-age": 0,
+                        "Max-age": 100,
                     },
                     {
                         "Id": 3,
-                        "Name": "Festa do Mocho � Festas s� para os mais pequenos",
-                        "Preco": 320
+                        "IdS": "tafooooooooofim",
+                        "Name": "Festa do Mocho - Festas so para os mais pequenos",
+                        "Preco": 320,
+                        "Duracao": 120,
+                        "Available Hours": [["10:00","12:00"],["12:30","14:30"],["15:00","17:00"],["17:30","19:30"]],
+                        "Descricao" : "Esta modalidade de festa permite ter mais do que um aniversariante, contudo, a nossa oferta penas contempla 1 bolo de aniversário e a entrada grátis de um aniversariante. Nestes casos, aconselhamos a adquirir mais um bolo extra ou a fazer a partilha o bolo de oferta.",
+                        "Min-Pessoas": 10,
+                        "Max-Pessoas": 60,
+                        "Min-age": 0,
+                        "Max-age": 100,
                     }
                 ],
                 "Image": "./Imagens/Reservas/bosque.jpg"
@@ -717,23 +797,31 @@ var dict = {
                 "Events": [
                     {
                         "Id": 1,
-                        "Name": "Sala + Terra�o - Segunda a Sexta",
-                        "Preco": 70
+                        "IdS": "tafodpoipoipiopm",
+                        "Name": "Sala + Terraco - Segunda a Sexta",
+                        "Preco": 70,
+                        "Duracao": 150,
+                        "Available Hours": [["10:00","12:30"],["12:30","15:00"],["15:00","17:30"],],
+                        "Descricao" : "Esta modalidade de festa permite ter mais do que um aniversariante, contudo, a nossa oferta penas contempla 1 bolo de aniversário e a entrada grátis de um aniversariante. Nestes casos, aconselhamos a adquirir mais um bolo extra ou a fazer a partilha o bolo de oferta.",
+                        "Min-Pessoas": 10,
+                        "Max-Pessoas": 60,
+                        "Min-age": 0,
+                        "Max-age": 100,
                     },
                     {
                         "Id": 2,
-                        "Name": "Sala + Terra�o - S�bado",
-                        "Preco": 90
+                        "Name": "Sala + Terraco - Sabado",
+                        "Preco": 90,
                     },
                     {
                         "Id": 3,
-                        "Name": "Sala + Terra�o - Domingo",
-                        "Preco": 80
+                        "Name": "Sala + Terraco - Domingo",
+                        "Preco": 80,
                     },
                     {
                         "Id": 4,
-                        "Name": "Sal�o + Bar + Jardim",
-                        "Preco": 95
+                        "Name": "Salao + Bar + Jardim",
+                        "Preco": 95,
                     }
                 ],
                 "Image": "./Imagens/Reservas/spacegarden.jpg"

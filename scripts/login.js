@@ -46,7 +46,8 @@ function check() {
     var userRemember = document.getElementById("rememberMe");
 
     if (userName.value == storedName && userPw.value == storedPw) {
-        window.location.href = "./home.html";
+        localStorage.setItem("login", 'true')
+        window.location.href = "./index.html";
     } else {
         alert('Wrong Username and Password combination');
     }
@@ -61,6 +62,7 @@ function forgot() {
 
 function register() {
     $('#registo').modal('show')
+    localStorage.setItem("login", 'true')
 }
 
 console.log(localStorage)
