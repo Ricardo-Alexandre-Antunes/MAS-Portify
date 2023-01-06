@@ -189,17 +189,16 @@
      </div>
 </nav>
     <div class="container">
-        <div style="padding-bottom:50px" class="row d-grid d-flex row-cols-sm-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 justify-content-center" data-bind="foreach: records">
+        <div style="padding-bottom:50px;padding-top:100px" class="row d-grid d-flex row-cols-sm-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 justify-content-center" data-bind="foreach:orgs">
             <div style="justify-content: space-evenly;">
-                <div class="card" style="back>
-                    <img data-bind="attr:{src: Photo}" style="width: 100%; height: 120px; object-fit: contain;}" class="card-img-top img-fluid">
-                    <div class="card-body" align="center" style="align-content:center; margin:0px;">
+                <div class="card">
+                   <div class="card-body" data-bind="style: {'backgroundImage': 'url('+ Image +')'}" align="center" style="align-content:center; margin:0px;object-fit:cover">
                         <p style="color:black !important" data-bind="text:Name"></p>
                             <div>
                                 <div class="col-12">
                                     <button id="maisDetalhes" style=float:left;  class="learn-more">
-                                        <a data-bind="attr: { href:'./modalitiesDetails.html?id=' + Id }"> 
-                                                <span style=float:left data-bind="attr: { href:'./modalitiesDetails.html?id=' + Id }" class="circle" aria-hidden="true">
+                                        <a data-bind="attr: { href:'./reservasDetails.html?id=' + Id }"> 
+                                                <span style=float:left data-bind="attr: { href:'./reservasDetails.html?id=' + Id }" class="circle" aria-hidden="true">
                                                     <span class="icon arrow"></span>
                                                 </span>
                                                 <span class="button-text">Detalhes</span>
@@ -208,7 +207,7 @@
                                 </div>
                             </div>
                         </div>
-                 </div>
+                  </div>
             </div> 
        </div> 
     </div>
