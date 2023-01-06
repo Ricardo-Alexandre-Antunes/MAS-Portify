@@ -39,122 +39,6 @@
         }
 
 
-        .btn {
-            background: transparent;
-            border: none;
-            margin: 5px;
-            font-size: 25px;
-            outline: none;
-        }
-
-            .btn i:hover {
-                cursor: pointer;
-            }
-
-
-
-
-        #maisDetalhes {
-            font-family: "Mukta";
-            position: relative;
-            display: inline-block;
-            cursor: pointer;
-            outline: none;
-            border: 0;
-            vertical-align: middle;
-            text-decoration: none;
-            background: transparent;
-            padding: 0;
-            font-size: inherit;
-            font-family: inherit;
-            top: 200px;
-            right: -60px;
-            width: 160px;
-            background: white;
-            border-radius: 25px;
-            border: 3px;
-            border-color: #282936;
-            box-shadow: 2px 2px #282936;
-        }
-
-        button.learn-more {
-            width: 9rem;
-            height: auto;
-        }
-
-            button.learn-more .circle {
-                transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
-                position: relative;
-                display: block;
-                margin: 0;
-                width: 2.5rem;
-                height: 2.5rem;
-                background: #282936;
-                border-radius: 1.625rem
-            }
-
-                button.learn-more .circle .icon {
-                    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
-                    position: absolute;
-                    top: 0;
-                    bottom: 0;
-                    margin: auto;
-                    background: #fff;
-                }
-
-                    button.learn-more .circle .icon.arrow {
-                        transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1 );
-                        left: 0.7rem;
-                        width: 0.625rem;
-                        height: 0.1rem;
-                        background: none;
-                    }
-
-                        button.learn-more .circle .icon.arrow::before {
-                            position: absolute;
-                            content: "";
-                            top: -0.25rem;
-                            right: -0.03rem;
-                            width: 0.625rem;
-                            height: 0.625rem;
-                            border-top: 0.125rem solid #fff;
-                            border-right: 0.125rem solid #fff;
-                            transform: rotate(45deg);
-                        }
-
-            button.learn-more .button-text {
-                transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
-                position: absolute;
-                top: 0;
-                left: 0;
-                right: 0;
-                bottom: 0;
-                padding: 0.75rem 0;
-                margin: 0 0 0 2.3rem;
-                color: #282936;
-                font-weight: 700;
-                line-height: 1;
-                text-align: center;
-                text-transform: uppercase;
-            }
-
-        button:hover .circle {
-            width: 100%;
-        }
-
-            button:hover .circle .icon.arrow {
-                background: #fff;
-                transform: translate(1rem, 0);
-            }
-
-        button:hover .button-text {
-            color: #fff;
-        }
-
-        #maisDetalhes:hover {
-            transition: 1s;
-            box-shadow: 2px 2px white;
-        }
 
         h2 {
             padding-top: 100px;
@@ -191,7 +75,7 @@
     </nav>
     <!--NAVBAR END-->
         <div class="container-fluid" data-bind="style: {'backgroundImage': 'url('+ Image +')'}">
-            <h2 data-bind="text:OrgName"></h2>
+            <h2 id="company" data-bind="text:OrgName"></h2>
             <ul class="nav nav-tabs" id="myTab" role="tablist" data-bind="foreach:Events">
                 <li class="nav-item" role="presentation">
                     <button class="nav-link" data-bs-toggle="tab" type="button" role="tab" aria-selected="false" data-bind="attr:{'id':IdS+'-tab','data-bs-target':'#'+IdS, 'aria-controls':IdS},text:Name"></button>
@@ -210,9 +94,10 @@
                         </div>
                         Número de pessoas selecionado: <span data-bind="attr:{'id':'output'+IdS}">10</span><br />
                         Preço total: <span value="0" data-bind="attr:{'id':'price'+IdS}"></span>
+                   <button style="height:50px" onclick="adicionar(this)" type="button" class="btn btn-primary"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Adicionar ao carrinho</button>
                 </div>
                 </div>
-            </div>
+                </div>
     <!--
     <div style="padding-bottom:50px;padding-top:100px" class="row d-grid d-flex row-cols-sm-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 justify-content-center" data-bind="foreach:Events">
         <div style="justify-content: space-evenly;">
