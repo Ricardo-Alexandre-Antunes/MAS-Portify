@@ -44,19 +44,6 @@
         }
 
 
-        .btn {
-            background: transparent;
-            border: none;
-            margin: 5px;
-            font-size: 25px;
-            outline: none;
-        }
-
-            .btn i:hover {
-                cursor: pointer;
-            }
-
-
 
 
         #maisDetalhes {
@@ -160,145 +147,12 @@
             transition: 1s;
             box-shadow: 2px 2px white;
         }
-        #datepickercheckin {
-  border: #ced4da;
-  border-style: solid;
-  border-width: 1px 1px 1px 1px;
-  border-top-left-radius: 0.2rem;
-  border-bottom-left-radius: 0.2rem;
-}
-
-#datepickercheckout {
-  border: #ced4da;
-  border-style: solid;
-  border-width: 1px 1px 1px 1px;
-  border-top-left-radius: 0.2rem;
-  border-bottom-left-radius: 0.2rem;
-}
-.form-control {
-    height: 47px;
-}
-#datepickercheckin {
-    border: #ced4da;
-    border-style: solid;
-    border-width: 1px 1px 1px 1px;
-    border-top-left-radius: 0.2rem;
-    border-bottom-left-radius: 0.2rem;
-}
-
-#datepickercheckout {
-    border: #ced4da;
-    border-style: solid;
-    border-width: 1px 1px 1px 1px;
-    border-top-left-radius: 0.2rem;
-    border-bottom-left-radius: 0.2rem;
-}
-
-.featured-property-half {
-    position: relative;
-    background: #fff;
-    margin-top: -100px;
-    /*-webkit-box-shadow: 0 0 20px -5px rgba(0, 0, 0, 0.1);*/
-    box-shadow: 0 0 20px -5px rgba(0, 0, 0, 0.1);
-}
-
-.featured-property-half div {
-    width: 50%;
-}
-
-.featured-property-half .image {
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-}
-
-.featured-property-half .text {
-    padding: 100px;
-}
-
-.featured-property-half .text ul {
-    padding: 0;
-    margin: 0;
-    list-style: none;
-    color: #000;
-}
-
-.featured-property-half .text ul strong {
-    color: #000;
-    font-weight: bold;
-}
-
-.featured-property-half .text ul li {
-    margin-bottom: 10px;
-}
-.filterItems {
-	background-color: #222f3e;
-	border-radius: 5px;
-	display: none;
-	overflow: hidden;
-	height: 150px;
-}
-
-.filterItems > img{
-	width: 100%;
-}
-
-.show {
-	display: block;
-	animation: 350ms showing linear;
-}
-
-#sort-options{
-	margin-top: 15px;
-        padding-top:100px
-}
-
-.btn {
-	border: none;
-	padding: 12px 16px;
-	background-color: #182C61;
-	cursor: pointer;
-	color: #CAD3C8;
-	font-size: 0.8rem;
-	font-family: sans-serif;
-	border-radius: 4px;
-	transition: 350ms;
-}
-
-.btn:hover {
-	color: #CAD3C8;
-	background-color: #8395a7;
-}
-
-.btn:focus{
-	outline: none;
-	background-color: #3B3B98;
-	color: white;
-	font-weight: bold;
-}
-
-.btn:active {
-	background-color: #5f27cd;
-	color: white;
-}
-
-@keyframes showing{
-	from{
-		opacity: 0;
-	}to{
-		opacity: 1;
-	}
-}
-body{
-	margin: 0;
-	padding: 0;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-}
-
-
+       .btn btn-primary{
+              float: left;
+  padding: 0 10px;
+  font-size: 10px;
+  border-right: 1px #909090 solid;
+        }
     </style>
 </head>
 <body>
@@ -330,9 +184,20 @@ body{
          </div>
      </div>
 </nav>
-
+ <div class="container" style="padding-top:100px;">
+  <div class="row">
+    <div class="col-12">
+      <ul id="#filtrar" class="navbar">
+        <li class="btn btn-primary active reset filter-trigger" data-filter="all">Museus/Exposições</li>
+        <li class="btn btn-primary filter-trigger" data-filter="management">Atividades Recreativas</li>
+        <li class="btn btn-primary filter-trigger" data-filter="developer">Atividades de Espetador</li>
+        <li class="btn btn-primary filter-trigger" data-filter="designer">Para crianças</li>
+        <li class="btn btn-primary filter-trigger" data-filter="consultant">Para adultos</li>
+      </ul>
+    </div>
+   </div>
+</div>
    <div class="container">
-    <div class="row" style="height:300px;padding-bottom:100px; color:white">sakdmnaijedsdjabsj</div>
     <div class="row mb-5 mt-4">
         <div style="padding-bottom:50px;padding-top:10px" class="row d-grid d-flex row-cols-sm-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 justify-content-center" data-bind="foreach:data">
             <div style="justify-content: space-evenly;">
