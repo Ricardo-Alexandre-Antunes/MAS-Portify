@@ -115,7 +115,7 @@ function preco_total(elem) {
     var ids = elem.parentNode.parentNode.id
     console.log(document.getElementById('price' + ids).value)
     document.getElementById('price' + ids).value = document.getElementById('preco_fixo' + ids).innerHTML * document.getElementById('preco' + ids).value;
-    document.getElementById('price' + ids).innerHTML = document.getElementById('preco_fixo' + ids).innerHTML * document.getElementById('preco' + ids).value + '€';
+    document.getElementById('price' + ids).innerHTML = document.getElementById('preco_fixo' + ids).innerHTML * document.getElementById('preco' + ids).value;
 }
 self.html = ko.observable('')
 self.html = ko.observable('')
