@@ -1,3 +1,4 @@
+$("#myModal").hide();
 function store() {
 
     var email = document.getElementById('email');
@@ -66,7 +67,6 @@ function register() {
 }
 
 console.log(localStorage)
-
 
 
 outroModal = function () {
