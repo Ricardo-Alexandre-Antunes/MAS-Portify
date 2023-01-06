@@ -31,7 +31,7 @@ function renderCart(items) {
 						<td class="text-right"><Button class="btn btn-primary">Delete</Button></td>
 					</tr>`).join("")
 
-	$total.innerHTML = total(items) + "€"
+	$total.innerHTML = total(items) + "â‚¬"
 }
 renderCart(cartLS.list())
 cartLS.onChange(renderCart)
@@ -43,5 +43,5 @@ function total(dict) {
 	return a
 }
 function loadmodal() {
-	$("#pagamentoModal").show()
+	alert("Pagamento Efetuado!")
 }
