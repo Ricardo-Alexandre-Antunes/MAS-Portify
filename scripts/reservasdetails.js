@@ -70,8 +70,27 @@ ko.bindingHandlers.trimedValue = {
     function getKeyByValue(object, value) {
         return Object.keys(object).find(key => object[key] === value);
     };
-
+function HTMLwriter() {
+    self.nome = ko.observable()
+    self.mail = ko.observable()
+    self.nome = localStorage.getItem('nome')
+    self.mail = localStorage.getItem('email')
+}
 $(document).ready(function () {
+    self.nome = ko.observable()
+    self.nome = localStorage.getItem('nome')
+    var login = localStorage.getItem("login");
+    console.log(login)
+    var el = document.getElementById('ola');
+    if (login === 'true') {
+
+        content = '<a href="carrinho.html"></a><a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Bem Vindo, &nbsp;<span data-bind="text:nome"></span></a><ul class="dropdown-menu"><li><a class="dropdown-item" href="conta.html">Alterar dados e personalização</a></li><li><hr class="dropdown-divider"></li><li><btn class="dropdown-item" id="logout" onclick="logout()">Logout</btn></li></ul>'
+    }
+    else {
+        content = '<a  style="color:white" class="nav-link active" aria-current="page" href="login.html">Login/Registo</a>'
+    }
+    console.log(content)
+    el.insertAdjacentHTML('afterbegin', content);
     console.log("ready!");
     ko.applyBindings();
         
@@ -95,4 +114,12 @@ function preco_total(elem) {
     console.log(document.getElementById('price' + ids).value)
     document.getElementById('price' + ids).value = document.getElementById('preco_fixo' + ids).innerHTML * document.getElementById('preco' + ids).value;
     document.getElementById('price' + ids).innerHTML = document.getElementById('preco_fixo' + ids).innerHTML * document.getElementById('preco' + ids).value + '€';
+}
+self.html = ko.observable('')
+self.html = ko.observable('')
+function logout() {
+    var login = localStorage.setItem('login', 'false')
+    login = 'false'
+    console.log(login)
+    window.location.href(index.html);
 }
