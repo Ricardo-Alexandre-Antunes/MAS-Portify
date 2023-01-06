@@ -1,14 +1,10 @@
 {
   "ExpandedNodes": [
-    "",
-    "\\CSS",
     "\\Imagens\\Atividades",
     "\\Imagens\\Reservas",
     "\\lib\\font-awesome",
     "\\lib\\font-awesome\\dist",
-    "\\lib\\font-awesome\\dist\\css",
-    "\\scripts"
+    "\\lib\\font-awesome\\dist\\css"
   ],
-  "SelectedNode": "\\scripts\\atividadesdetails.js",
   "PreviewInSolutionExplorer": false
 }
