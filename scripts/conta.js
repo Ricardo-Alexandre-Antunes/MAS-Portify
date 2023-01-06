@@ -1,12 +1,14 @@
-var nome = document.getElementById("nome");
-var pw = document.getElementById("pw")
-var numero = document.getElementById("numero")
-var morada = document.getElementById("morada")
-var email = document.getElementById("email")
-var codigopostal = document.getElementById("codigopostal")
+
 var numbers = /[0-9]/g;
 $(document).ready(function () {
-    $("MyModal").hide
+    $("#myModal").hide
+    document.getElementById("nome").value = localStorage.getItem("nome");
+    document.getElementById("numero").value = localStorage.getItem("numero");
+    document.getElementById("email").value = localStorage.getItem("email");
+    document.getElementById("password").value = localStorage.getItem("pw");
+    document.querySelector('input[name="interesses"]').value = localStorage.getItem("checked")
+
+
 })
 
 var validRegex = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
@@ -67,17 +69,18 @@ function validate() {
          checkboxError.classList.add("d-none");
         }
     if (retVal == true) {
-        $("#exampleModal").show()
+        $("#myModal").show()
     }
     
     return retVal
 }
 function savechanges() {
-    var nome = document.getElementById("nome");
-    var password = document.getElementById("password")
-    var numero = document.getElementById("numero")
-    var email = document.getElementById("email")
-    var checked = document.getElementById("checkbox").name;
+    var nome = document.getElementById("nome").value;
+    console.log(nome)
+    var password = document.getElementById("password").value
+    var numero = document.getElementById("numero").value
+    var email = document.getElementById("email").value
+    var checked = document.querySelector('input[name="interesses"]:checked').value
     localStorage.setItem("nome", nome)
     localStorage.setItem("pw", password)
     localStorage.setItem("numero", numero)

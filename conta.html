@@ -59,7 +59,6 @@
               <div class="d-flex justify-content-between align-items-center mb-3">
                 <h4 class="text-right">Profile Settings</h4>
               </div>
-            < id="conta">
               <div class="row mt-2">
                 <div class="col-md-12">
                   <label class="labels">Nome</label>
@@ -113,34 +112,35 @@
                              <label for="interesses" class="col-md-2 col-form-label" >Type of question</label>
                 <div class="col-md-10">
                <div id="checkbox" class="form-check">
-                 <input type="checkbox" name="interesses" class="form-check-input " value="bugs"><label class="form-check-label" >Report bugs</label><br />
-                 <input type="checkbox" name="interesses" class="form-check-input " value="sugestao"><label class="form-check-label" >Suggestion</label><br />
-                 <input type="checkbox" name="interesses" class="form-check-input" value="duvida" ><label class="form-check-label">Help</label><br />
-                 <input type="checkbox" name="interesses" class="form-check-input" value="outro"><label class="form-check-label" >Other</label>
+                 <input type="radio" name="interesses" class="form-check-input " value="criancas"><label class="form-check-label" >Atividades para crianças</label><br />
+                 <input type="radio" name="interesses" class="form-check-input " value="festas"><label class="form-check-label" >Festas</label><br />
+                 <input type="radio" name="interesses" class="form-check-input" value="adultos" ><label class="form-check-label">Atividades para adultos</label><br />
+                 <input type="radio" name="interesses" class="form-check-input" value="recreativas"><label class="form-check-label" >Atividades Recreativas</label><br />
+                 <input type="radio" name="interesses" class="form-check-input" value="espaco"><label class="form-check-label" >Espaços para reservar</label>
                </div> 
               </div>
                  <div class="d-none text-danger col-form-label" id="checkboxError"><i class="fa fa-exclamation-triangle"></i> Selecione pelo menos uma opção</div>
             </div>
               <div class="mt-5 text-center">
-                <input onclick="return validate()" class="btn btn-danger" />
+                <div onclick="return validate()" class="btn btn-danger" />
                   Save Profile
               </div>
             </div>
             </div>
           </div>
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal" id="myModal" tabindex="-1">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+        <h5 class="modal-title">Modal title</h5>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-        ...
+        <p>Modal body text goes here.</p>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
+        <button type="button" onclick="savechanges()" class="btn btn-primary">Save changes</button>
       </div>
     </div>
   </div>
