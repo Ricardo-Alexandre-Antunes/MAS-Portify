@@ -1563,7 +1563,7 @@ var dict = {
                         "Duracao": 120,
                         "Descricao":"Mais de 700 candidaturas foram analisadas por um júri de seleção que, nesta 14ª edição, foi composto por Luís Silva, Luísa Santos e Sara Antónia Matos, que são também responsáveis pela curadoria da exposição. O júri constatou “o enorme mérito e a capacidade de trabalho dos artistas em Portugal.” Apesar da idade não ser critério de elegibilidade, na seleção final “colocou-se o foco numa geração de artistas com menos de 40 anos que se está a afirmar, pela qualidade conceptual e formal, na produção artística nacional e internacional. Ainda que trabalhando a partir de pressupostos formais, materiais e narrativos muito diferentes, a pesquisa dos nomeados",
                         "Min_Pessoas": 1,
-                        "Max_Pessoas": 99,
+                        "Max_Pessoas": 10,
                         "Min_age": 25,
                         "Max_age": 100
                     },
@@ -1575,7 +1575,7 @@ var dict = {
                         "Duracao": 120,
                         "Descricao":"Mais de 700 candidaturas foram analisadas por um júri de seleção que, nesta 14ª edição, foi composto por Luís Silva, Luísa Santos e Sara Antónia Matos, que são também responsáveis pela curadoria da exposição. O júri constatou “o enorme mérito e a capacidade de trabalho dos artistas em Portugal.” Apesar da idade não ser critério de elegibilidade, na seleção final “colocou-se o foco numa geração de artistas com menos de 40 anos que se está a afirmar, pela qualidade conceptual e formal, na produção artística nacional e internacional. Ainda que trabalhando a partir de pressupostos formais, materiais e narrativos muito diferentes, a pesquisa dos nomeados",
                         "Min_Pessoas": 1,
-                        "Max_Pessoas": 99,
+                        "Max_Pessoas": 10,
                         "Min_age": 12,
                         "Max_age": 25
                     },
@@ -1587,7 +1587,7 @@ var dict = {
                         "Duracao": 100,
                         "Descricao":"Com curadoria de João Mourão e Luís Silva, o maat apresenta a primeira exposição monográfica do artista brasileiro Jonathas de Andrade em Portugal: um núcleo de peças que percorre toda a carreira do artista, envolvendo meios como a fotografia, o vídeo, a escultura e a instalação, que permite ao público conhecer uma das mais idiossincráticas e interessantes obras artísticas contemporâneas.",
                         "Min_Pessoas": 1,
-                        "Max_Pessoas": 99,
+                        "Max_Pessoas": 10,
                         "Min_age": 25,
                         "Max_age": 100
                     },
@@ -1599,7 +1599,7 @@ var dict = {
                         "Duracao": 100,
                         "Descricao":"Com curadoria de João Mourão e Luís Silva, o maat apresenta a primeira exposição monográfica do artista brasileiro Jonathas de Andrade em Portugal: um núcleo de peças que percorre toda a carreira do artista, envolvendo meios como a fotografia, o vídeo, a escultura e a instalação, que permite ao público conhecer uma das mais idiossincráticas e interessantes obras artísticas contemporâneas.",
                         "Min_Pessoas": 1,
-                        "Max_Pessoas": 99,
+                        "Max_Pessoas": 10,
                         "Min_age": 12,
                         "Max_age": 25
                     },
@@ -1611,7 +1611,7 @@ var dict = {
                         "Duracao": 180,
                         "Descricao":"48 artistas, 48 anos de liberdade é o nome da peça que será simbolicamente criada no dia 10 de junho de 2022 nos Jardins do maat, uma intervenção mural coletiva que reinterpreta o Painel do Mercado do Povo realizado pelo Movimento Democrático dos Artistas Plásticos a 10 de junho de 1974, em Belém. A reinterpretação deste mural, com 24 metros de comprimento e 3 metros de largura, conta com a participação de 48 artistas: alguns destes estiveram envolvidos na criação do painel original e os restantes são artistas que se destacaram na cena artística ao longo dos últimos 48 anos de democracia em Portugal, que este ano se completam, sendo que alguns deste grupo integram a exposição Interferências: Culturas Urbanas Emergentes, patente no maat.",
                         "Min_Pessoas": 1,
-                        "Max_Pessoas": 99,
+                        "Max_Pessoas": 10,
                         "Min_age": 25,
                         "Max_age": 100
                     },
@@ -1623,7 +1623,7 @@ var dict = {
                         "Duracao": 100,
                         "Descricao":"48 artistas, 48 anos de liberdade é o nome da peça que será simbolicamente criada no dia 10 de junho de 2022 nos Jardins do maat, uma intervenção mural coletiva que reinterpreta o Painel do Mercado do Povo realizado pelo Movimento Democrático dos Artistas Plásticos a 10 de junho de 1974, em Belém. A reinterpretação deste mural, com 24 metros de comprimento e 3 metros de largura, conta com a participação de 48 artistas: alguns destes estiveram envolvidos na criação do painel original e os restantes são artistas que se destacaram na cena artística ao longo dos últimos 48 anos de democracia em Portugal, que este ano se completam, sendo que alguns deste grupo integram a exposição Interferências: Culturas Urbanas Emergentes, patente no maat.",
                         "Min_Pessoas": 1,
-                        "Max_Pessoas": 99,
+                        "Max_Pessoas": 10,
                         "Min_age": 12,
                         "Max_age": 25
                     },
@@ -1635,7 +1635,7 @@ var dict = {
                         "Duracao": 90,
                         "Descricao":"Após mais de 15 anos itinerantes, desde que foi criada, em 1999, pelo artista norte-americano Lawrence Weiner, a obra Placed on Either Side of the Light foi permanentemente instalada no passeio ribeirinho em frente ao maat. A peça conheceu diferentes versões expostas em galerias de vários países, incluindo a Alemanha, a Suíça e a Sérvia, tendo tomado diferentes formas adaptadas ao lugar expositivo. Quando foi adquirida pela Fundação EDP, tornou-se evidente para Weiner a forma que a obra deveria assumir. “Lisboa é conhecida pelas suas calçadas em pedra portuguesa. Vimos um lugar ótimo na calçada, e logo percebemos que tinha de ser ali”, conta o artista. As letras da frase que dá título à obra, em inglês e português, foram feitas em ferro fundido e incorporadas por uma equipa de mestres calceteiros em forma de dois arco-íris que se cruzam no chão, entre a escadaria do edifício concebido pelo estúdio AL_A (Amanda Levete Architects) e o rio Tejo.",
                         "Min_Pessoas": 1,
-                        "Max_Pessoas": 99,
+                        "Max_Pessoas": 10,
                         "Min_age": 25,
                         "Max_age": 100
                     },
@@ -1647,7 +1647,7 @@ var dict = {
                         "Duracao": 100,
                         "Descricao":"Após mais de 15 anos itinerantes, desde que foi criada, em 1999, pelo artista norte-americano Lawrence Weiner, a obra Placed on Either Side of the Light foi permanentemente instalada no passeio ribeirinho em frente ao maat. A peça conheceu diferentes versões expostas em galerias de vários países, incluindo a Alemanha, a Suíça e a Sérvia, tendo tomado diferentes formas adaptadas ao lugar expositivo. Quando foi adquirida pela Fundação EDP, tornou-se evidente para Weiner a forma que a obra deveria assumir. “Lisboa é conhecida pelas suas calçadas em pedra portuguesa. Vimos um lugar ótimo na calçada, e logo percebemos que tinha de ser ali”, conta o artista. As letras da frase que dá título à obra, em inglês e português, foram feitas em ferro fundido e incorporadas por uma equipa de mestres calceteiros em forma de dois arco-íris que se cruzam no chão, entre a escadaria do edifício concebido pelo estúdio AL_A (Amanda Levete Architects) e o rio Tejo.",
                         "Min_Pessoas": 1,
-                        "Max_Pessoas": 99,
+                        "Max_Pessoas": 10,
                         "Min_age": 12,
                         "Max_age": 25
                     },
@@ -1659,7 +1659,7 @@ var dict = {
                         "Duracao": 100,
                         "Descricao":"A exposição Luz em toda a parte toma como título uma frase recolhida no material de promoção editado entre os anos 20 e os anos 50 do século XX por uma das empresas que historicamente precederam a EDP. O Centro de Documentação da Fundação EDP é depositário fiel desse vasto espólio (maquetas gráficas, folhas volantes, folhetos impressos ou cartazes, entre outros suportes) de carácter ao mesmo tempo publicitário e didático. Apresentá-lo ao público é dar a ver um momento importante da sociedade portuguesa: o período em que a eletrificação doméstica se difundiu nas cidades e que, em razão disso, as empresas necessitaram de atrair mais consumidores. Isto foi feito através da exaltação das vantagens da nova fonte de energia e iluminação e da divulgação das modalidades de uma utilização e consumo racionais. Mas há mais camadas subjacentes aos textos e desenhos que aqui são mostrados: há o reforço da divisão social do trabalho (separando claramente os papéis de cada classe, nomeadamente a nível doméstico) e da hierarquização de géneros (reservando aos homens os papéis ativos e intelectuais, como a leitura e o trabalho fora de casa, e às mulheres a execução ou orientação das tarefas domésticas, como a cozinha ou a costura). Há ainda a realçar a apropriação de soluções de design já desenvolvidas no estrangeiro em sociedades fortemente industrializadas e urbanizadas (como nos EUA ou em França), onde o consumo estava muito mais desenvolvido e campanhas similares já tinham tido lugar. É assim que, através de contratos de aquisição de direitos, ilustrações e slogans são integral ou parcialmente adaptados, sendo o exemplo mais notável o da mascote Faísca (com origem nos EUA, sob o nome de Reddy Kilowatt ou Ready Kilowatt). Esta ocupará uma parte importante da narrativa das referidaspublicações e que, tendo-se tornado um ícone global que perdurou no tempo, merecerá um estudo mais aprofundado.",
                         "Min_Pessoas": 1,
-                        "Max_Pessoas": 1,
+                        "Max_Pessoas": 10,
                         "Min_age": 25,
                         "Max_age": 100
                     },
@@ -1671,7 +1671,7 @@ var dict = {
                         "Duracao": 100,
                         "Descricao":"A exposição Luz em toda a parte toma como título uma frase recolhida no material de promoção editado entre os anos 20 e os anos 50 do século XX por uma das empresas que historicamente precederam a EDP. O Centro de Documentação da Fundação EDP é depositário fiel desse vasto espólio (maquetas gráficas, folhas volantes, folhetos impressos ou cartazes, entre outros suportes) de carácter ao mesmo tempo publicitário e didático. Apresentá-lo ao público é dar a ver um momento importante da sociedade portuguesa: o período em que a eletrificação doméstica se difundiu nas cidades e que, em razão disso, as empresas necessitaram de atrair mais consumidores. Isto foi feito através da exaltação das vantagens da nova fonte de energia e iluminação e da divulgação das modalidades de uma utilização e consumo racionais. Mas há mais camadas subjacentes aos textos e desenhos que aqui são mostrados: há o reforço da divisão social do trabalho (separando claramente os papéis de cada classe, nomeadamente a nível doméstico) e da hierarquização de géneros (reservando aos homens os papéis ativos e intelectuais, como a leitura e o trabalho fora de casa, e às mulheres a execução ou orientação das tarefas domésticas, como a cozinha ou a costura). Há ainda a realçar a apropriação de soluções de design já desenvolvidas no estrangeiro em sociedades fortemente industrializadas e urbanizadas (como nos EUA ou em França), onde o consumo estava muito mais desenvolvido e campanhas similares já tinham tido lugar. É assim que, através de contratos de aquisição de direitos, ilustrações e slogans são integral ou parcialmente adaptados, sendo o exemplo mais notável o da mascote Faísca (com origem nos EUA, sob o nome de Reddy Kilowatt ou Ready Kilowatt). Esta ocupará uma parte importante da narrativa das referidaspublicações e que, tendo-se tornado um ícone global que perdurou no tempo, merecerá um estudo mais aprofundado.",
                         "Min_Pessoas": 1,
-                        "Max_Pessoas": 1,
+                        "Max_Pessoas": 10,
                         "Min_age": 12,
                         "Max_age": 25
                     },
@@ -1683,7 +1683,7 @@ var dict = {
                         "Duracao": 150,
                         "Descricao":"A Central Tejo foi uma central termoelétrica, propriedade das Companhias Reunidas de Gás e Electricidade (CRGE), que abasteceu toda a região de Lisboa de eletricidade. Construída em 1908, o seu período de atividade produtiva está compreendido entre 1909 e 1972, se bem que a partir de 1951 tenha sido utilizada como central de reserva, produzindo apenas para completar a oferta de energia das centrais hídricas. Em 1975 foi desclassificada, saindo do sistema produtivo. Ao longo do tempo sofreu diversas modificações e ampliações, tendo passado por contínuas fases de construção e alteração dos sistemas produtivos. Numa nova fase da sua existência, a Central Tejo abriu ao público pela primeira vez em 1990, então como Museu da Electricidade. Após um novo período de obras de restauro dos seus edifícios e equipamentos, reabriu definitivamente em 2006.",
                         "Min_Pessoas": 1,
-                        "Max_Pessoas": 1,
+                        "Max_Pessoas": 10,
                         "Min_age": 25,
                         "Max_age": 100
                     },
@@ -1695,7 +1695,7 @@ var dict = {
                         "Duracao": 150,
                         "Descricao":"A Central Tejo foi uma central termoelétrica, propriedade das Companhias Reunidas de Gás e Electricidade (CRGE), que abasteceu toda a região de Lisboa de eletricidade. Construída em 1908, o seu período de atividade produtiva está compreendido entre 1909 e 1972, se bem que a partir de 1951 tenha sido utilizada como central de reserva, produzindo apenas para completar a oferta de energia das centrais hídricas. Em 1975 foi desclassificada, saindo do sistema produtivo. Ao longo do tempo sofreu diversas modificações e ampliações, tendo passado por contínuas fases de construção e alteração dos sistemas produtivos. Numa nova fase da sua existência, a Central Tejo abriu ao público pela primeira vez em 1990, então como Museu da Electricidade. Após um novo período de obras de restauro dos seus edifícios e equipamentos, reabriu definitivamente em 2006.",
                         "Min_Pessoas": 1,
-                        "Max_Pessoas": 1,
+                        "Max_Pessoas": 10,
                         "Min_age": 12,
                         "Max_age": 25
                     },
@@ -1718,7 +1718,7 @@ var dict = {
                         "Duracao": 180,
                         "Descricao":"O Museu Nacional dos Coches dá a conhecer a exposição temporária Modelismo de Coches - José Cardoso Brito (Galeria piso 2), que apresenta 16 réplicas de carruagens, a grande maioria expostas no MNC e realizadas pelo autor à escala 1/10, com comprimento de 50 a 70 cm, altura de 30 a 40 cm e largura de 26 a 37 cm. Todas elas apresentam rigorosos detalhes técnicos e uma perfeição ímpar",
                         "Min_Pessoas": 1,
-                        "Max_Pessoas": 1,
+                        "Max_Pessoas": 10,
                         "Min_age": 25,
                         "Max_age": 100
                     },
@@ -1730,7 +1730,7 @@ var dict = {
                         "Duracao": 180,
                         "Descricao":"O Museu Nacional dos Coches dá a conhecer a exposição temporária Modelismo de Coches - José Cardoso Brito (Galeria piso 2), que apresenta 16 réplicas de carruagens, a grande maioria expostas no MNC e realizadas pelo autor à escala 1/10, com comprimento de 50 a 70 cm, altura de 30 a 40 cm e largura de 26 a 37 cm. Todas elas apresentam rigorosos detalhes técnicos e uma perfeição ímpar",
                         "Min_Pessoas": 1,
-                        "Max_Pessoas": 1,
+                        "Max_Pessoas": 10,
                         "Min_age": 12,
                         "Max_age": 25
                     },
@@ -1742,7 +1742,7 @@ var dict = {
                         "Duracao": 120,
                         "Descricao":"Museu Nacional dos Coches apresenta ao público a exposição de pintura Reis e Rainhas de Portugal, da autoria de Norberto Nunes. O dia de aniversário do Museu dos Coches, 23 de maio, foi o escolhido para acolher esta Exposição composta por 35 quadros que representam quatro dinastias que governaram até 1910 os destinos nacionais. A mostra Reis e Rainhas de Portugal surge de forma recreativa e algo inesperada na Galeria do Piso 2 do Museu.",
                         "Min_Pessoas": 1,
-                        "Max_Pessoas": 1,
+                        "Max_Pessoas": 10,
                         "Min_age": 25,
                         "Max_age": 100
                     },
@@ -1754,7 +1754,7 @@ var dict = {
                         "Duracao": 120,
                         "Descricao":"Museu Nacional dos Coches apresenta ao público a exposição de pintura Reis e Rainhas de Portugal, da autoria de Norberto Nunes. O dia de aniversário do Museu dos Coches, 23 de maio, foi o escolhido para acolher esta Exposição composta por 35 quadros que representam quatro dinastias que governaram até 1910 os destinos nacionais. A mostra Reis e Rainhas de Portugal surge de forma recreativa e algo inesperada na Galeria do Piso 2 do Museu.",
                         "Min_Pessoas": 1,
-                        "Max_Pessoas": 1,
+                        "Max_Pessoas": 10,
                         "Min_age": 12,
                         "Max_age": 25
                     },
@@ -1766,7 +1766,7 @@ var dict = {
                         "Duracao": 110,
                         "Descricao":"E Vós Tágides Minhas…“é o nome da nova Exposição Temporária que se encontra patente no novo edifício do Museu Nacional dos Coches. No âmbito do 450º aniversário da 1ª edição de “Os Lusíadas”, Norberto Nunes homenageia com 15 obras de pintura e escultura a mais icónica criação da literatura nacional. A referida exposição pode ser visitada até novembro de 2022.",
                         "Min_Pessoas": 1,
-                        "Max_Pessoas": 1,
+                        "Max_Pessoas": 10,
                         "Min_age": 25,
                         "Max_age": 100
                     },
@@ -1778,7 +1778,7 @@ var dict = {
                         "Duracao": 110,
                         "Descricao":"E Vós Tágides Minhas…“é o nome da nova Exposição Temporária que se encontra patente no novo edifício do Museu Nacional dos Coches. No âmbito do 450º aniversário da 1ª edição de “Os Lusíadas”, Norberto Nunes homenageia com 15 obras de pintura e escultura a mais icónica criação da literatura nacional. A referida exposição pode ser visitada até novembro de 2022.",
                         "Min_Pessoas": 1,
-                        "Max_Pessoas": 1,
+                        "Max_Pessoas": 10,
                         "Min_age": 12,
                         "Max_age": 25
                     },
@@ -1790,7 +1790,7 @@ var dict = {
                         "Duracao": 160,
                         "Descricao":"A Central Tejo foi uma central termoelétrica, propriedade das Companhias Reunidas de Gás e Electricidade (CRGE), que abasteceu toda a região de Lisboa de eletricidade. Construída em 1908, o seu período de atividade produtiva está compreendido entre 1909 e 1972, se bem que a partir de 1951 tenha sido utilizada como central de reserva, produzindo apenas para completar a oferta de energia das centrais hídricas. Em 1975 foi desclassificada, saindo do sistema produtivo. Ao longo do tempo sofreu diversas modificações e ampliações, tendo passado por contínuas fases de construção e alteração dos sistemas produtivos. Numa nova fase da sua existência, a Central Tejo abriu ao público pela primeira vez em 1990, então como Museu da Electricidade. Após um novo período de obras de restauro dos seus edifícios e equipamentos, reabriu definitivamente em 2006.",
                         "Min_Pessoas": 1,
-                        "Max_Pessoas": 1,
+                        "Max_Pessoas": 10,
                         "Min_age": 25,
                         "Max_age": 100
                     },
@@ -1802,7 +1802,7 @@ var dict = {
                         "Duracao": 160,
                         "Descricao":"A Central Tejo foi uma central termoelétrica, propriedade das Companhias Reunidas de Gás e Electricidade (CRGE), que abasteceu toda a região de Lisboa de eletricidade. Construída em 1908, o seu período de atividade produtiva está compreendido entre 1909 e 1972, se bem que a partir de 1951 tenha sido utilizada como central de reserva, produzindo apenas para completar a oferta de energia das centrais hídricas. Em 1975 foi desclassificada, saindo do sistema produtivo. Ao longo do tempo sofreu diversas modificações e ampliações, tendo passado por contínuas fases de construção e alteração dos sistemas produtivos. Numa nova fase da sua existência, a Central Tejo abriu ao público pela primeira vez em 1990, então como Museu da Electricidade. Após um novo período de obras de restauro dos seus edifícios e equipamentos, reabriu definitivamente em 2006.",
                         "Min_Pessoas": 1,
-                        "Max_Pessoas": 1,
+                        "Max_Pessoas": 10,
                         "Min_age": 12,
                         "Max_age": 25
                     },
@@ -1814,7 +1814,7 @@ var dict = {
                         "Duracao": 90,
                         "Descricao":"No passado dia 23 de junho, inaugurou no Museu Nacional dos Coches a exposição temporária “Primeira Pedra 2016 | 2022”, comissariada pela experimentadesign, com a finalidade de dar a conhecer 74 obras em pedra criadas por 36 designers, arquitetos e artistas de renome nacional e internacional. Pela sua importância, esta grande mostra retrospetiva encontra-se atualmente integrada num dos mais relevantes museus nacionais e junto daquela que é a maior coleção de coches do mundo, um acervo de inigualável valor e uma parte da história cultural portuguesa e mundial. As obras expostas interagem com o complexo museológico desenhado pelo arquiteto Paulo Mendes da Rocha, quer nos espaços exteriores, nomeadamente a Praça do MNC, quer nos espaços interiores, permitindo uma multiplicidade de diálogos entre passado, presente e futuro.",
                         "Min_Pessoas": 1,
-                        "Max_Pessoas": 1,
+                        "Max_Pessoas": 10,
                         "Min_age": 25,
                         "Max_age": 100
                     },
@@ -1826,7 +1826,7 @@ var dict = {
                         "Duracao": 90,
                         "Descricao":"No passado dia 23 de junho, inaugurou no Museu Nacional dos Coches a exposição temporária “Primeira Pedra 2016 | 2022”, comissariada pela experimentadesign, com a finalidade de dar a conhecer 74 obras em pedra criadas por 36 designers, arquitetos e artistas de renome nacional e internacional. Pela sua importância, esta grande mostra retrospetiva encontra-se atualmente integrada num dos mais relevantes museus nacionais e junto daquela que é a maior coleção de coches do mundo, um acervo de inigualável valor e uma parte da história cultural portuguesa e mundial. As obras expostas interagem com o complexo museológico desenhado pelo arquiteto Paulo Mendes da Rocha, quer nos espaços exteriores, nomeadamente a Praça do MNC, quer nos espaços interiores, permitindo uma multiplicidade de diálogos entre passado, presente e futuro.",
                         "Min_Pessoas": 1,
-                        "Max_Pessoas": 1,
+                        "Max_Pessoas": 10,
                         "Min_age": 12,
                         "Max_age": 25
                     },
@@ -1838,7 +1838,7 @@ var dict = {
                         "Duracao": 150,
                         "Descricao":"Cidade antiga e populosa, Lisboa foi sempre sujeita a incêndios. Por isso, são já medievais as iniciativas para assegurar a prevenção e o combate dos sinistros enquanto atividade indispensável à cidade, ao seu património e ao bem-estar dos seus habitantes. Detendo desde então a autoridade sobre a gestão deste serviço, o município de Lisboa não mais deixou de a exercer. Mas, é com a aquisição das primeiras bombas hidráulicas transportadas por homens que se inaugura a aventura das prodigiosas máquinas de extinção de incêndios e salvamento de pessoas e se progride no sentido de uma organização cada vez mais especializada.",
                         "Min_Pessoas": 1,
-                        "Max_Pessoas": 1,
+                        "Max_Pessoas": 10,
                         "Min_age": 25,
                         "Max_age": 100
                     },
@@ -1850,7 +1850,7 @@ var dict = {
                         "Duracao": 150,
                         "Descricao":"Cidade antiga e populosa, Lisboa foi sempre sujeita a incêndios. Por isso, são já medievais as iniciativas para assegurar a prevenção e o combate dos sinistros enquanto atividade indispensável à cidade, ao seu património e ao bem-estar dos seus habitantes. Detendo desde então a autoridade sobre a gestão deste serviço, o município de Lisboa não mais deixou de a exercer. Mas, é com a aquisição das primeiras bombas hidráulicas transportadas por homens que se inaugura a aventura das prodigiosas máquinas de extinção de incêndios e salvamento de pessoas e se progride no sentido de uma organização cada vez mais especializada.",
                         "Min_Pessoas": 1,
-                        "Max_Pessoas": 1,
+                        "Max_Pessoas": 10,
                         "Min_age": 12,
                         "Max_age": 25
                     },
@@ -1862,7 +1862,7 @@ var dict = {
                         "Duracao": 120,
                         "Descricao":"Para comemorar os 290 anos da Cerimónia da Troca das Princesas (1729), o Museu Nacional dos Coches apresenta um conjunto de painéis informativos sobre este momento histórico de boas relações entre os Reinos de Portugal e Espanha. Encontram-se em destaque, as Berlindas Francesas, o Coche da Mesa, o Coche de D. José e o Coche trazido por D. Mariana Vitória, que fizeram parte da Jornada ao Caia.",
                         "Min_Pessoas": 1,
-                        "Max_Pessoas": 1,
+                        "Max_Pessoas": 10,
                         "Min_age": 25,
                         "Max_age": 100
                     },
@@ -1874,7 +1874,7 @@ var dict = {
                         "Duracao": 120,
                         "Descricao":"Para comemorar os 290 anos da Cerimónia da Troca das Princesas (1729), o Museu Nacional dos Coches apresenta um conjunto de painéis informativos sobre este momento histórico de boas relações entre os Reinos de Portugal e Espanha. Encontram-se em destaque, as Berlindas Francesas, o Coche da Mesa, o Coche de D. José e o Coche trazido por D. Mariana Vitória, que fizeram parte da Jornada ao Caia.",
                         "Min_Pessoas": 1,
-                        "Max_Pessoas": 1,
+                        "Max_Pessoas": 10,
                         "Min_age": 12,
                         "Max_age": 25
                     },
@@ -1897,7 +1897,7 @@ var dict = {
                         "Duracao": 120,
                         "Descricao":"Nicolas Poussin (1594-1665) pode ser considerado como o maior pintor francês, embora tenha passado quase quarenta anos em Roma, onde se instalou em 1624, aos 30 anos. A cidade papal tinha então um meio artístico muito competitivo, onde os melhores pintores de toda a Europa vinham fazer a sua formação. Chamado por Luís XIII e pelo cardeal de Richelieu para ocupar o lugar de Primeiro pintor do rei, Poussin passou dois anos em Paris, entre 1640 e 1642. Em 1642, desgostado com o ambiente de intrigas da corte e preferindo a produção de quadros de pequeno formato, de subtil poesia e grande profundidade filosófica, voltou para Roma, onde permaneceu até à sua morte, em 1665.",
                         "Min_Pessoas": 1,
-                        "Max_Pessoas": 1,
+                        "Max_Pessoas": 10,
                         "Min_age": 25,
                         "Max_age": 100
                     },
@@ -1909,7 +1909,7 @@ var dict = {
                         "Duracao": 120,
                         "Descricao":"Nicolas Poussin (1594-1665) pode ser considerado como o maior pintor francês, embora tenha passado quase quarenta anos em Roma, onde se instalou em 1624, aos 30 anos. A cidade papal tinha então um meio artístico muito competitivo, onde os melhores pintores de toda a Europa vinham fazer a sua formação. Chamado por Luís XIII e pelo cardeal de Richelieu para ocupar o lugar de Primeiro pintor do rei, Poussin passou dois anos em Paris, entre 1640 e 1642. Em 1642, desgostado com o ambiente de intrigas da corte e preferindo a produção de quadros de pequeno formato, de subtil poesia e grande profundidade filosófica, voltou para Roma, onde permaneceu até à sua morte, em 1665.",
                         "Min_Pessoas": 1,
-                        "Max_Pessoas": 1,
+                        "Max_Pessoas": 10,
                         "Min_age": 12,
                         "Max_age": 25
                     },
@@ -1921,7 +1921,7 @@ var dict = {
                         "Duracao": 90,
                         "Descricao":"O projeto de estudo, conservação e restauro  dos Painéis de São Vicente resulta de um protocolo mecenático, para três anos, de 2020 a 2022, assinado entre o MNAA, o Grupo de Amigos do Museu Nacional de Arte Antiga, a Direcão-Geral do Património Cultural e a Fundação Millennium bcp. Além da participação de conservadores do MNAA, integram este projeto dois elementos contratados especificamente para esta intervenção, contando-se ainda  com o apoio técnico do Laboratório José de Figueiredo e do Laboratório Hércules da Universidade de Évora.",
                         "Min_Pessoas": 1,
-                        "Max_Pessoas": 1,
+                        "Max_Pessoas": 10,
                         "Min_age": 25,
                         "Max_age": 100
                     },
@@ -1933,7 +1933,7 @@ var dict = {
                         "Duracao": 90,
                         "Descricao":"O projeto de estudo, conservação e restauro  dos Painéis de São Vicente resulta de um protocolo mecenático, para três anos, de 2020 a 2022, assinado entre o MNAA, o Grupo de Amigos do Museu Nacional de Arte Antiga, a Direcão-Geral do Património Cultural e a Fundação Millennium bcp. Além da participação de conservadores do MNAA, integram este projeto dois elementos contratados especificamente para esta intervenção, contando-se ainda  com o apoio técnico do Laboratório José de Figueiredo e do Laboratório Hércules da Universidade de Évora.",
                         "Min_Pessoas": 1,
-                        "Max_Pessoas": 1,
+                        "Max_Pessoas": 10,
                         "Min_age": 12,
                         "Max_age": 25
                     },
@@ -1945,7 +1945,7 @@ var dict = {
                         "Duracao": 100,
                         "Descricao":"O Banco Santander atribuiu, em 2019, uma função cultural à sua sede em Portugal, o icónico Edifico dos Leões, que constitui uma referência na história da arquitetura nacional. Com a missão de divulgar e promover o importante legado patrimonial do Banco, que é visível no interior deste espaço cultural, cumprimos o objetivo cimeiro de preservar a memória histórica da nossa instituição. Com esta exposição «Em Boa Memória», dedicada ao Retrato, abrimos um ciclo de parceria com o prestigiado Museu Nacional de Arte Antiga, em que partindo de temáticas comuns às coleções de arte das duas instituições, criamos um diálogo artístico, onde questões tão atuais como a busca de identidade ou o perpetuar da memória do individuo, são aqui evidenciados em obras clássicas e mais contemporâneas. Destacamos a participação do consagrado artista Pedro Cabrita Reis e dos vencedores da primeira edição do Prémio de Arte Edifício dos Leões que expõem aqui as obras a concurso.",
                         "Min_Pessoas": 1,
-                        "Max_Pessoas": 1,
+                        "Max_Pessoas": 10,
                         "Min_age": 25,
                         "Max_age": 100
                     },
@@ -1957,7 +1957,7 @@ var dict = {
                         "Duracao": 100,
                         "Descricao":"O Banco Santander atribuiu, em 2019, uma função cultural à sua sede em Portugal, o icónico Edifico dos Leões, que constitui uma referência na história da arquitetura nacional. Com a missão de divulgar e promover o importante legado patrimonial do Banco, que é visível no interior deste espaço cultural, cumprimos o objetivo cimeiro de preservar a memória histórica da nossa instituição. Com esta exposição «Em Boa Memória», dedicada ao Retrato, abrimos um ciclo de parceria com o prestigiado Museu Nacional de Arte Antiga, em que partindo de temáticas comuns às coleções de arte das duas instituições, criamos um diálogo artístico, onde questões tão atuais como a busca de identidade ou o perpetuar da memória do individuo, são aqui evidenciados em obras clássicas e mais contemporâneas. Destacamos a participação do consagrado artista Pedro Cabrita Reis e dos vencedores da primeira edição do Prémio de Arte Edifício dos Leões que expõem aqui as obras a concurso.",
                         "Min_Pessoas": 1,
-                        "Max_Pessoas": 1,
+                        "Max_Pessoas": 10,
                         "Min_age": 12,
                         "Max_age": 25
                     },
@@ -1969,7 +1969,7 @@ var dict = {
                         "Duracao": 80,
                         "Descricao":"Um dos mais reputados discípulos do mestre francês Charles le Brun, Charles de la Fosse (1636-1716), partiu em 1662 para uma viagem de dois anos a Itália onde visitou Roma e Veneza, tendo aí descoberto a pintura de Veronese. A tela Ceia em Emaús que agora se expõe no MNAA – no âmbito da parceria desenvolvida com a Fundação Gaudium Magnum/Coleção Maria e João Cortez de Lobão – reflete bem a influência decisiva de Veronese na obra de Charles de la Fosse.",
                         "Min_Pessoas": 1,
-                        "Max_Pessoas": 1,
+                        "Max_Pessoas": 10,
                         "Min_age": 25,
                         "Max_age": 100
                     },
@@ -1981,7 +1981,7 @@ var dict = {
                         "Duracao": 80,
                         "Descricao":"Um dos mais reputados discípulos do mestre francês Charles le Brun, Charles de la Fosse (1636-1716), partiu em 1662 para uma viagem de dois anos a Itália onde visitou Roma e Veneza, tendo aí descoberto a pintura de Veronese. A tela Ceia em Emaús que agora se expõe no MNAA – no âmbito da parceria desenvolvida com a Fundação Gaudium Magnum/Coleção Maria e João Cortez de Lobão – reflete bem a influência decisiva de Veronese na obra de Charles de la Fosse.",
                         "Min_Pessoas": 1,
-                        "Max_Pessoas": 1,
+                        "Max_Pessoas": 10,
                         "Min_age": 12,
                         "Max_age": 25
                     },
@@ -1993,7 +1993,7 @@ var dict = {
                         "Duracao": 70,
                         "Descricao":"Proveniente do Castello Sforzesco de Milão, pode ser agora apreciada no MNAA. A pintura Virgem em glória com Santos integrou a campanha de obras feita em Quatrocentos para a igreja de Santa Maria in Organo, a pedido dos Beneditinos do Monte Olivete em Verona: supõe-se que terá sido colocada no altar-mor no dia 15 de agosto de 1497, dia da Assunção de Maria. Em 1791 foi retirada desse lugar de culto para integrar o museu da família Trivulzio, em Milão e, já no século XX, passou à propriedade das coleções públicas italianas. O autor, Andrea Mantegna (1431-1506) é um pintor maior do primeiro Renascimento italiano e esta tela, pintada a têmpera de ovo, representa a Virgem e o Menino levitando sobre três anjos músicos, ladeados por São João Baptista, São Gregório, São Bento e São Jerónimo, inscritos numa mandorla povoada de cabeças de putti. A profusa vegetação em moldura, com frutos e motivos florais de intenção simbólica, ou a filactera com inscrição latina, remetem sem dúvida para os seus anos de formação, mas a vigorosa notação pictural dos santos e a engenhosa composição, concebida para ser vista da nave do templo, di sotto in su, mostram o domínio da perspetiva e a mão ainda segura do pintor, já no ocaso da carreira.",
                         "Min_Pessoas": 1,
-                        "Max_Pessoas": 1,
+                        "Max_Pessoas": 10,
                         "Min_age": 25,
                         "Max_age": 100
                     },
@@ -2005,7 +2005,7 @@ var dict = {
                         "Duracao": 70,
                         "Descricao":"Proveniente do Castello Sforzesco de Milão, pode ser agora apreciada no MNAA. A pintura Virgem em glória com Santos integrou a campanha de obras feita em Quatrocentos para a igreja de Santa Maria in Organo, a pedido dos Beneditinos do Monte Olivete em Verona: supõe-se que terá sido colocada no altar-mor no dia 15 de agosto de 1497, dia da Assunção de Maria. Em 1791 foi retirada desse lugar de culto para integrar o museu da família Trivulzio, em Milão e, já no século XX, passou à propriedade das coleções públicas italianas. O autor, Andrea Mantegna (1431-1506) é um pintor maior do primeiro Renascimento italiano e esta tela, pintada a têmpera de ovo, representa a Virgem e o Menino levitando sobre três anjos músicos, ladeados por São João Baptista, São Gregório, São Bento e São Jerónimo, inscritos numa mandorla povoada de cabeças de putti. A profusa vegetação em moldura, com frutos e motivos florais de intenção simbólica, ou a filactera com inscrição latina, remetem sem dúvida para os seus anos de formação, mas a vigorosa notação pictural dos santos e a engenhosa composição, concebida para ser vista da nave do templo, di sotto in su, mostram o domínio da perspetiva e a mão ainda segura do pintor, já no ocaso da carreira.",
                         "Min_Pessoas": 1,
-                        "Max_Pessoas": 1,
+                        "Max_Pessoas": 10,
                         "Min_age": 12,
                         "Max_age": 25
                     },
@@ -2087,7 +2087,7 @@ var dict = {
                         "Duracao": 480,
                         "Descricao":"Verão que é verão pede diversão... aquática! E não só! Como tal, este ano o Sportágua, um dos parques aquáticos mais antigos do país e o mais próximo de Lisboa reinventa-se afirmando-se como um dos principais pontos de diversão da cidade. Aventura-te numa das suas 15 pistas, representadas por 2 escorregas multipistas, 2 escorregas tobogãs e um kamikaze, dá uns mergulhos na piscina e petisca qualquer coisa no bar ou restaurante do recinto. Haverá lá melhor plano em família, refrescante e com sabor a verão que este? Aqui a diversão está garantida para todos!",
                         "Min_Pessoas": 1,
-                        "Max_Pessoas": 1,
+                        "Max_Pessoas": 10,
                         "Min_age": 0,
                         "Max_age": 100
                     },
@@ -2099,7 +2099,7 @@ var dict = {
                         "Duracao": 240,
                         "Descricao":"Verão que é verão pede diversão... aquática! E não só! Como tal, este ano o Sportágua, um dos parques aquáticos mais antigos do país e o mais próximo de Lisboa reinventa-se afirmando-se como um dos principais pontos de diversão da cidade. Aventura-te numa das suas 15 pistas, representadas por 2 escorregas multipistas, 2 escorregas tobogãs e um kamikaze, dá uns mergulhos na piscina e petisca qualquer coisa no bar ou restaurante do recinto. Haverá lá melhor plano em família, refrescante e com sabor a verão que este? Aqui a diversão está garantida para todos!",
                         "Min_Pessoas": 1,
-                        "Max_Pessoas": 1,
+                        "Max_Pessoas": 10,
                         "Min_age": 0,
                         "Max_age": 100
                     },
@@ -2111,7 +2111,7 @@ var dict = {
                         "Duracao": 480,
                         "Descricao":"Verão que é verão pede diversão... aquática! E não só! Como tal, este ano o Sportágua, um dos parques aquáticos mais antigos do país e o mais próximo de Lisboa reinventa-se afirmando-se como um dos principais pontos de diversão da cidade. Aventura-te numa das suas 15 pistas, representadas por 2 escorregas multipistas, 2 escorregas tobogãs e um kamikaze, dá uns mergulhos na piscina e petisca qualquer coisa no bar ou restaurante do recinto. Haverá lá melhor plano em família, refrescante e com sabor a verão que este? Aqui a diversão está garantida para todos!",
                         "Min_Pessoas": 2,
-                        "Max_Pessoas": 4,
+                        "Max_Pessoas": 20,
                         "Min_age": 0,
                         "Max_age": 100
                     }
@@ -2134,7 +2134,7 @@ var dict = {
                         "Duracao": 60,
                         "Descricao":"Almada Negreiros dizia, e nós concordámos, que “Quando algumas pessoas têm a mesma desgraça, juntam-se”. Mas, como otimistas que somos, apropriamo-nos da expressão fazendo sobre ela uma pequena variação, que rapidamente se transformou no mote para toda a nossa aventura: Quando algumas pessoas têm a mesma sorte, juntam-se. Inicialmente, a Mãe Telma tinha a SORTE de não saber onde realizar a festa de aniversário do Rodrigo. Nós tínhamos a Sortuda ideia de criar um parque de diversões. Duas SORTES juntaram-se e culminaram numa SORTUDA ANIMAÇÃO. Hoje o Feijão Verde Fun Park é SORTUDAMENTE afortunado por estar espalhado por todo o país e por percorrê-lo de lés a lés com um único objetivo: Festejar contigo o melhor dia da tua vida! Do alto Minho ao Alentejo, de ti, para os teus pais, não fazemos distinção de idades, todos têm direito a uma “sortuda animação”.",
                         "Min_Pessoas": 1,
-                        "Max_Pessoas": 1,
+                        "Max_Pessoas": 20,
                         "Min_age": 1,
                         "Max_age": 3
                     },
@@ -2146,7 +2146,7 @@ var dict = {
                         "Duracao": 60,
                         "Descricao":"Almada Negreiros dizia, e nós concordámos, que “Quando algumas pessoas têm a mesma desgraça, juntam-se”. Mas, como otimistas que somos, apropriamo-nos da expressão fazendo sobre ela uma pequena variação, que rapidamente se transformou no mote para toda a nossa aventura: Quando algumas pessoas têm a mesma sorte, juntam-se. Inicialmente, a Mãe Telma tinha a SORTE de não saber onde realizar a festa de aniversário do Rodrigo. Nós tínhamos a Sortuda ideia de criar um parque de diversões. Duas SORTES juntaram-se e culminaram numa SORTUDA ANIMAÇÃO. Hoje o Feijão Verde Fun Park é SORTUDAMENTE afortunado por estar espalhado por todo o país e por percorrê-lo de lés a lés com um único objetivo: Festejar contigo o melhor dia da tua vida! Do alto Minho ao Alentejo, de ti, para os teus pais, não fazemos distinção de idades, todos têm direito a uma “sortuda animação”.",
                         "Min_Pessoas": 1,
-                        "Max_Pessoas": 1,
+                        "Max_Pessoas": 20,
                         "Min_age": 4,
                         "Max_age": 12
                     },
@@ -2158,7 +2158,7 @@ var dict = {
                         "Duracao": 120,
                         "Descricao":"Almada Negreiros dizia, e nós concordámos, que “Quando algumas pessoas têm a mesma desgraça, juntam-se”. Mas, como otimistas que somos, apropriamo-nos da expressão fazendo sobre ela uma pequena variação, que rapidamente se transformou no mote para toda a nossa aventura: Quando algumas pessoas têm a mesma sorte, juntam-se. Inicialmente, a Mãe Telma tinha a SORTE de não saber onde realizar a festa de aniversário do Rodrigo. Nós tínhamos a Sortuda ideia de criar um parque de diversões. Duas SORTES juntaram-se e culminaram numa SORTUDA ANIMAÇÃO. Hoje o Feijão Verde Fun Park é SORTUDAMENTE afortunado por estar espalhado por todo o país e por percorrê-lo de lés a lés com um único objetivo: Festejar contigo o melhor dia da tua vida! Do alto Minho ao Alentejo, de ti, para os teus pais, não fazemos distinção de idades, todos têm direito a uma “sortuda animação”.",
                         "Min_Pessoas": 1,
-                        "Max_Pessoas": 1,
+                        "Max_Pessoas": 20,
                         "Min_age": 1,
                         "Max_age": 3
                     },
@@ -2170,7 +2170,7 @@ var dict = {
                         "Duracao": 120,
                         "Descricao":"Almada Negreiros dizia, e nós concordámos, que “Quando algumas pessoas têm a mesma desgraça, juntam-se”. Mas, como otimistas que somos, apropriamo-nos da expressão fazendo sobre ela uma pequena variação, que rapidamente se transformou no mote para toda a nossa aventura: Quando algumas pessoas têm a mesma sorte, juntam-se. Inicialmente, a Mãe Telma tinha a SORTE de não saber onde realizar a festa de aniversário do Rodrigo. Nós tínhamos a Sortuda ideia de criar um parque de diversões. Duas SORTES juntaram-se e culminaram numa SORTUDA ANIMAÇÃO. Hoje o Feijão Verde Fun Park é SORTUDAMENTE afortunado por estar espalhado por todo o país e por percorrê-lo de lés a lés com um único objetivo: Festejar contigo o melhor dia da tua vida! Do alto Minho ao Alentejo, de ti, para os teus pais, não fazemos distinção de idades, todos têm direito a uma “sortuda animação”.",
                         "Min_Pessoas": 1,
-                        "Max_Pessoas": 1,
+                        "Max_Pessoas": 20,
                         "Min_age": 4,
                         "Max_age": 12
                     },
@@ -2182,7 +2182,7 @@ var dict = {
                         "Duracao": 60,
                         "Descricao":"Almada Negreiros dizia, e nós concordámos, que “Quando algumas pessoas têm a mesma desgraça, juntam-se”. Mas, como otimistas que somos, apropriamo-nos da expressão fazendo sobre ela uma pequena variação, que rapidamente se transformou no mote para toda a nossa aventura: Quando algumas pessoas têm a mesma sorte, juntam-se. Inicialmente, a Mãe Telma tinha a SORTE de não saber onde realizar a festa de aniversário do Rodrigo. Nós tínhamos a Sortuda ideia de criar um parque de diversões. Duas SORTES juntaram-se e culminaram numa SORTUDA ANIMAÇÃO. Hoje o Feijão Verde Fun Park é SORTUDAMENTE afortunado por estar espalhado por todo o país e por percorrê-lo de lés a lés com um único objetivo: Festejar contigo o melhor dia da tua vida! Do alto Minho ao Alentejo, de ti, para os teus pais, não fazemos distinção de idades, todos têm direito a uma “sortuda animação”.",
                         "Min_Pessoas": 1,
-                        "Max_Pessoas": 1,
+                        "Max_Pessoas": 20,
                         "Min_age": 18,
                         "Max_age": 100
                     },
@@ -2194,7 +2194,7 @@ var dict = {
                         "Duracao": 480,
                         "Descricao":"Almada Negreiros dizia, e nós concordámos, que “Quando algumas pessoas têm a mesma desgraça, juntam-se”. Mas, como otimistas que somos, apropriamo-nos da expressão fazendo sobre ela uma pequena variação, que rapidamente se transformou no mote para toda a nossa aventura: Quando algumas pessoas têm a mesma sorte, juntam-se. Inicialmente, a Mãe Telma tinha a SORTE de não saber onde realizar a festa de aniversário do Rodrigo. Nós tínhamos a Sortuda ideia de criar um parque de diversões. Duas SORTES juntaram-se e culminaram numa SORTUDA ANIMAÇÃO. Hoje o Feijão Verde Fun Park é SORTUDAMENTE afortunado por estar espalhado por todo o país e por percorrê-lo de lés a lés com um único objetivo: Festejar contigo o melhor dia da tua vida! Do alto Minho ao Alentejo, de ti, para os teus pais, não fazemos distinção de idades, todos têm direito a uma “sortuda animação”.",
                         "Min_Pessoas": 1,
-                        "Max_Pessoas": 1,
+                        "Max_Pessoas": 20,
                         "Min_age": 0,
                         "Max_age": 100
                     },
@@ -2206,7 +2206,7 @@ var dict = {
                         "Duracao": 180,
                         "Descricao":"Almada Negreiros dizia, e nós concordámos, que “Quando algumas pessoas têm a mesma desgraça, juntam-se”. Mas, como otimistas que somos, apropriamo-nos da expressão fazendo sobre ela uma pequena variação, que rapidamente se transformou no mote para toda a nossa aventura: Quando algumas pessoas têm a mesma sorte, juntam-se. Inicialmente, a Mãe Telma tinha a SORTE de não saber onde realizar a festa de aniversário do Rodrigo. Nós tínhamos a Sortuda ideia de criar um parque de diversões. Duas SORTES juntaram-se e culminaram numa SORTUDA ANIMAÇÃO. Hoje o Feijão Verde Fun Park é SORTUDAMENTE afortunado por estar espalhado por todo o país e por percorrê-lo de lés a lés com um único objetivo: Festejar contigo o melhor dia da tua vida! Do alto Minho ao Alentejo, de ti, para os teus pais, não fazemos distinção de idades, todos têm direito a uma “sortuda animação”.",
                         "Min_Pessoas": 2,
-                        "Max_Pessoas": 2,
+                        "Max_Pessoas": 20,
                         "Min_age": 0,
                         "Max_age": 100
                     },
@@ -2218,7 +2218,7 @@ var dict = {
                         "Duracao": 180,
                         "Descricao":"Almada Negreiros dizia, e nós concordámos, que “Quando algumas pessoas têm a mesma desgraça, juntam-se”. Mas, como otimistas que somos, apropriamo-nos da expressão fazendo sobre ela uma pequena variação, que rapidamente se transformou no mote para toda a nossa aventura: Quando algumas pessoas têm a mesma sorte, juntam-se. Inicialmente, a Mãe Telma tinha a SORTE de não saber onde realizar a festa de aniversário do Rodrigo. Nós tínhamos a Sortuda ideia de criar um parque de diversões. Duas SORTES juntaram-se e culminaram numa SORTUDA ANIMAÇÃO. Hoje o Feijão Verde Fun Park é SORTUDAMENTE afortunado por estar espalhado por todo o país e por percorrê-lo de lés a lés com um único objetivo: Festejar contigo o melhor dia da tua vida! Do alto Minho ao Alentejo, de ti, para os teus pais, não fazemos distinção de idades, todos têm direito a uma “sortuda animação”.",
                         "Min_Pessoas": 3,
-                        "Max_Pessoas": 3,
+                        "Max_Pessoas": 30,
                         "Min_age": 0,
                         "Max_age": 100
                     },
@@ -2230,7 +2230,7 @@ var dict = {
                         "Duracao": 180,
                         "Descricao":"Almada Negreiros dizia, e nós concordámos, que “Quando algumas pessoas têm a mesma desgraça, juntam-se”. Mas, como otimistas que somos, apropriamo-nos da expressão fazendo sobre ela uma pequena variação, que rapidamente se transformou no mote para toda a nossa aventura: Quando algumas pessoas têm a mesma sorte, juntam-se. Inicialmente, a Mãe Telma tinha a SORTE de não saber onde realizar a festa de aniversário do Rodrigo. Nós tínhamos a Sortuda ideia de criar um parque de diversões. Duas SORTES juntaram-se e culminaram numa SORTUDA ANIMAÇÃO. Hoje o Feijão Verde Fun Park é SORTUDAMENTE afortunado por estar espalhado por todo o país e por percorrê-lo de lés a lés com um único objetivo: Festejar contigo o melhor dia da tua vida! Do alto Minho ao Alentejo, de ti, para os teus pais, não fazemos distinção de idades, todos têm direito a uma “sortuda animação”.",
                         "Min_Pessoas": 4,
-                        "Max_Pessoas": 4,
+                        "Max_Pessoas": 20,
                         "Min_age": 0,
                         "Max_age": 100
                     },
@@ -2242,7 +2242,7 @@ var dict = {
                         "Duracao": 180,
                         "Descricao":"Almada Negreiros dizia, e nós concordámos, que “Quando algumas pessoas têm a mesma desgraça, juntam-se”. Mas, como otimistas que somos, apropriamo-nos da expressão fazendo sobre ela uma pequena variação, que rapidamente se transformou no mote para toda a nossa aventura: Quando algumas pessoas têm a mesma sorte, juntam-se. Inicialmente, a Mãe Telma tinha a SORTE de não saber onde realizar a festa de aniversário do Rodrigo. Nós tínhamos a Sortuda ideia de criar um parque de diversões. Duas SORTES juntaram-se e culminaram numa SORTUDA ANIMAÇÃO. Hoje o Feijão Verde Fun Park é SORTUDAMENTE afortunado por estar espalhado por todo o país e por percorrê-lo de lés a lés com um único objetivo: Festejar contigo o melhor dia da tua vida! Do alto Minho ao Alentejo, de ti, para os teus pais, não fazemos distinção de idades, todos têm direito a uma “sortuda animação”.",
                         "Min_Pessoas": 5,
-                        "Max_Pessoas": 5,
+                        "Max_Pessoas": 50,
                         "Min_age": 0,
                         "Max_age": 100
                     }
@@ -2265,7 +2265,7 @@ var dict = {
                         "Duracao": 180,
                         "Descricao":"A bordo de um dos nossos veículos anfíbios, explore o coração da capital portuguesa, por terra e água, sempre no conforto do seu lugar. É um autocarro? É um barco? É ambos… portanto prepare-se para “mergulhar” no rio Tejo com um enorme sorriso. Venha divertir-se com os nossos animadores que partilharão mitos, lendas e curiosidades, num circuito de 90 mins cheio de energia positiva e interacção. A diversão reina, por isso não espere uma visita panorâmica “tradicional” com um guia “tradicional”. Os nossos animadores proporcionam uma experiência memorável e sairá gritando Hippo, Hippo, Hurra!!!",
                         "Min_Pessoas": 1,
-                        "Max_Pessoas": 1,
+                        "Max_Pessoas": 10,
                         "Min_age": 17,
                         "Max_age": 65
                     },
@@ -2277,7 +2277,7 @@ var dict = {
                         "Duracao": 180,
                         "Descricao":"A bordo de um dos nossos veículos anfíbios, explore o coração da capital portuguesa, por terra e água, sempre no conforto do seu lugar. É um autocarro? É um barco? É ambos… portanto prepare-se para “mergulhar” no rio Tejo com um enorme sorriso. Venha divertir-se com os nossos animadores que partilharão mitos, lendas e curiosidades, num circuito de 90 mins cheio de energia positiva e interacção. A diversão reina, por isso não espere uma visita panorâmica “tradicional” com um guia “tradicional”. Os nossos animadores proporcionam uma experiência memorável e sairá gritando Hippo, Hippo, Hurra!!!",
                         "Min_Pessoas": 1,
-                        "Max_Pessoas": 1,
+                        "Max_Pessoas": 10,
                         "Min_age": 0,
                         "Max_age": 16
                     },
@@ -2289,7 +2289,7 @@ var dict = {
                         "Duracao": 180,
                         "Descricao":"A bordo de um dos nossos veículos anfíbios, explore o coração da capital portuguesa, por terra e água, sempre no conforto do seu lugar. É um autocarro? É um barco? É ambos… portanto prepare-se para “mergulhar” no rio Tejo com um enorme sorriso. Venha divertir-se com os nossos animadores que partilharão mitos, lendas e curiosidades, num circuito de 90 mins cheio de energia positiva e interacção. A diversão reina, por isso não espere uma visita panorâmica “tradicional” com um guia “tradicional”. Os nossos animadores proporcionam uma experiência memorável e sairá gritando Hippo, Hippo, Hurra!!!",
                         "Min_Pessoas": 1,
-                        "Max_Pessoas": 1,
+                        "Max_Pessoas": 10,
                         "Min_age": 65,
                         "Max_age": 100
                     },
@@ -2312,7 +2312,7 @@ var dict = {
                         "Duracao": 90,
                         "Descricao":"Dinamização de Jogos de Afetos, em grande formato, e de dinâmicas de grupo, recorrendo a salas específicas criadas para o efeito em alguns dos edifícios do parque ou em espaço livre nos jardins. Para a realização dos Jogos de Afetos, criados por Graça Gonçalves, desenvolve-se uma adequação às faixas etárias e objetivos definidos para cada atividade. Em cada Jogo de Afetos poderão ainda ser trabalhados diversos temas relacionados com as emoções, sentimentos e afetos, nomeadamente: relações de amizade, competências sociais, gestão de conflitos, promoção da autoestima, da autoconfiança, entre outros.",
                         "Min_Pessoas": 1,
-                        "Max_Pessoas": 1,
+                        "Max_Pessoas": 10,
                         "Min_age": 18,
                         "Max_age": 100
                     },
@@ -2324,7 +2324,7 @@ var dict = {
                         "Duracao": 90,
                         "Descricao":"Dinamização de atividades dirigidas para grupos em que se promove uma visita experiencial recorrendo a diversos símbolos e características do próprio espaço que, através de atividades do estilo Peddy Paper, estimula a descoberta de emoções e sentimentos que conduzirão a um “Tesouro”. Esta atividade de orientação pedestre para equipas, que consiste num percurso dentro do Lugar dos Afetos®, tem associadas perguntas ou tarefas nas diferentes casas ou nos jardins. Este percurso leva a descobrir diferentes elementos simbólicos que permitem a passagem à fase seguinte do percurso. Enquanto atividade lúdica, pretende ainda estimular uma experiência de descoberta e conquista, incitando à aprendizagem significativa pelos participantes, substituindo, assim, uma apresentação mais expositiva pelas guias. Esta atividade, com base nos livros e jogos da autora, foi pensada com o objetivo de proporcionar atividades práticas (“hands on”) para qualquer faixa etária.",
                         "Min_Pessoas": 1,
-                        "Max_Pessoas": 1,
+                        "Max_Pessoas": 10,
                         "Min_age": 14,
                         "Max_age": 17
                     },
@@ -2336,7 +2336,7 @@ var dict = {
                         "Duracao": 90,
                         "Descricao":"Visitas guiadas pelo parque temático que passam pela descrição dos vários elementos simbólicos dos edifícios, dos jardins e, principalmente, pelo desenvolvimento de dinâmicas (individuais ou em grupo) com os visitantes na área das competências emocionais (pessoais) e sociais com base na obra literária e lúdica da fundadora do Lugar dos Afetos®, Graça Gonçalves. Esta visita guiada pode levar cada um, independentemente do país de origem, a partilhar a única linguagem que é verdadeiramente universal a Linguagem dos Afetos e, assim, “descobrir, emoção a emoção, um caminho, nem que seja um pequeno carreirinho, para chegar ao coração de si próprio e dos outros”. A visita guiada é para todas as idades.",
                         "Min_Pessoas": 1,
-                        "Max_Pessoas": 1,
+                        "Max_Pessoas": 10,
                         "Min_age": 0,
                         "Max_age": 13
                     },
@@ -2359,7 +2359,7 @@ var dict = {
                         "Duracao": 210,
                         "Descricao":"A melhor coisa sobre esta viagem: Rumo ao oeste para explorar as belas cavernas e litoral até a famosa caverna de Benagil (também conhecida como Catedral e Algar de Benagil), mas sem perder as outras paisagens incríveis, a famosa capela de Nossa Senhora da Rocha, Praia da Marinha, caverna de capitães, rocha submarina, arco do triunfo e muito mais.",
                         "Min_Pessoas": 1,
-                        "Max_Pessoas": 1,
+                        "Max_Pessoas": 10,
                         "Min_age": 0,
                         "Max_age": 100
                     }, 
@@ -2371,7 +2371,7 @@ var dict = {
                         "Duracao": 160,
                         "Descricao":"Esta é a chance de passar algum tempo no movimentado mercado de ciganos e obter as pechinchas de última hora. O mercado de Quarteira é um dos mais populares no Algarve e é um óptimo local para comprar uma pechincha – especialmente se tiver o seu chapéu de negociador! Depois do mercado aproveite para visitar Quarteira, vila de pescadores e em seguida dirija-se à Marina de Vilamoura, a maior da Europa. A Marina de Vilamoura é uma das jóias da coroa do Algarve, oferecendo não só um refúgio seguro para barcos de luxo, mas também uma localização animada e excitante, tanto durante o dia como durante a noite.",
                         "Min_Pessoas": 1,
-                        "Max_Pessoas": 1,
+                        "Max_Pessoas": 10,
                         "Min_age": 0,
                         "Max_age": 100
                     }, 
@@ -2383,7 +2383,7 @@ var dict = {
                         "Duracao": 145,
                         "Descricao":"Se está à procura de uma viagem que inclua os melhores e mais populares locais históricos do Algarve, esta é uma oportunidade única! Uma oportunidade para visitar a Serra e os restos mouros e romanos. Vá a Silves e visite o antigo Castelo dos Mouros e a Sé. Suba até ás Caldas de Monchique e Fóia, o ponto mais alto do Algarve. Você terá tempo livre para uma degustação de vinhos e tirar fotos espectaculares. Desça para um almoço tradicional (não incluído). Após o almoço, a viagem continua até à bela cidade de Lagos, visite o mercado de escravos, a Igreja de Santo António, o forte e a cidade antiga.",
                         "Min_Pessoas": 1,
-                        "Max_Pessoas": 1,
+                        "Max_Pessoas": 10,
                         "Min_age": 0,
                         "Max_age": 100
                     }, 
@@ -2395,7 +2395,7 @@ var dict = {
                         "Duracao": 120,
                         "Descricao":"São seguros, divertidos e modernos os jet skis Yamaha Waverunner e dispõem de um silencioso motor de 4 tempos mas não lhe falta força com 110 cavalos de potência permitindo que os jet skis alcançam altas velocidades saltando sobre as ondas. Alugue um jet ski para si mesmo, ou dê um passeio com um amigo à pendura para uma experiência inesquecível no Algarve cheio de adrenalina a partir da marina de Albufeira.",
                         "Min_Pessoas": 1,
-                        "Max_Pessoas": 1,
+                        "Max_Pessoas": 10,
                         "Min_age": 0,
                         "Max_age": 100
                     }, 
@@ -2407,7 +2407,7 @@ var dict = {
                         "Duracao": 80,
                         "Descricao":"O que há de mais relaxante do que um passeio que lhe permite ver as belíssimas paisagens, tradição Algarvia e ainda provar um  bom vinho? Neste passeio, poderá fazer tudo isto! O passeio de Paisagens do Algarve, Olaria e Prova de Vinho é um passeio bem original, em que poderá passear num confortável Land Rover e visitar uma adega típica e provar os deliciosos vinhos regionais. Segue-se uma visita a uma das olarias mais antigas em Porches, poderá ainda ver a belíssima praia do Benagil, uma pequena aldeia piscatória. Passagem também por Carvoeiro, onde será possível admirar as magníficas formações rochosas do Algar Seco, e por fim passará por Ferragudo. Um passeio completíssimo!",
                         "Min_Pessoas": 1,
-                        "Max_Pessoas": 1,
+                        "Max_Pessoas": 10,
                         "Min_age": 0,
                         "Max_age": 100
                     }, 
@@ -2419,7 +2419,7 @@ var dict = {
                         "Duracao": 80,
                         "Descricao":"Qual é a melhor maneira de explorar do que a caminhar? Um passeio a pé é certamente uma ótima maneira de explorar o interior do Algarve e conhecer a tradição! Caminhar pela região campestre do Algarve é certamente uma ótima maneira de sentir o Algarve, dos aromas e do vento, à textura e ao ambiente. Desta forma, você conhecerá o lado mais tradicional do Algarve, visitando lugares ao redor de Alte ou Monchique, tudo isso enquanto faz uma atividade muito saudável e relaxante!",
                         "Min_Pessoas": 1,
-                        "Max_Pessoas": 1,
+                        "Max_Pessoas": 10,
                         "Min_age": 0,
                         "Max_age": 100
                     }, 
@@ -2431,7 +2431,7 @@ var dict = {
                         "Duracao": 420,
                         "Descricao":"O melhor deste passeio: Ver os golfinhos no seu habitat natural. Local de partida: Marina de Lagos. Rota: De Lagos diretamente onde se encontram os golfinhos.",
                         "Min_Pessoas": 1,
-                        "Max_Pessoas": 1,
+                        "Max_Pessoas": 10,
                         "Min_age": 0,
                         "Max_age": 100
                     }, 
@@ -2443,7 +2443,7 @@ var dict = {
                         "Duracao": 110,
                         "Descricao":"O melhor deste passeio: Um passeio pela costa e grutas do Algarve, num barco pirata, onde podem desfrutar de uma visita detalhada às grutas, pois no farol de Alfanzina passarão para uns barcos menores que poderão entrar dentro das grutas de Carvoeiro, Benagil e Praia da Marinha, e assim vê-las ao pormenor.",
                         "Min_Pessoas": 1,
-                        "Max_Pessoas": 1,
+                        "Max_Pessoas": 10,
                         "Min_age": 0,
                         "Max_age": 100
                     }, 
@@ -2455,7 +2455,7 @@ var dict = {
                         "Duracao": 90,
                         "Descricao":"Sumário do passeio: Passeio pelas Grutas e Observação de Golfinhos de Albufeira. Referência X329 O melhor deste passeio: Beleza natural da costa e grutas, com observação de golfinhos. Local de partida: Marina de Albufeira. Rota: Marina de Albufeira até Farol de Carvoeiro.",
                         "Min_Pessoas": 1,
-                        "Max_Pessoas": 1,
+                        "Max_Pessoas": 10,
                         "Min_age": 0,
                         "Max_age": 100
                     }, 
@@ -2467,7 +2467,7 @@ var dict = {
                         "Duracao": 130,
                         "Descricao":"O melhor deste passeio: Está num barco pequeno por isso pode entrar nas grutas. Local de partida: Marina de Carvoeiro. Rota: Do Carvoeiro até Benagil.",
                         "Min_Pessoas": 1,
-                        "Max_Pessoas": 1,
+                        "Max_Pessoas": 10,
                         "Min_age": 0,
                         "Max_age": 100
                     },
@@ -2490,7 +2490,7 @@ var dict = {
                         "Duracao": 60,
                         "Descricao":"O nosso passeio de barco nos Canais Urbanos da Ria de Aveiro tem a duração de 45 minutos e percorre os quatro principais canais da cidade de Aveiro: Canal Central, Canal do Côjo, Canal das Pirâmides e o Canal de São Roque. Pode fazer este passeio em 2 barcos diferentes: o Moliceiro e o Mercantel. Antigamente, os Moliceiros eram considerados barcos de trabalho, pois eram utilizados para ajudar na apanha do moliço, uma alga usada como principal fonte de adubagem nas terras agrícolas de Aveiro.",
                         "Min_Pessoas": 1,
-                        "Max_Pessoas": 1,
+                        "Max_Pessoas": 10,
                         "Min_age": 12,
                         "Max_age": 65
                     }, 
@@ -2502,7 +2502,7 @@ var dict = {
                         "Duracao": 60,
                         "Descricao":"O nosso passeio de barco nos Canais Urbanos da Ria de Aveiro tem a duração de 45 minutos e percorre os quatro principais canais da cidade de Aveiro: Canal Central, Canal do Côjo, Canal das Pirâmides e o Canal de São Roque. Pode fazer este passeio em 2 barcos diferentes: o Moliceiro e o Mercantel. Antigamente, os Moliceiros eram considerados barcos de trabalho, pois eram utilizados para ajudar na apanha do moliço, uma alga usada como principal fonte de adubagem nas terras agrícolas de Aveiro.",
                         "Min_Pessoas": 1,
-                        "Max_Pessoas": 1,
+                        "Max_Pessoas": 10,
                         "Min_age": 65,
                         "Max_age": 100
                     }, 
@@ -2514,7 +2514,7 @@ var dict = {
                         "Duracao": 60,
                         "Descricao":"O nosso passeio de barco nos Canais Urbanos da Ria de Aveiro tem a duração de 45 minutos e percorre os quatro principais canais da cidade de Aveiro: Canal Central, Canal do Côjo, Canal das Pirâmides e o Canal de São Roque. Pode fazer este passeio em 2 barcos diferentes: o Moliceiro e o Mercantel. Antigamente, os Moliceiros eram considerados barcos de trabalho, pois eram utilizados para ajudar na apanha do moliço, uma alga usada como principal fonte de adubagem nas terras agrícolas de Aveiro.",
                         "Min_Pessoas": 1,
-                        "Max_Pessoas": 1,
+                        "Max_Pessoas": 10,
                         "Min_age": 0,
                         "Max_age": 100
                     }, 
@@ -2526,7 +2526,7 @@ var dict = {
                         "Duracao": 60,
                         "Descricao":"O nosso passeio de barco nos Canais Urbanos da Ria de Aveiro tem a duração de 45 minutos e percorre os quatro principais canais da cidade de Aveiro: Canal Central, Canal do Côjo, Canal das Pirâmides e o Canal de São Roque. Pode fazer este passeio em 2 barcos diferentes: o Moliceiro e o Mercantel. Antigamente, os Moliceiros eram considerados barcos de trabalho, pois eram utilizados para ajudar na apanha do moliço, uma alga usada como principal fonte de adubagem nas terras agrícolas de Aveiro.",
                         "Min_Pessoas": 1,
-                        "Max_Pessoas": 1,
+                        "Max_Pessoas": 10,
                         "Min_age": 5,
                         "Max_age": 12
                     }, 
@@ -2538,7 +2538,7 @@ var dict = {
                         "Duracao": 60,
                         "Descricao":"O nosso passeio de barco nos Canais Urbanos da Ria de Aveiro tem a duração de 45 minutos e percorre os quatro principais canais da cidade de Aveiro: Canal Central, Canal do Côjo, Canal das Pirâmides e o Canal de São Roque. Pode fazer este passeio em 2 barcos diferentes: o Moliceiro e o Mercantel. Antigamente, os Moliceiros eram considerados barcos de trabalho, pois eram utilizados para ajudar na apanha do moliço, uma alga usada como principal fonte de adubagem nas terras agrícolas de Aveiro.",
                         "Min_Pessoas": 1,
-                        "Max_Pessoas": 1,
+                        "Max_Pessoas": 10,
                         "Min_age": 0,
                         "Max_age": 4
                     }, 
@@ -2550,7 +2550,7 @@ var dict = {
                         "Duracao": 60,
                         "Descricao":"O nosso passeio de barco nos Canais Urbanos da Ria de Aveiro tem a duração de 45 minutos e percorre os quatro principais canais da cidade de Aveiro: Canal Central, Canal do Côjo, Canal das Pirâmides e o Canal de São Roque. Pode fazer este passeio em 2 barcos diferentes: o Moliceiro e o Mercantel. Antigamente, os Moliceiros eram considerados barcos de trabalho, pois eram utilizados para ajudar na apanha do moliço, uma alga usada como principal fonte de adubagem nas terras agrícolas de Aveiro.",
                         "Min_Pessoas": 1,
-                        "Max_Pessoas": 1,
+                        "Max_Pessoas": 10,
                         "Min_age": 0,
                         "Max_age": 100
                     },
