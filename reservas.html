@@ -29,6 +29,7 @@
             align-content: center;
             border-radius: 5px;
             background-color: #1F2022;
+            text-shadow:2px 2px 1px black, -2px -2px 3px black
         }
             .card-body{            
                 background-size:cover;
@@ -161,37 +162,40 @@
     </style>
 </head>
 <body>
-    <nav id="nav" class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
-        <div class="container-fluid">
-            <a href="index.html"><img src="logo1.png" style="height:50px" class="navbar-brand"></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a style="color:white" class="nav-link active" aria-current="page" href="atividades.html">ATIVIDADES</a>
-                    </li>
-                    <li class="nav-item">
-                        <a style="color:white" class="nav-link active" href="reservas.html">RESERVAS</a>
-                    </li>
-                </ul>
-                <div class="collapse navbar-collapse justify-content-end">
-                    <ul class="navbar-nav ">
-                        <li class="nav-item">
-                            <a style="color:white" class="nav-link active" aria-current="page" href="login.html">Login/Registo</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </nav>
+ <nav id="nav" class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
+     <div class="container-fluid">
+         <a href="index.html"><img src="logo1.png" style="height:50px" class="navbar-brand"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+         <div class="collapse navbar-collapse" id="navbarSupportedContent">
+             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                 <li class="nav-item">
+                     <a style="color:white" class="nav-link active" aria-current="page" href="atividades.html" >ATIVIDADES</a>
+                 </li>
+                 <li class="nav-item">
+                     <a style="color:white" class="nav-link active" href="reservas.html">RESERVAS</a>
+                 </li>
+                 <li class="nav-item" style="padding-left:710px">
+                     <a style="color:white" class="nav-link active" href="carrinho.html">CARRINHO</a>
+                 </li>
+             </ul>
+             <div class="collapse navbar-collapse justify-content-end">
+                 <ul class="navbar-nav ">
+                     <li id="ola" class="nav-item dropdown">
+                      
+                     </li>
+                 </ul>
+             </div>
+         </div>
+     </div>
+</nav>
     <div class="container">
         <div style="padding-bottom:50px;padding-top:100px" class="row d-grid d-flex row-cols-sm-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 justify-content-center" data-bind="foreach:data">
             <div style="justify-content: space-evenly;">
                 <div class="card">
                     <div class="card-body" data-bind="style: {'backgroundImage': 'url('+ Image +')'}" align="center" style="align-content:center; margin:0px;object-fit:cover">
-                        <p style="color:black !important" data-bind="text:Name"></p>
+                        <p style="color:white !important" data-bind="text:Name"></p>
                         <div>
                             <div class="col-12">
                                 <button id="maisDetalhes" style=float:left; class="learn-more">
