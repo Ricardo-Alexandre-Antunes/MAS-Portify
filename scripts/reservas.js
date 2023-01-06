@@ -225,6 +225,8 @@ $(document).ready(function () {
 });
 self.html = ko.observable('')
 self.html = ko.observable('')
+
+
 function logout() {
     var login = localStorage.setItem('login', 'false')
     login = 'false'
