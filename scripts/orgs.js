@@ -1552,7 +1552,7 @@ var dict = {
             "Id": 1, "Info": {
                 "Name": "Museu de Arte, Arquitetura e Tecnologia",
                 "District": "Lisboa",
-                "Category": ["criancas", "museu", "adultos",],
+                "Category": ["criancas", "museu", "adultos"],
                 "Priceholder": 5,
                 "Events": [
                     {
