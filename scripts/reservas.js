@@ -215,7 +215,7 @@ $(document).ready(function () {
         var el = document.getElementById('ola');
         if (login === 'true') {
 
-            content = '<a href="carrinho.html"></a><a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Bem Vindo, &nbsp;<span data-bind="text:nome"></span></a><ul class="dropdown-menu"><li><a class="dropdown-item" href="conta.html">Alterar dados e personalização</a></li><li><hr class="dropdown-divider"></li><li><btn class="dropdown-item" id="logout" onclick="logout()">Logout</btn></li></ul>'
+            content = '<a href="carrinho.html"></a><a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Bem Vindo, &nbsp;<span data-bind="text:nome"></span></a><ul class="dropdown-menu"><li><a class="dropdown-item" href="conta.html">Alterar dados e personalizaï¿½ï¿½o</a></li><li><hr class="dropdown-divider"></li><li><btn class="dropdown-item" id="logout" onclick="logout()">Logout</btn></li></ul>'
         }
         else {
             content = '<a  style="color:white" class="nav-link active" aria-current="page" href="login.html">Login/Registo</a>'
@@ -228,6 +228,8 @@ $(document).ready(function () {
 });
 self.html = ko.observable('')
 self.html = ko.observable('')
+
+
 function logout() {
     var login = localStorage.setItem('login', 'false')
     login = 'false'
