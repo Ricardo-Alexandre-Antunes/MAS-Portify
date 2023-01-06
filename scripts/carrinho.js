@@ -1,5 +1,8 @@
-items = []
 
+$(document).ready(function () {
+	const linha = JSON.parse(localStorage.getItem('carrinho'));
+	console.log(linha)
+});
 function adicionar(elem) {
     ids = elem.parentNode.id
     var nome = document.getElementById("company").innerHTML;
@@ -8,8 +11,8 @@ function adicionar(elem) {
 	console.log(document.getElementById('output' + ids))
     var np = document.getElementById('output' + ids).innerHTML
 	var pt = document.getElementById('price' + ids).innerHTML
-	console.log({ "nome": nome, "atividade": atividade, "ppp": ppp, "np": np, "pt": pt })
-	items.push({ "nome": nome, "atividade": atividade, "ppp": ppp, "np": np, "pt": pt })
+	console.log({ "nome": nome, "atividade": atividade, "ppp": (ppp), "np": np, "pt": pt })
+	items.push({ "nome": nome, "atividade": atividade, "ppp": parseInt(ppp), "np": parseInt(np), "pt": parseInt(pt) })
 	console.log(items)
 	localStorage.setItem("carrinho", JSON.stringify(items))
 }
@@ -18,25 +21,20 @@ function adicionar(elem) {
 function renderCart(items) {
 	const $cart = document.querySelector(".cart")
 	const $total = document.querySelector(".total")
-
+	var items = JSON.parse(localStorage.getItem('carrinho'));
 	$cart.innerHTML = items.map((item) => `
 					<tr>
-						<td>#${item.id}</td>
-						<td>${item.name}</td>
-						<td>${item.quantity}</td>
-						<td style="width: 60px;">	
-							<button type="button" class="btn btn-block btn-sm btn-outline-primary"
-								onClick="cartLS.quantity(${item.id},1)">+</button>
+						<td>#${item.nome}</td>
+						<td>${item.atividade}</td>
+						<td>${item.ppp}</td>
+						<td>(${item.np}</td>
+						<td>(${item.pt}</td>
 						</td>
-						<td style="width: 60px;">	
-							<button type="button" class="btn btn-block btn-sm btn-outline-primary"
-								onClick="cartLS.quantity(${item.id},-1)">-</button>
-						</td>
-						<td class="text-right">$${item.price}</td>
+						<td class="text-right">${item.pt}</td>
 						<td class="text-right"><Button class="btn btn-primary" onClick="cartLS.remove(${item.id})">Delete</Button></td>
 					</tr>`).join("")
 
-	$total.innerHTML = "$" + cartLS.total()
+	$total.innerHTML =  + cartLS.total() + "€"
 }
 renderCart(cartLS.list())
 cartLS.onChange(renderCart)
