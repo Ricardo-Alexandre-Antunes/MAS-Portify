@@ -23,18 +23,25 @@ function renderCart(items) {
 	const $total = document.querySelector(".total")
 	var items = JSON.parse(localStorage.getItem('carrinho'));
 	$cart.innerHTML = items.map((item) => `
-					<tr>
 						<td>#${item.nome}</td>
 						<td>${item.atividade}</td>
 						<td>${item.ppp}</td>
-						<td>(${item.np}</td>
-						<td>(${item.pt}</td>
-						</td>
-						<td class="text-right">${item.pt}</td>
-						<td class="text-right"><Button class="btn btn-primary" onClick="cartLS.remove(${item.id})">Delete</Button></td>
+						<td>${item.np}</td>
+						<td>${item.pt}</td>
+						<td class="text-right"><Button class="btn btn-primary">Delete</Button></td>
 					</tr>`).join("")
 
-	$total.innerHTML =  + cartLS.total() + "€"
+	$total.innerHTML = total(items) + "€"
 }
 renderCart(cartLS.list())
 cartLS.onChange(renderCart)
+function total(dict) {
+	var a = 0
+	dict.forEach((item, index) => { 
+		a += parseFloat(item.pt)
+	});
+	return a
+}
+function loadmodal() {
+	$("#pagamentoModal").show()
+}

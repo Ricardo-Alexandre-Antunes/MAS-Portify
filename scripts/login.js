@@ -1,3 +1,4 @@
+$("#myModal").hide();
 function store() {
 
     var email = document.getElementById('email');
@@ -66,8 +67,10 @@ function register() {
 }
 
 console.log(localStorage)
-
-
+function adicionar() {
+    $('#adicionar').modal('show')
+    localStorage.setItem("login", 'true')
+}
 
 outroModal = function () {
     $('#modal1').addClass('d-none')
