@@ -1,10 +1,14 @@
 {
   "ExpandedNodes": [
-    "\\Imagens\\Atividades",
+    "",
+    "\\CSS",
+    "\\Imagens",
     "\\Imagens\\Reservas",
     "\\lib\\font-awesome",
     "\\lib\\font-awesome\\dist",
-    "\\lib\\font-awesome\\dist\\css"
+    "\\lib\\font-awesome\\dist\\css",
+    "\\scripts"
   ],
+  "SelectedNode": "\\reservas.html",
   "PreviewInSolutionExplorer": false
 }
