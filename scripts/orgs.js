@@ -2028,7 +2028,7 @@ var dict = {
                         "Duracao": 60,
                         "Descricao":"Proveniente do Castello Sforzesco de Milão, pode ser agora apreciada no MNAA. A pintura Virgem em glória com Santos integrou a campanha de obras feita em Quatrocentos para a igreja de Santa Maria in Organo, a pedido dos Beneditinos do Monte Olivete em Verona: supõe-se que terá sido colocada no altar-mor no dia 15 de agosto de 1497, dia da Assunção de Maria. Em 1791 foi retirada desse lugar de culto para integrar o museu da família Trivulzio, em Milão e, já no século XX, passou à propriedade das coleções públicas italianas. O autor, Andrea Mantegna (1431-1506) é um pintor maior do primeiro Renascimento italiano e esta tela, pintada a têmpera de ovo, representa a Virgem e o Menino levitando sobre três anjos músicos, ladeados por São João Baptista, São Gregório, São Bento e São Jerónimo, inscritos numa mandorla povoada de cabeças de putti. A profusa vegetação em moldura, com frutos e motivos florais de intenção simbólica, ou a filactera com inscrição latina, remetem sem dúvida para os seus anos de formação, mas a vigorosa notação pictural dos santos e a engenhosa composição, concebida para ser vista da nave do templo, di sotto in su, mostram o domínio da perspetiva e a mão ainda segura do pintor, já no ocaso da carreira.",
                         "Min_Pessoas": 1,
-                        "Max_Pessoas": 1,
+                        "Max_Pessoas": 20,
                         "Min_age": 25,
                         "Max_age": 100
                     },
@@ -2040,7 +2040,7 @@ var dict = {
                         "Duracao": 60,
                         "Descricao":"A muralha de D. Dinis, com 700 anos, é testemunha de episódios marcantes da ação de um rei e da história da cidade de Lisboa, ainda hoje inscritos na superfície do reboco e na sapata do extenso “muro” defensivo. Objetos, fragmentos cerâmicos, ossos e sons aludem ao imaginário medieval; são o património que queremos partilhar nesta visita pelos areais do Tejo, onde ainda se ouvem gaivotas, feiras e naus, recordando a vocação comercial e marítima de “Lixbõa”.",
                         "Min_Pessoas": 1,
-                        "Max_Pessoas": 1,
+                        "Max_Pessoas": 20,
                         "Min_age": 12,
                         "Max_age": 25
                     },
@@ -2052,7 +2052,7 @@ var dict = {
                         "Duracao": 120,
                         "Descricao":"O percurso integra as nove salas temáticas do Museu e dá a conhecer as peças de referência da coleção, bem como os contextos e as histórias que estes objetos encerram. A narrativa museográfica explora, lado a lado, a evolução do dinheiro e de outros meios de pagamento que marcaram a história das civilizações e das trocas comerciais, no Ocidente e no Oriente.",
                         "Min_Pessoas": 1,
-                        "Max_Pessoas": 1,
+                        "Max_Pessoas": 20,
                         "Min_age": 25,
                         "Max_age": 100
                     },
@@ -2064,7 +2064,7 @@ var dict = {
                         "Duracao": 120,
                         "Descricao":"O percurso integra as nove salas temáticas do Museu e dá a conhecer as peças de referência da coleção, bem como os contextos e as histórias que estes objetos encerram. A narrativa museográfica explora, lado a lado, a evolução do dinheiro e de outros meios de pagamento que marcaram a história das civilizações e das trocas comerciais, no Ocidente e no Oriente.",
                         "Min_Pessoas": 1,
-                        "Max_Pessoas": 1,
+                        "Max_Pessoas": 20,
                         "Min_age": 12,
                         "Max_age": 25
                     },

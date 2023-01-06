@@ -1,0 +1,286 @@
+body {
+    margin: 0;
+}
+
+.page {
+    min-height: 100vh;
+    overflow-x: hidden;
+    padding-top: 2.5rem;
+}
+
+    .page .container {
+        padding: 0 2rem;
+    }
+
+@media (min-width: 1024px) {
+    .page .container {
+        padding: 0 4rem;
+    }
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 3rem;
+}
+
+.card {
+    width: 250px;
+    border-radius: 3px;
+    margin: 0 auto;
+    transition: box-shadow 0.25s;
+    transition-timing-function: ease-in-out;
+    transform: scale(0.94);
+    height: 185px;
+}
+.img-wrapper {
+    width: 250px;
+    background-color: #eee;
+    height: 185px;
+}
+    .card img {
+        display: block;
+        width: 100%;
+        height:100%;
+        object-fit:cover;
+        position:relative
+    }
+
+    .card .card-text-content {
+        padding: 0 0.5rem;
+    }
+
+.swiper-slide {
+    width: 265px;
+}
+
+.swiper-container {
+    padding-bottom: 1rem;
+}
+
+.cards-slider {
+    padding-top: 2.5rem;
+}
+
+.swiper-slide {
+    transform: scale(0.94);
+    transition: transform 0.25s;
+}
+
+.swiper-slide-active {
+    transform: scale(1.18);
+}
+
+    .swiper-slide-active .card {
+        box-shadow: 0 13px 35px -16px #000;
+    }
+
+.read-more {
+    text-decoration: none;
+    color: inherit;
+    border: 1px solid #333;
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    border-radius: 3px;
+}
+
+.custom-btn {
+    width: 130px;
+    height: 40px;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    box-shadow: inset 2px 2px 2px 0px rgba(255,255,255,.5), 7px 7px 20px 0px rgba(0,0,0,.1), 4px 4px 5px 0px rgba(0,0,0,.1);
+    outline: none;
+    float:right;
+}
+.btn-3 {
+    background: rgb(0,172,238);
+    background: linear-gradient(0deg, rgba(0,172,238,1) 0%, rgba(2,126,251,1) 100%);
+    width: 130px;
+    height: 40px;
+    line-height: 42px;
+    padding: 0;
+    border: none;
+}
+
+    .btn-3 span {
+        position: relative;
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+
+    .btn-3:before,
+    .btn-3:after {
+        position: absolute;
+        content: "";
+        right: 0;
+        top: 0;
+        background: rgba(2,126,251,1);
+        transition: all 0.3s ease;
+    }
+
+    .btn-3:before {
+        height: 0%;
+        width: 2px;
+    }
+
+    .btn-3:after {
+        width: 0%;
+        height: 2px;
+    }
+
+    .btn-3:hover {
+        background: transparent;
+        box-shadow: none;
+    }
+
+        .btn-3:hover:before {
+            height: 100%;
+        }
+
+        .btn-3:hover:after {
+            width: 100%;
+        }
+
+    .btn-3 span:hover {
+        color: rgba(2,126,251,1);
+    }
+
+    .btn-3 span:before,
+    .btn-3 span:after {
+        position: absolute;
+        content: "";
+        left: 0;
+        bottom: 0;
+        background: rgba(2,126,251,1);
+        transition: all 0.3s ease;
+    }
+
+    .btn-3 span:before {
+        width: 2px;
+        height: 0%;
+    }
+
+    .btn-3 span:after {
+        width: 0%;
+        height: 2px;
+    }
+
+    .btn-3 span:hover:before {
+        height: 100%;
+    }
+
+    .btn-3 span:hover:after {
+        width: 100%;
+    }
+
+
+.scrollmenu {
+    position: absolute;
+    max-height: 50px;
+    height: auto;
+    width: 100%;
+    overflow: auto;
+}
+
+::-webkit-scrollbar {
+    width: 1px;
+    height: 1px;
+}
+
+::-webkit-scrollbar-button {
+    width: 1px;
+    height: 1px;
+}
+
+body {
+    background: #111;
+}
+
+div {
+    box-sizing: border-box;
+}
+
+.horizontal-scroll-wrapper {
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    width: calc(250px + 1px);
+    max-height: 750px;
+    margin: 0;
+    padding-top: 1px;
+    background: #abc;
+    overflow-y: auto;
+    overflow-x: hidden;
+    -webkit-transform: rotate(-90deg) translateY(-250px);
+    transform: rotate(-90deg) translateY(-250px);
+    -webkit-transform-origin: right top;
+    transform-origin: right top;
+}
+
+    .horizontal-scroll-wrapper > div {
+        display: block;
+        padding: 5px;
+        background: #cab;
+        -webkit-transform: rotate(90deg);
+        transform: rotate(90deg);
+        -webkit-transform-origin: right top;
+        transform-origin: right top;
+    }
+
+.squares {
+    padding: 250px 0 0 0;
+}
+
+    .squares > div {
+        width: 250px;
+        height: 250px;
+        margin: 10px 0;
+    }
+
+.slidecontainer {
+    width: 100%; /* Width of the outside container */
+}
+
+/* The slider itself */
+.slider {
+    -webkit-appearance: none; /* Override default CSS styles */
+    appearance: none;
+    width: 100%; /* Full-width */
+    height: 25px; /* Specified height */
+    background: #d3d3d3; /* Grey background */
+    outline: none; /* Remove outline */
+    opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+    -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+    transition: opacity .2s;
+}
+
+    /* Mouse-over effects */
+    .slider:hover {
+        opacity: 1; /* Fully shown on mouse-over */
+    }
+
+    /* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
+    .slider::-webkit-slider-thumb {
+        -webkit-appearance: none; /* Override default look */
+        appearance: none;
+        width: 25px; /* Set a specific slider handle width */
+        height: 25px; /* Slider handle height */
+        background: #04AA6D; /* Green background */
+        cursor: pointer; /* Cursor on hover */
+    }
+
+.tab-content {
+    padding-bottom:150px;
+    padding-left:150px;
+    padding-right:150px
+}

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="us-ascii">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap">
+    <link href="./scripts/lib/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" rel="stylesheet" />
+    <link href="css/home.css" rel="stylesheet" />
+    <meta charset="utf-8" />
+</head>
+<body>
+    <style>
+        body {
+            background-color: white;
+        }
+
+        .card {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+            text-align: center;
+            background-color: #f1f1f1;
+            margin-bottom: 20px;
+            height: 310px;
+            width: 310px;
+            transition: 0.5s;
+            align-content: center;
+            border-radius: 5px;
+        }
+
+        .card-body {
+            background-size: cover
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+        }
+
+
+
+        h2 {
+            padding-top: 100px;
+            padding-bottom: 10px;
+            text-align: center;
+        }
+    </style>
+
+    <!--NAVBAR-->
+ <nav id="nav" class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
+     <div class="container-fluid">
+         <a href="index.html"><img src="logo1.png" style="height:50px" class="navbar-brand"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+         <div class="collapse navbar-collapse" id="navbarSupportedContent">
+             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                 <li class="nav-item">
+                     <a style="color:white" class="nav-link active" aria-current="page" href="atividades.html" >ATIVIDADES</a>
+                 </li>
+                 <li class="nav-item">
+                     <a style="color:white" class="nav-link active" href="reservas.html">RESERVAS</a>
+                 </li>
+                 <li class="nav-item">
+                     <a style="color:white" class="nav-link active" href="carrinho.html">CARRINHO</a>
+                 </li>
+             </ul>
+             <div class="collapse navbar-collapse justify-content-end">
+                 <ul class="navbar-nav ">
+                     <li id="ola" class="nav-item dropdown">
+                      
+                     </li>
+                 </ul>
+             </div>
+         </div>
+     </div>
+</nav>
+    <!--NAVBAR END-->
+        <div class="container-fluid" data-bind="style: {'backgroundImage': 'url('+ Image +')'}">
+            <h2 id="company" data-bind="text:OrgName"></h2>
+            <ul class="nav nav-tabs" id="myTab" role="tablist" data-bind="foreach:Events">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" data-bs-toggle="tab" type="button" role="tab" aria-selected="false" data-bind="attr:{'id':IdS+'-tab','data-bs-target':'#'+IdS, 'aria-controls':IdS},text:Name"></button>
+                </li>
+            </ul>
+
+            <div class="tab-content" id="myTabContent" data-bind="foreach:Events">
+                <div class="tab-pane fade" role="tabpanel" data-bind="attr:{'id':IdS, 'aria-labelledby':IdS+'-tab'}">
+                        <h2>Informa????es:</h2>
+                        <div data-bind="html: Descricao"></div>
+                        <b>N??mero M??nimo de pessoas: </b><span data-bind="text:Min_Pessoas"></span><br />
+                        <b>N??mero M??ximo de pessoas: </b><span data-bind="text:Max_Pessoas"></span><br />
+                        <b>Pre??o por pessoa:</b> </b><span data-bind="text:Preco, attr:{'id':'preco_fixo'+IdS}"></span>???
+                        <div class="slidecontainer">
+                            <input type="range" class="slider" value="0" oninput="sliderino(this), preco_total(this)" data-bind="attr:{'min':Min_Pessoas, 'max':Max_Pessoas,'id':'preco'+IdS}">
+                        </div>
+                        N??mero de pessoas selecionado: <span data-bind="attr:{'id':'output'+IdS}">10</span><br />
+                        Pre??o total: <span value="0" data-bind="attr:{'id':'price'+IdS}"></span>
+                    <btn class="btn btn-primary" onclick="adicionar(this)"><i class="fa fa-shopping-cart" aria-hidden="true"></i></btn>
+                </div>
+                </div>
+                </div>
+    <!--
+    <div style="padding-bottom:50px;padding-top:100px" class="row d-grid d-flex row-cols-sm-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 justify-content-center" data-bind="foreach:Events">
+        <div style="justify-content: space-evenly;">
+            <div class="card">
+                <div class="card-body" align="center" style="align-content:center; margin:0px;">
+                    <p style="color:black !important" data-bind="text:Name"></p>
+                    <h5 data-bind="text:Price"></h5>
+                    <div>
+                        <div class="col-12">
+                            <button id="maisDetalhes" style=float:left; class="learn-more">
+                                <a data-bind="attr: { href:'./modalitiesDetails.html?id=' + Id }">
+                                    <span style=float:left data-bind="attr: { href:'./modalitiesDetails.html?id=' + Id }" class="circle" aria-hidden="true">
+                                        <span class="icon arrow"></span>
+                                    </span>
+                                    <span class="button-text">Detalhes</span>
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    -->
+    <script src="lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/knockout/dist/knockout-latest.min.js"></script>
+    <script src="lib/jquery/dist/jquery.min.js"></script>
+    <script src="lib/jquery-ui/dist/jquery-ui.min.js"></script>
+    <script src="scripts/orgs.js"></script>
+    <script src="scripts/carrinho.js" type="text/javascript" charset="utf-8"></script>
+    <script src="scripts/atividadesdetails.js" type="text/javascript" charset="utf-8"></script>
+</body>
+</html>

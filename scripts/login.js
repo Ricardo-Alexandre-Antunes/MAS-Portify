@@ -48,7 +48,11 @@ function check() {
 
     if (userName.value == storedName && userPw.value == storedPw) {
         localStorage.setItem("login", 'true')
+        item = [];
+        item = JSON.stringify(item);
+        localStorage.setItem("carrinho",item)
         window.location.href = "./index.html";
+
     } else {
         alert('Wrong Username and Password combination');
     }
