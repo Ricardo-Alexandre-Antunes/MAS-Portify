@@ -41,15 +41,6 @@
             transform:scale(1.05);
         }
 
-
-        .btn {
-            background: transparent;
-            border: none;
-            margin: 5px;
-            font-size: 25px;
-            outline: none;
-            
-        }
             .btn i:hover {
                 cursor: pointer;
             }
@@ -190,6 +181,19 @@
          </div>
      </div>
 </nav>
+<div class="container" style="padding-top:100px;">
+  <div class="row">
+    <div class="col-12">
+      <ul id="#filtrar" class="navbar">
+        <li class="btn btn-primary active reset filter-trigger" data-filter="all">Museus/Exposições</li>
+        <li class="btn btn-primary filter-trigger" data-filter="management">Atividades Recreativas</li>
+        <li class="btn btn-primary filter-trigger" data-filter="developer">Atividades de Espetador</li>
+        <li class="btn btn-primary filter-trigger" data-filter="designer">Para crianças</li>
+        <li class="btn btn-primary filter-trigger" data-filter="consultant">Para adultos</li>
+      </ul>
+    </div>
+   </div>
+</div>
     <div class="container">
         <div style="padding-bottom:50px;padding-top:100px" class="row d-grid d-flex row-cols-sm-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 justify-content-center" data-bind="foreach:data">
             <div style="justify-content: space-evenly;">
