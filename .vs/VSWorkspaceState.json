@@ -4,9 +4,11 @@
     "\\CSS",
     "\\Imagens\\Atividades",
     "\\Imagens\\Reservas",
-    "\\lib",
+    "\\lib\\font-awesome",
+    "\\lib\\font-awesome\\dist",
+    "\\lib\\font-awesome\\dist\\css",
     "\\scripts"
   ],
-  "SelectedNode": "\\reservas.html",
+  "SelectedNode": "\\scripts\\atividadesdetails.js",
   "PreviewInSolutionExplorer": false
 }
