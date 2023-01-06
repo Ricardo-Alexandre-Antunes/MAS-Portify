@@ -97,7 +97,12 @@
                         </div>
                         Número de pessoas selecionado: <span data-bind="attr:{'id':'output'+IdS}">10</span><br />
                         Preço total: <span value="0" data-bind="attr:{'id':'price'+IdS}"></span>
+                    <!--ko if:login()=='true'-->
                     <btn class="btn btn-primary" onclick="adicionar(this)"><i class="fa fa-shopping-cart" aria-hidden="true"></i></btn>
+                    <!--/ko-->
+                    <!--ko if:login()!='true'-->
+                    <br /><b>Para adicionar um item ao carrinho de compras, inicie sessão</b>
+                    <!--/ko-->
                 </div>
                 </div>
                 </div>
