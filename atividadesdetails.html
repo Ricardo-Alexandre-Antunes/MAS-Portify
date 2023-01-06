@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="us-ascii">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -70,25 +69,8 @@
                     <ul class="navbar-nav ">
                         <li id="ola" class="nav-item dropdown">
 
-<<<<<<< HEAD
                         </li>
                     </ul>
-=======
-            <div class="tab-content" id="myTabContent" data-bind="foreach:Events">
-                <div class="tab-pane fade" role="tabpanel" data-bind="attr:{'id':IdS, 'aria-labelledby':IdS+'-tab'}">
-                        <h2>Informa??es:</h2>
-                        <div data-bind="html: Descricao"></div>
-                        <b>N?mero M?ximo de pessoas: </b><span data-bind="text:Min_Pessoas"></span><br />
-                        <b>N?mero M?ximo de pessoas: </b><span data-bind="text:Max_Pessoas"></span><br />
-                        <b>Pre?o por pessoa:</b> </b><span data-bind="text:Preco, attr:{'id':'preco_fixo'+IdS}"></span>???
-                        <div class="slidecontainer">
-                            <input type="range" class="slider" value="0" oninput="sliderino(this), preco_total(this)" data-bind="attr:{'min':Min_Pessoas, 'max':Max_Pessoas,'id':'preco'+IdS}">
-                        </div>
-                        N?mero de pessoas selecionado: <span data-bind="attr:{'id':'output'+IdS}">10</span><br />
-                        Pre?o total: <span value="0" data-bind="attr:{'id':'price'+IdS}"></span>
-                    <btn class="btn btn-primary" onclick="adicionar(this)"><i class="fa fa-shopping-cart" aria-hidden="true"></i></btn>
-                </div>
->>>>>>> 92f64dc4c8908a47a07b356c10179a3181d351da
                 </div>
             </div>
         </div>
@@ -104,21 +86,21 @@
 
         <div class="tab-content" id="myTabContent" data-bind="foreach:Events">
             <div class="tab-pane fade" role="tabpanel" data-bind="attr:{'id':IdS, 'aria-labelledby':IdS+'-tab'}">
-                <h2>Informa????es:</h2>
+                <h2>Informações:</h2>
                 <div data-bind="html: Descricao"></div>
-                <b>N??mero M??nimo de pessoas: </b><span data-bind="text:Min_Pessoas"></span><br />
-                <b>N??mero M??ximo de pessoas: </b><span data-bind="text:Max_Pessoas"></span><br />
-                <b>Pre??o por pessoa:</b> </b><span data-bind="text:Preco, attr:{'id':'preco_fixo'+IdS}"></span>???
+                <b>Número Mínimo de pessoas: </b><span data-bind="text:Min_Pessoas"></span><br />
+                <b>Número Máximo de pessoas: </b><span data-bind="text:Max_Pessoas"></span><br />
+                <b>Preço por pessoa:</b> </b><span data-bind="text:Preco, attr:{'id':'preco_fixo'+IdS}"></span>€
                 <div class="slidecontainer">
                     <input type="range" class="slider" value="0" oninput="sliderino(this), preco_total(this)" data-bind="attr:{'min':Min_Pessoas, 'max':Max_Pessoas,'id':'preco'+IdS}">
                 </div>
-                N??mero de pessoas selecionado: <span data-bind="attr:{'id':'output'+IdS}">10</span><br />
-                Pre??o total: <span value="0" data-bind="attr:{'id':'price'+IdS}"></span>
+                Número de pessoas selecionado: <span data-bind="attr:{'id':'output'+IdS}">10</span><br />
+                Preço total: <span value="0" data-bind="attr:{'id':'price'+IdS}"></span>
                 <!--ko if:login()=='true'-->
                 <btn class="btn btn-primary" onclick="adicionar(this)"><i class="fa fa-shopping-cart" aria-hidden="true"></i></btn>
                 <!--/ko-->
                 <!--ko if:login()!='true'-->
-                <br /><b>Para adicionar um item ao carrinho de compras, inicie sess??o</b>
+                <br /><b>Para adicionar um item ao carrinho de compras, inicie sessão</b>
                 <!--/ko-->
             </div>
         </div>
