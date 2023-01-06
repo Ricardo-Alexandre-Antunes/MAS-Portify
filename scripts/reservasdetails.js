@@ -90,8 +90,10 @@ $(document).ready(function () {
         content = '<a  style="color:white" class="nav-link active" aria-current="page" href="login.html">Login/Registo</a>'
     }
     console.log(content)
+    console.log(login)
     el.insertAdjacentHTML('afterbegin', content);
     console.log("ready!");
+    self.login =ko.observable(login)
     ko.applyBindings();
         
     });
