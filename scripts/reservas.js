@@ -77,7 +77,7 @@
             "District": "Lisboa",
             "Category": ["criancas", "espaco", "festas"],
             "Priceholder": 215,
-            "Image": "./Imagens/Reservas/Party_Spot.webp"
+            "Image": "./Imagens/Reservas/Party-Spot.webp"
         },
         {
             "Id": 11,
@@ -85,7 +85,7 @@
             "District": "Lisboa",
             "Priceholder": 200,
             "Category": ["criancas", "espaco", "festas"],
-            "Image": "./Imagens/Reservas/tobekid.webp"
+            "Image": "./Imagens/Reservas/tobekid.jpg"
         },
         {
             "Id": 12,
