@@ -183,13 +183,14 @@
 <div class="container" style="padding-top:100px;">
   <div class="row">
     <div class="col-12">
-      <ul id="#filtrar" class="navbar">
-        <li class="btn btn-primary active reset filter-trigger" data-filter="all">Museus/Exposições</li>
-        <li class="btn btn-primary filter-trigger" data-filter="management">Atividades Recreativas</li>
-        <li class="btn btn-primary filter-trigger" data-filter="developer">Atividades de Espetador</li>
-        <li class="btn btn-primary filter-trigger" data-filter="designer">Para crianças</li>
-        <li class="btn btn-primary filter-trigger" data-filter="consultant">Para adultos</li>
-      </ul>
+        <ul id="#filtrar" class="navbar">
+            <li class="btn btn-primary active reset filter-trigger" onclick="filterino('all')">Retirar Filtros</li>
+            <li class="btn btn-primary filter-trigger" onclick="filterino('festas')">Festas</li>
+            <li class="btn btn-primary filter-trigger" onclick="filterino('recreativas')">Atividades Recreativas</li>
+            <li class="btn btn-primary filter-trigger" onclick="filterino('espaco')">Espaço para reserva</li>
+            <li class="btn btn-primary filter-trigger" onclick="filterino('criancas')">Para crianças</li>
+            <li class="btn btn-primary filter-trigger" onclick="filterino('adultos')">Para adultos</li>
+        </ul>
     </div>
    </div>
 </div>
@@ -199,6 +200,9 @@
                 <div class="card">
                     <div class="card-body" data-bind="style: {'backgroundImage': 'url('+ Image +')'}" align="center" style="align-content:center; margin:0px;object-fit:cover">
                         <p style="color:white !important" data-bind="text:Name"></p>
+                        <div data-bind="foreach:Category">
+                            <span style="visibility:hidden" data-bind="attr:{'id': $data}"></span>
+                        </div>
                         <div>
                             <div class="col-12">
                                 <button id="maisDetalhes" style=float:left; class="learn-more">
