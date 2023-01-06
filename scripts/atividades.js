@@ -133,7 +133,7 @@ var dict = {
         },
         {
             "Id": 5,
-            "Name": "Sport·gua",
+            "Name": "Sport√°gua",
             "District": "Lisboa",
             "Priceholder": 10,
             "Category": ["criancas", "adultos", "atividades"],
