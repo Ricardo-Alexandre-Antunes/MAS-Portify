@@ -79,23 +79,21 @@ $(document).ready(function () {
 // Update the current slider value (each time you drag the slider handle)
 function sliderino(elem) {
     console.log(elem.id)
-    ids = elem.parentNode.parentNode.id
+    var ids = elem.parentNode.parentNode.id
     console.log(elem.parentNode.parentNode.id);
     console.log(events)
     console.log(elem.id)
     console.log('preco' + ids)
     console.log(document.getElementById('preco' + ids).innerHTML)
     console.log(document.getElementById('precoadwa'))
+    console.log(document.getElementById('myRange' + ids).value)
     console.log(document.getElementById('output' + ids))
     document.getElementById('output' + ids).innerHTML = document.getElementById('myRange' + ids).value;
     console.log(document.getElementById('myRange' + ids).value)
 }
 
 function preco_total() {
-    ids = elem.parentNode.parentNode.id
-    preco_fixo = 'preco_fixo' + ids
-    myRange = 'myRange' + ids
-    price = 'price' + ids
+    var ids = elem.parentNode.parentNode.id
     console.log(document.getElementById('price' + ids).value)
     document.getElementById('price' + ids).value = document.getElementById('preco_fixo' + ids).innerHTML * document.getElementById('myRange' + ids).value;
     document.getElementById('price' + ids).innerHTML = document.getElementById('preco_fixo' + ids).innerHTML * document.getElementById('myRange' + ids).value + '€';

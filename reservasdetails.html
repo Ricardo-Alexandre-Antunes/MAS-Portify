@@ -90,11 +90,10 @@
                         <b>Número Máximo de pessoas: </b><span data-bind="text:Max_Pessoas"></span><br />
                         <b>Preço por pessoa:</b> </b><span data-bind="text:Preco, attr:{'id':'preco_fixo'+IdS}"></span>€
                         <div class="slidecontainer">
-                            <input type="range" class="slider" oninput="sliderino(this), preco_total(this)" data-bind="attr:{'min':Min_Pessoas, 'max':Max_Pessoas,'id':'preco'+IdS}">
+                            <input type="range" class="slider" value="0" oninput="sliderino(this), preco_total(this)" data-bind="attr:{'min':Min_Pessoas, 'max':Max_Pessoas,'id':'preco'+IdS}">
                         </div>
                         Número de pessoas selecionado: <span data-bind="attr:{'id':'output'+IdS}">10</span><br />
                         Preço total: <span value="0" data-bind="attr:{'id':'price'+IdS}"></span>
-                   <button style="height:50px" onclick="adicionar(this)" type="button" class="btn btn-primary"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Adicionar ao carrinho</button>
                 </div>
                 </div>
                 </div>
