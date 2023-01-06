@@ -1551,6 +1551,7 @@ var dict = {
             "Id": 1, "Info": {
                 "Name": "Museu de Arte, Arquitetura e Tecnologia",
                 "District": "Lisboa",
+                "Category": ["criancas", "museu", "adultos",],
                 "Priceholder": 5,
                 "Events": [
                     {
@@ -1706,6 +1707,7 @@ var dict = {
                 "Name": "Museu Nacional dos Coches",
                 "District": "Lisboa",
                 "Priceholder": 7,
+                "Category": ["criancas", "museu", "adultos",],
                 "Events": [ 
                     {
                         "Id": 1,
@@ -1884,6 +1886,7 @@ var dict = {
                 "Name": "Museu Nacional de Arte Antiga",
                 "District": "Lisboa",
                 "Priceholder": 6,
+                "Category": ["criancas", "museu", "adultos",],
                 "Events": [ 
                     {
                         "Id": 1,
@@ -2014,6 +2017,7 @@ var dict = {
                 "Name": "Museu do Dinheiro",
                 "District": "Lisboa",
                 "Priceholder": 7,
+                "Category": ["criancas", "museu", "adultos",],
                 "Events": [ 
                     {
                         "Id": 1,
@@ -2072,6 +2076,7 @@ var dict = {
                 "Name": "Sportágua",
                 "District": "Lisboa",
                 "Priceholder": 10,
+                "Category": ["criancas","adultos","atividades"],
                 "Events": [ 
                     {
                         "Id": 1,
@@ -2118,6 +2123,7 @@ var dict = {
                 "Name": "feijao-verde",
                 "District": "Lisboa",
                 "Priceholder": 13,
+                "Category": ["criancas", "adultos", "atividades"],
                 "Events": [ 
                     {
                         "Id": 1,
@@ -2248,6 +2254,7 @@ var dict = {
                 "Name": "HIPPOtrip",
                 "District": "Lisboa",
                 "Priceholder": 18,
+                "Category": ["criancas", "adultos", "atividades"],
                 "Events": [ 
                     {
                         "Id": 1,
@@ -2294,6 +2301,7 @@ var dict = {
                 "Name": "Lugar dos Afetos",
                 "District": "Aveiro",
                 "Priceholder": 9,
+                "Category": ["criancas", "adultos", "atividades"],
                 "Events": [ 
                     {
                         "Id": 1,
@@ -2340,6 +2348,7 @@ var dict = {
                 "Name": "Algarve fun",
                 "District": "Algarve",
                 "Priceholder": 11,
+                "Category": ["criancas","adultos", "atividades"],
                 "Events": [ 
                     {
                         "Id": 1,
@@ -2469,6 +2478,7 @@ var dict = {
             "Id": 10, "Info": {
                 "Name": "Aveiro Moments",
                 "District": "Aveiro",
+                "Category": ["criancas","adultos", "espetador", "atividades"],
                 "Priceholder": 0,
                 "Events": [ 
                     {
