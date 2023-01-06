@@ -86,16 +86,13 @@ function sliderino(elem) {
     console.log('preco' + ids)
     console.log(document.getElementById('preco' + ids).innerHTML)
     console.log(document.getElementById('precoadwa'))
-    console.log(document.getElementById('myRange' + ids).value)
     console.log(document.getElementById('output' + ids))
-    document.getElementById('output' + ids).innerHTML = document.getElementById('myRange' + ids).value;
-    console.log(document.getElementById('myRange' + ids).value)
+    document.getElementById('output' + ids).innerHTML = document.getElementById('preco' + ids).value;
 }
 
-function preco_total() {
+function preco_total(elem) {
     var ids = elem.parentNode.parentNode.id
     console.log(document.getElementById('price' + ids).value)
-    document.getElementById('price' + ids).value = document.getElementById('preco_fixo' + ids).innerHTML * document.getElementById('myRange' + ids).value;
-    document.getElementById('price' + ids).innerHTML = document.getElementById('preco_fixo' + ids).innerHTML * document.getElementById('myRange' + ids).value + '€';
+    document.getElementById('price' + ids).value = document.getElementById('preco_fixo' + ids).innerHTML * document.getElementById('preco' + ids).value;
+    document.getElementById('price' + ids).innerHTML = document.getElementById('preco_fixo' + ids).innerHTML * document.getElementById('preco' + ids).value + '€';
 }
-
