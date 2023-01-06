@@ -33,7 +33,6 @@ function store() {
         localStorage.setItem('email', email.value);
         localStorage.setItem('nome', nome.value);
         localStorage.setItem('pw', pw.value);
-        alert('Your account has been created');
     }
 }
 
