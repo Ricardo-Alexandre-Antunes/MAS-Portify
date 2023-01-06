@@ -23,13 +23,13 @@ function renderCart(items) {
 	const $cart = document.querySelector(".cart")
 	const $total = document.querySelector(".total")
 	var items = JSON.parse(localStorage.getItem('carrinho'));
-	$cart.innerHTML = items.map((item) => `
+	$cart.innerHTML = items.map((item) => `<tr>
 						<td>#${item.nome}</td>
 						<td>${item.atividade}</td>
 						<td>${item.ppp}</td>
 						<td>${item.np}</td>
 						<td>${item.pt}</td>
-						<td class="text-right"><Button class="btn btn-primary">Delete</Button></td>
+						<td class="text-right"><Button class="btn btn-primary" onclick="deleterino(this, ${item.pt})">Delete</Button></td>
 					</tr>`).join("")
 
 	$total.innerHTML = total(items) + "€"
@@ -57,4 +57,15 @@ function logout() {
 	login = 'false'
 	console.log(login)
 	window.location.reload();
+}
+
+function deleterino(elem, pt) {
+	var items = JSON.parse(localStorage.getItem('carrinho'));
+	const $total = document.querySelector(".total")
+	console.log(pt)
+	$total.innerHTML = $total.innerHTML - pt
+	elem.parentNode.parentNode.remove(elem);
+
+
+
 }

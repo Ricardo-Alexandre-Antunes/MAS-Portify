@@ -1563,7 +1563,7 @@ var dict = {
                         "Duracao": 120,
                         "Descricao":"Mais de 700 candidaturas foram analisadas por um júri de seleção que, nesta 14ª edição, foi composto por Luís Silva, Luísa Santos e Sara Antónia Matos, que são também responsáveis pela curadoria da exposição. O júri constatou “o enorme mérito e a capacidade de trabalho dos artistas em Portugal.” Apesar da idade não ser critério de elegibilidade, na seleção final “colocou-se o foco numa geração de artistas com menos de 40 anos que se está a afirmar, pela qualidade conceptual e formal, na produção artística nacional e internacional. Ainda que trabalhando a partir de pressupostos formais, materiais e narrativos muito diferentes, a pesquisa dos nomeados",
                         "Min_Pessoas": 1,
-                        "Max_Pessoas": 1,
+                        "Max_Pessoas": 99,
                         "Min_age": 25,
                         "Max_age": 100
                     },
@@ -1575,7 +1575,7 @@ var dict = {
                         "Duracao": 120,
                         "Descricao":"Mais de 700 candidaturas foram analisadas por um júri de seleção que, nesta 14ª edição, foi composto por Luís Silva, Luísa Santos e Sara Antónia Matos, que são também responsáveis pela curadoria da exposição. O júri constatou “o enorme mérito e a capacidade de trabalho dos artistas em Portugal.” Apesar da idade não ser critério de elegibilidade, na seleção final “colocou-se o foco numa geração de artistas com menos de 40 anos que se está a afirmar, pela qualidade conceptual e formal, na produção artística nacional e internacional. Ainda que trabalhando a partir de pressupostos formais, materiais e narrativos muito diferentes, a pesquisa dos nomeados",
                         "Min_Pessoas": 1,
-                        "Max_Pessoas": 1,
+                        "Max_Pessoas": 99,
                         "Min_age": 12,
                         "Max_age": 25
                     },
@@ -1587,7 +1587,7 @@ var dict = {
                         "Duracao": 100,
                         "Descricao":"Com curadoria de João Mourão e Luís Silva, o maat apresenta a primeira exposição monográfica do artista brasileiro Jonathas de Andrade em Portugal: um núcleo de peças que percorre toda a carreira do artista, envolvendo meios como a fotografia, o vídeo, a escultura e a instalação, que permite ao público conhecer uma das mais idiossincráticas e interessantes obras artísticas contemporâneas.",
                         "Min_Pessoas": 1,
-                        "Max_Pessoas": 1,
+                        "Max_Pessoas": 99,
                         "Min_age": 25,
                         "Max_age": 100
                     },
@@ -1599,7 +1599,7 @@ var dict = {
                         "Duracao": 100,
                         "Descricao":"Com curadoria de João Mourão e Luís Silva, o maat apresenta a primeira exposição monográfica do artista brasileiro Jonathas de Andrade em Portugal: um núcleo de peças que percorre toda a carreira do artista, envolvendo meios como a fotografia, o vídeo, a escultura e a instalação, que permite ao público conhecer uma das mais idiossincráticas e interessantes obras artísticas contemporâneas.",
                         "Min_Pessoas": 1,
-                        "Max_Pessoas": 1,
+                        "Max_Pessoas": 99,
                         "Min_age": 12,
                         "Max_age": 25
                     },
@@ -1611,7 +1611,7 @@ var dict = {
                         "Duracao": 180,
                         "Descricao":"48 artistas, 48 anos de liberdade é o nome da peça que será simbolicamente criada no dia 10 de junho de 2022 nos Jardins do maat, uma intervenção mural coletiva que reinterpreta o Painel do Mercado do Povo realizado pelo Movimento Democrático dos Artistas Plásticos a 10 de junho de 1974, em Belém. A reinterpretação deste mural, com 24 metros de comprimento e 3 metros de largura, conta com a participação de 48 artistas: alguns destes estiveram envolvidos na criação do painel original e os restantes são artistas que se destacaram na cena artística ao longo dos últimos 48 anos de democracia em Portugal, que este ano se completam, sendo que alguns deste grupo integram a exposição Interferências: Culturas Urbanas Emergentes, patente no maat.",
                         "Min_Pessoas": 1,
-                        "Max_Pessoas": 1,
+                        "Max_Pessoas": 99,
                         "Min_age": 25,
                         "Max_age": 100
                     },
@@ -1623,7 +1623,7 @@ var dict = {
                         "Duracao": 100,
                         "Descricao":"48 artistas, 48 anos de liberdade é o nome da peça que será simbolicamente criada no dia 10 de junho de 2022 nos Jardins do maat, uma intervenção mural coletiva que reinterpreta o Painel do Mercado do Povo realizado pelo Movimento Democrático dos Artistas Plásticos a 10 de junho de 1974, em Belém. A reinterpretação deste mural, com 24 metros de comprimento e 3 metros de largura, conta com a participação de 48 artistas: alguns destes estiveram envolvidos na criação do painel original e os restantes são artistas que se destacaram na cena artística ao longo dos últimos 48 anos de democracia em Portugal, que este ano se completam, sendo que alguns deste grupo integram a exposição Interferências: Culturas Urbanas Emergentes, patente no maat.",
                         "Min_Pessoas": 1,
-                        "Max_Pessoas": 1,
+                        "Max_Pessoas": 99,
                         "Min_age": 12,
                         "Max_age": 25
                     },
@@ -1635,7 +1635,7 @@ var dict = {
                         "Duracao": 90,
                         "Descricao":"Após mais de 15 anos itinerantes, desde que foi criada, em 1999, pelo artista norte-americano Lawrence Weiner, a obra Placed on Either Side of the Light foi permanentemente instalada no passeio ribeirinho em frente ao maat. A peça conheceu diferentes versões expostas em galerias de vários países, incluindo a Alemanha, a Suíça e a Sérvia, tendo tomado diferentes formas adaptadas ao lugar expositivo. Quando foi adquirida pela Fundação EDP, tornou-se evidente para Weiner a forma que a obra deveria assumir. “Lisboa é conhecida pelas suas calçadas em pedra portuguesa. Vimos um lugar ótimo na calçada, e logo percebemos que tinha de ser ali”, conta o artista. As letras da frase que dá título à obra, em inglês e português, foram feitas em ferro fundido e incorporadas por uma equipa de mestres calceteiros em forma de dois arco-íris que se cruzam no chão, entre a escadaria do edifício concebido pelo estúdio AL_A (Amanda Levete Architects) e o rio Tejo.",
                         "Min_Pessoas": 1,
-                        "Max_Pessoas": 1,
+                        "Max_Pessoas": 99,
                         "Min_age": 25,
                         "Max_age": 100
                     },
@@ -1647,7 +1647,7 @@ var dict = {
                         "Duracao": 100,
                         "Descricao":"Após mais de 15 anos itinerantes, desde que foi criada, em 1999, pelo artista norte-americano Lawrence Weiner, a obra Placed on Either Side of the Light foi permanentemente instalada no passeio ribeirinho em frente ao maat. A peça conheceu diferentes versões expostas em galerias de vários países, incluindo a Alemanha, a Suíça e a Sérvia, tendo tomado diferentes formas adaptadas ao lugar expositivo. Quando foi adquirida pela Fundação EDP, tornou-se evidente para Weiner a forma que a obra deveria assumir. “Lisboa é conhecida pelas suas calçadas em pedra portuguesa. Vimos um lugar ótimo na calçada, e logo percebemos que tinha de ser ali”, conta o artista. As letras da frase que dá título à obra, em inglês e português, foram feitas em ferro fundido e incorporadas por uma equipa de mestres calceteiros em forma de dois arco-íris que se cruzam no chão, entre a escadaria do edifício concebido pelo estúdio AL_A (Amanda Levete Architects) e o rio Tejo.",
                         "Min_Pessoas": 1,
-                        "Max_Pessoas": 1,
+                        "Max_Pessoas": 99,
                         "Min_age": 12,
                         "Max_age": 25
                     },
