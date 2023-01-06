@@ -197,7 +197,6 @@ self.activate = function () {
 
 $(document).ready(function () {
     console.log("ready!");
-<<<<<<< HEAD
     console.log(data)
     self.data(dict.orgs);
     daterino = dict.orgs;
@@ -207,7 +206,6 @@ $(document).ready(function () {
     console.log(daterino[0].Info)
     console.log(daterino[1].Info)
     console.log(dict.orgs)
-=======
         self.nome = ko.observable()
         self.nome = localStorage.getItem('nome')
         var login = localStorage.getItem("login");
@@ -223,7 +221,6 @@ $(document).ready(function () {
         console.log(content)
         el.insertAdjacentHTML('afterbegin', content);
         console.log("ready!");
->>>>>>> 6d3265bb5a2a466104b39e0544b50b972700c5de
     ko.applyBindings();
 });
 self.html = ko.observable('')
